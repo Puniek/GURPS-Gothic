@@ -1,0 +1,17 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "tNVeaa1W3Zfa-w4dQ",
+			"name": "Sakta Nomen",
+			"tags": [
+				"Magical",
+				"Dark Magic"
+			],
+			"base_points": 35,
+			"calc": {
+				"points": 35
+			}
+		}
+	]
+}

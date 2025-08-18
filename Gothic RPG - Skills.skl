@@ -1,0 +1,2454 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "SnGaULIiT9KYUrY8o",
+			"name": "Combat",
+			"children": [
+				{
+					"id": "sLra9y55byDFN5UUS",
+					"name": "Bows",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Reflex Bows",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Longbows",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Shortbows",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sL9SRN-sXgfQWehnf",
+					"name": "Bows",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Longbows",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Longbows"
+						},
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Shortbows",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Reflex Bows",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "siIql_ksVqNOLMjHL",
+					"name": "Bows",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Reflex Bows",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Reflex Bows"
+						},
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Longbows",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Shortbows",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "shBVT_K8c_z6UuYsX",
+					"name": "Bows",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Shortbows",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Longbows",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Reflex Bows",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Bows",
+							"specialization": "Shortbows"
+						},
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "svd0DvdYk8AEl_eSw",
+					"name": "Crossbows",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "spneiW1lgVm8fbP0E",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s5xh6bANmCGbYersa"
+					},
+					"name": "Fast-Draw",
+					"reference": "B194,MA56",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "@Specialization@",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "sVPQi3QooPY7onTy4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sxpRrrGDJlHzh1VyN"
+					},
+					"name": "Fast-Draw",
+					"reference": "B194,MA56",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Arrow",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "sy5aiNlS2lgpn9Off",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "spdUP_VQ1WFDBlGW0"
+					},
+					"name": "Fast-Draw",
+					"reference": "B194,MA56",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Sword",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "sFw5uBeWGFJrZGgTh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sEMKLr_IOimbwGaDI"
+					},
+					"name": "Fast-Draw",
+					"reference": "B194,MA56",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Two-Handed Sword",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
+					"id": "s5mRGfeER8sL2PL31",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sJi3zy2jTbdgSwZfK"
+					},
+					"name": "Garrote",
+					"reference": "B197",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sLgrMRu26DFS3GNH9",
+					"name": "One-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "One-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed Axe",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sZeZx6L8oPR_wXrBC",
+					"name": "One-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Axes",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "One-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed Axe"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "swHf7NtUHsrP2S8ju",
+					"name": "One-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Maces",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "One-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed Mace"
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed Axe",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sZKicot0VLyGw55kp",
+					"name": "One-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Swords",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "One-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed Axe",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s-05D85DbKDxS7mIO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sxg-_yrzuGL19d-m8"
+					},
+					"name": "Shield",
+					"reference": "B220",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Buckler",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Force",
+							"modifier": -2
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s_aPIex63hopv1liw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sHxw81LQLjwvQNyP9"
+					},
+					"name": "Shield",
+					"reference": "B220",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Shield",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sswq0HEjSpzLmTz-I",
+					"name": "Two-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2rsdIUIseV9U7fR7",
+					"name": "Two-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Axes",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe"
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sz_1EFLpEbH4WHkua",
+					"name": "Two-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Maces",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sbSgKJsLhFGb-jxdY",
+					"name": "Two-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Staves",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGEvbB-aHaB_6R92g",
+					"name": "Two-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Swords",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Mace",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Staff",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "dx",
+							"name": "Two-Handed Axe",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SczITiP6ayUHrrRgR",
+			"name": "Crafts",
+			"children": [
+				{
+					"id": "sygXliigTp_S2p_ST",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sa_ZE2rnayiRCI376"
+					},
+					"name": "Alchemy",
+					"reference": "B174",
+					"tags": [
+						"Magical",
+						"Natural Science",
+						"Occult"
+					],
+					"difficulty": "iq/vh",
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sc8j-c2LlKgWB93Dx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sD3EsxbzE53gj93Ow"
+					},
+					"name": "Carpentry",
+					"reference": "B183",
+					"tags": [
+						"Craft"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "syTcSr9HZeqdJ0LE0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sxglmNWmcsR5YcSDw"
+					},
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Housekeeping",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "stSIvwkKLhHpTvu_b",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sQ6d6Vd_CsdeNzbiV"
+					},
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Housekeeping",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sGbkUwi0w-0O_ldRI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "spcD4n1qGEgtMUX7M"
+					},
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"specialization": "Baking",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Housekeeping",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sTBDB7mJBr3ivYy7c",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sZcWieaQhitPQdZ6m"
+					},
+					"name": "Cooking",
+					"reference": "B185",
+					"tags": [
+						"Everyman"
+					],
+					"specialization": "Beverage Making",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Housekeeping",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s36tRpAXy9p6nGuSO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sGGKY6NW6IibJJLFF"
+					},
+					"name": "Counterfeiting",
+					"reference": "B185",
+					"tags": [
+						"Criminal",
+						"Street"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Forgery",
+							"modifier": -2
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sV0bjfDztJSewabTY",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sB651vLUsyZcvdcaR"
+					},
+					"name": "Forgery",
+					"reference": "B196",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Counterfeiting",
+							"modifier": -2
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sH5rB1P8gbnerRoTj",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sxvdYLe6aBGDF208V"
+					},
+					"name": "Farming",
+					"reference": "B194",
+					"tags": [
+						"Plant"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Biology",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Gardening",
+							"modifier": -3
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "s5Vxdq_s4rpX7mYtG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sOzdhG3D1equT9MNn"
+					},
+					"name": "Fishing",
+					"reference": "B195",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"difficulty": "per/e",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sEOluCDu-mWEu82P5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sB651vLUsyZcvdcaR"
+					},
+					"name": "Forgery",
+					"reference": "B196",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Counterfeiting",
+							"modifier": -2
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sKel8B9aHZUfErZcJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sjjIH1hLuX-mkv5ZH"
+					},
+					"name": "Gardening",
+					"reference": "B197",
+					"tags": [
+						"Plant"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Farming",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sQF5qQp8MPvznSMSK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sGOeKSxjocmNLt7XJ"
+					},
+					"name": "Jeweler",
+					"reference": "B203",
+					"tags": [
+						"Craft"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Smith",
+							"specialization": "Copper",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smith",
+							"specialization": "Lead \u0026 Tin",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sNM5ys9gpjLsq5JcO",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "so0fP9KSXX4yHNCqS"
+					},
+					"name": "Leatherworking",
+					"reference": "B205",
+					"tags": [
+						"Craft"
+					],
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sHDTl2qgATTsyNjMk",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sqizWj_DepfDPfbC3"
+					},
+					"name": "Masonry",
+					"reference": "B207",
+					"tags": [
+						"Craft"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sydbt23tPsBkJAUZK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "ssj5Oq-3-vH-bQ1AL"
+					},
+					"name": "Prospecting",
+					"reference": "B216",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Geology",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "s89KvDBOUw6xJXplU",
+					"name": "Rune Crafting",
+					"tags": [
+						"Magical",
+						"Occult"
+					],
+					"difficulty": "iq/vh",
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "spmCb1sF1w0L01BgH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sY3BnNFwh6AfULK78"
+					},
+					"name": "Smith",
+					"reference": "B221",
+					"tags": [
+						"Craft"
+					],
+					"specialization": "Copper",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Jeweler",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smith",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sl-9igjxv3ZmHpiQ0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sPzbISx1YLymsXhzT"
+					},
+					"name": "Smith",
+					"reference": "B221",
+					"tags": [
+						"Craft"
+					],
+					"specialization": "Iron",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Smith",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "snFSqLqE1SUzQMnWb",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "slk6a6Ok33wn9L3ct"
+					},
+					"name": "Smith",
+					"reference": "B221",
+					"tags": [
+						"Craft"
+					],
+					"specialization": "Lead \u0026 Tin",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Jeweler",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smith",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sOyBtdZmtTvrODgMr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sPzbISx1YLymsXhzT"
+					},
+					"name": "Smith",
+					"reference": "B221",
+					"tags": [
+						"Craft"
+					],
+					"specialization": "Magic Ore",
+					"difficulty": "iq/h",
+					"tech_level": "",
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "S_apN64xmctOdwJA-",
+			"name": "Others",
+			"children": [
+				{
+					"id": "sjQ8VnTFNFqZUYDUZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sX8y2AmeL5DLlQl17"
+					},
+					"name": "Acrobatics",
+					"reference": "B174,MA54",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "dx/h",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Aerobatics",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Aquabatics",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "slgiPJKOREuWdCF4g",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sQ7hn7pW3tIPfsU8Z"
+					},
+					"name": "Acting",
+					"reference": "B174",
+					"tags": [
+						"Social",
+						"Spy"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Performance",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Public Speaking",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sNUqNhXO1pcaKT8gf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sQ9Hv-SvAISrf1vW8"
+					},
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sUwvMRC-wl8uP1BK3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s-vZDc4uWrGiQJ_yg"
+					},
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Big Cats",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s6s_j4qcSpzwXn3nI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sTRQrWAiJ_rLw1tvy"
+					},
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Dogs",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sfT0HeGk09jhmtdqb",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sXJr0hlUYaTTuJrPx"
+					},
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Equines",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sME_9bL86MWGvFymu",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s1_nSFTuBswujqGAo"
+					},
+					"name": "Animal Handling",
+					"reference": "B175",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Raptors",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sYXJdI3vz5OE25iIe",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sbcabbj7Zf2iurxxA"
+					},
+					"name": "Astronomy",
+					"reference": "B179",
+					"tags": [
+						"Natural Science"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "mathematics"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "applied"
+								}
+							}
+						]
+					},
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sO2JUqO9MRh-505sK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "si-upI7A5RgdO0cjC"
+					},
+					"name": "Carousing",
+					"reference": "B183",
+					"tags": [
+						"Criminal",
+						"Social",
+						"Street"
+					],
+					"difficulty": "ht/e",
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sMNfzPFxJdjTA-yo2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sB28HTR_MZyXLP90w"
+					},
+					"name": "Cartography",
+					"reference": "B183",
+					"tags": [
+						"Exploration",
+						"Humanities",
+						"Outdoor",
+						"Social Sciences"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Mathematics",
+							"specialization": "Surveying",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Navigation",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "s_FLp99e1jXKalIsa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sENfGTCKokQN0N4PF"
+					},
+					"name": "Climbing",
+					"reference": "B183",
+					"tags": [
+						"Athletic",
+						"Criminal",
+						"Exploration",
+						"Outdoor",
+						"Street"
+					],
+					"difficulty": "dx/a",
+					"encumbrance_penalty_multiplier": 1,
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sxnLd8KVvrELHVvr3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s8j6tcaNxXkF89Xbt"
+					},
+					"name": "Diplomacy",
+					"reference": "B187",
+					"tags": [
+						"Business",
+						"Police",
+						"Social"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sHVYMp91YFr9IYBGK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sahD-JZ6YhK8Y91Ug"
+					},
+					"name": "Disguise",
+					"reference": "B187",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Makeup",
+							"modifier": -3
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sw_OZPPlxgjYOd3qN",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s5odcUEok8qKTgBoF"
+					},
+					"name": "Economics",
+					"reference": "B189",
+					"tags": [
+						"Business",
+						"Humanities",
+						"Social Sciences"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Finance",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Market Analysis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Merchant",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sUDS7uUbRUMtZijxl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sDWD-D17CLWj-4iaZ"
+					},
+					"name": "Exorcism",
+					"reference": "B193",
+					"tags": [
+						"Magical",
+						"Occult"
+					],
+					"difficulty": "will/h",
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Religious Ritual",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Ritual Magic",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Theology",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sQmyTrD_dEaSHS8m1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s7zUqAO5PEC5JKk_W"
+					},
+					"name": "Fast-Talk",
+					"reference": "B195",
+					"tags": [
+						"Criminal",
+						"Social",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s2DMekb3Mt8J4JjK0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s9mV--3lpIfXO7N6Z"
+					},
+					"name": "First Aid",
+					"reference": "B195",
+					"tags": [
+						"Everyman",
+						"Medical"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Esoteric Medicine"
+						},
+						{
+							"type": "skill",
+							"name": "Physician"
+						},
+						{
+							"type": "skill",
+							"name": "Veterinary",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "seFVWkwMM7c6AdwnJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sYlFWI7xkIaK8OMWP"
+					},
+					"name": "Heraldry",
+					"reference": "B199",
+					"tags": [
+						"Knowledge",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Savoir-Faire",
+							"specialization": "High Society",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sYjYsa4MW81XliYTs",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "suh8p7dvxGAH0tzsX"
+					},
+					"name": "Herb Lore",
+					"reference": "B199",
+					"tags": [
+						"Plant"
+					],
+					"difficulty": "iq/vh",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "contains",
+									"qualifier": "naturalist"
+								}
+							}
+						]
+					},
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sfh6sRxmLV6elfHmF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sIGnp4W_M8XBodpEH"
+					},
+					"name": "Hidden Lore",
+					"reference": "B199,MA57",
+					"tags": [
+						"Knowledge"
+					],
+					"specialization": "@Subject@",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "sYjrLyXsYx3jDWkzS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s8Yggll7crUG0Fd3b"
+					},
+					"name": "Hidden Lore",
+					"reference": "B199,MA57",
+					"tags": [
+						"Knowledge",
+						"Magical",
+						"Occult"
+					],
+					"specialization": "Demon Lore",
+					"difficulty": "iq/a",
+					"points": 1
+				},
+				{
+					"id": "s_fudFh-drOPS3WBT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sRzoU2_LS2s4r51LA"
+					},
+					"name": "History",
+					"reference": "B200",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sTAP6A1d9pvOnbC0H",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s3hoLmN-a9_mOr2Kh"
+					},
+					"name": "Holdout",
+					"reference": "B200",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Sleight of Hand",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sHP3zAR3TaBPlxF22",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "shun-iitiwyWbrGcF"
+					},
+					"name": "Intimidation",
+					"reference": "B202",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "will/a",
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sxW9PDAmMv9PpbenB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sSxGnNPMXyZpZKoFZ"
+					},
+					"name": "Leadership",
+					"reference": "B204",
+					"tags": [
+						"Military",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sUJ0VlAZrUi7-0Sva",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sbzAJAcPWGr5sFAdP"
+					},
+					"name": "Lockpicking",
+					"reference": "B206",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Spy",
+						"Street",
+						"Technical"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sLARNJHFDBisuOy9x",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "ss81pfyKeFBFEpPw2"
+					},
+					"name": "Pickpocket",
+					"reference": "B213",
+					"tags": [
+						"Criminal",
+						"Street"
+					],
+					"difficulty": "dx/h",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Filch",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Sleight of Hand",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "su43DtGx8h_iOvYk0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "stFawUEv8gxldDoiC"
+					},
+					"name": "Research",
+					"reference": "B217",
+					"tags": [
+						"Scholarly",
+						"Spy"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Writing",
+							"modifier": -3
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": true,
+								"when_tl": {
+									"compare": "at_least",
+									"qualifier": 8
+								},
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Computer Operation"
+										}
+									}
+								]
+							},
+							{
+								"type": "prereq_list",
+								"all": false,
+								"when_tl": {
+									"compare": "at_most",
+									"qualifier": 4
+								},
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "Language"
+										},
+										"notes": {
+											"compare": "contains",
+											"qualifier": "Written (Native"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "Language"
+										},
+										"notes": {
+											"compare": "contains",
+											"qualifier": "Written (Accented)"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "Language"
+										},
+										"notes": {
+											"compare": "contains",
+											"qualifier": "Written (Broken)"
+										}
+									}
+								]
+							}
+						]
+					},
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sJoBzxlzk64kad8X9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sovqo6SR6ThLQTR3K"
+					},
+					"name": "Riding",
+					"reference": "B217",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sjmcDSPN8zRGvVdPu",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sgVAh6Empcg0YI6xY"
+					},
+					"name": "Riding",
+					"reference": "B217",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Camel",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Camel",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sCF1xds9QOr054-b_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sw6twMMqbSiWNaKtg"
+					},
+					"name": "Riding",
+					"reference": "B217",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Equines",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Equines",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sO6Gq80DxXhc0a5zx",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sW_dr_6QZxz1zrODT"
+					},
+					"name": "Search",
+					"reference": "B219",
+					"tags": [
+						"Police",
+						"Spy"
+					],
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Criminology",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s70tuiw2ZXs7qTYUb",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sqFw3NucoHE6Ki4XP"
+					},
+					"name": "Shadowing",
+					"reference": "B219",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Observation",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Stealth",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sV8hnwdBas6NHfPXr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sx30jF75AT-salBcj"
+					},
+					"name": "Sleight of Hand",
+					"reference": "B221",
+					"tags": [
+						"Arts",
+						"Criminal",
+						"Entertainment",
+						"Street"
+					],
+					"difficulty": "dx/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Filch",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sTlP8ZiP9FrU4xI_Q",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "swYZeCAKyU5w-2tzd"
+					},
+					"name": "Smuggling",
+					"reference": "B221",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sTnSzXda_RSxnsiA7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "svEm7OyeCu_9wJ8Kk"
+					},
+					"name": "Stealth",
+					"reference": "B222",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "dx/a",
+					"encumbrance_penalty_multiplier": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sducjgroYOYsXo1vu",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "smTUpMWJGqPeT1KER"
+					},
+					"name": "Streetwise",
+					"reference": "B223",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "scyIHHkwOKNlyQ0Hg",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sgrDrFiOdLC9njqnC"
+					},
+					"name": "Surgery",
+					"reference": "B223",
+					"tags": [
+						"Medical"
+					],
+					"difficulty": "iq/vh",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "First Aid",
+							"modifier": -12
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Physiology",
+							"modifier": -8
+						},
+						{
+							"type": "skill",
+							"name": "Veterinary",
+							"modifier": -5
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "first aid"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "physician"
+								}
+							}
+						]
+					},
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sPXlrmA_Dmujkn2I7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sGkpZOHz0g5ARAcej"
+					},
+					"name": "Thaumatology",
+					"reference": "B225",
+					"tags": [
+						"Magical",
+						"Occult"
+					],
+					"difficulty": "iq/vh",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -7
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sXMNTnqk4PpPSbyba",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sMIRD7ORV8Bmze6Af"
+					},
+					"name": "Theology",
+					"reference": "B226",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Religious Ritual",
+							"specialization": "@Specialty@",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sPiRVIGZT-iS3VpXo",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s3rs5bVG0nxQSZEGS"
+					},
+					"name": "Tracking",
+					"reference": "B226",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s-4bvk5A22MubexWq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s1uAaFqMQpnkmvzSu"
+					},
+					"name": "Traps",
+					"reference": "B226",
+					"tags": [
+						"Criminal",
+						"Military",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Lockpicking",
+							"modifier": -3
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				}
+			]
+		}
+	]
+}
