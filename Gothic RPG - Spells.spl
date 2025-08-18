@@ -9,8 +9,8 @@
 			"id": "PrQ3WSlE3HJMuyUZO",
 			"name": "Runes",
 			"tags": [
-				"Rune",
-				"Magic"
+				"Magic",
+				"Rune"
 			],
 			"children": [
 				{
@@ -18,9 +18,9 @@
 					"name": "Runa Bryły Lodu",
 					"local_notes": "Value: 700",
 					"tags": [
-						"Third Circle",
 						"Adanos",
-						"Rune"
+						"Rune",
+						"Third Circle"
 					],
 					"vtt_notes": "50 pkt obrażeń, unieruchamia cel w bryle lodu na 10 sekund. Non-lethal.",
 					"difficulty": "iq/a",
@@ -32,6 +32,33 @@
 					"casting_cost": "1",
 					"casting_time": "1 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -53,6 +80,33 @@
 					"casting_cost": "8",
 					"casting_time": "4 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 8
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -60,9 +114,9 @@
 					"name": "Runa Fali Śmierci Uriziela",
 					"local_notes": "Value: 10000",
 					"tags": [
-						"Sixth Circle",
 						"Beliar",
-						"Rune"
+						"Rune",
+						"Sixth Circle"
 					],
 					"vtt_notes": "Po inkantacji czaru od maga odchodzi potężny pierścień magicznej energii, który zadaje 200 punktów obrażeń każdej istocie, jaką napotka na swojej drodze.",
 					"difficulty": "iq/vh",
@@ -74,6 +128,33 @@
 					"casting_cost": "10",
 					"casting_time": "1 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 10
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -81,8 +162,8 @@
 					"name": "Runa Gromu",
 					"local_notes": "Value: 700",
 					"tags": [
-						"Fourth Circle",
 						"Adanos",
+						"Fourth Circle",
 						"Rune"
 					],
 					"vtt_notes": "Po krótkiej inkantacji czaru z ręki maga strzela błyskawica, unieruchamiając wroga i zadając 25 punktów obrażeń na sekundę. Po chwili zaklęcie przeskoczy na następny cel, nadal zadając obrażenia wszystkim poprzednio trafionym postaciom. Błyskawica będzie z czasem atakować coraz więcej celów, aż nie będzie w stanie znaleźć następnych i zacznie zadawać obrażenia rzucającemu zaklęcie.",
@@ -96,6 +177,33 @@
 					"maintenance_cost": "3",
 					"casting_time": "1 sec",
 					"duration": "1 sec or until cancelled",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 5
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -104,8 +212,8 @@
 					"local_notes": "Value: 900",
 					"tags": [
 						"Fourth Circle",
-						"Sleeper",
-						"Rune"
+						"Rune",
+						"Sleeper"
 					],
 					"vtt_notes": "Pozwala przejąć kontrolę nad celem. Jeśli zaklęcie się nie powiedzie, cel będzie wrogo nastawiony do rzucającego. Czar nie jest ograniczony czasowo, ale nie można oddalić się kontrolowanym przeciwnikiem zbyt daleko od rzucającego zaklęcie.",
 					"difficulty": "iq/h",
@@ -117,6 +225,33 @@
 					"casting_cost": "4x Enemy Level",
 					"casting_time": "1 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 4
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -124,9 +259,9 @@
 					"name": "Runa Kuli Ognia",
 					"local_notes": "Value: 700",
 					"tags": [
-						"Third Circle",
 						"Innos",
-						"Rune"
+						"Rune",
+						"Third Circle"
 					],
 					"vtt_notes": "Po trafieniu kula ognia zadaje duże obrażenia i podpala cel. Dzięki dłuższej inkantacji czar może zostać wzmocniony – zada wówczas więcej obrażeń (maksymalnie 120 punktów życia), kosztem poświęcenia większej ilości many (do maksymalnie 5 punktów).",
 					"difficulty": "iq/h",
@@ -138,6 +273,33 @@
 					"casting_cost": "2 - 7",
 					"casting_time": "1 sec - 6 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -145,8 +307,8 @@
 					"name": "Runa Lodowej Fali",
 					"local_notes": "Value: 1100",
 					"tags": [
-						"Fifth Circle",
 						"Adanos",
+						"Fifth Circle",
 						"Rune"
 					],
 					"vtt_notes": "Jest to obszarowa wersja bryły lodu.",
@@ -159,6 +321,33 @@
 					"casting_cost": "3",
 					"casting_time": "1 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -180,6 +369,33 @@
 					"casting_cost": "1",
 					"casting_time": "1 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -201,6 +417,33 @@
 					"casting_cost": "6 - 21",
 					"casting_time": "1 sec - 6 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 6
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -208,9 +451,9 @@
 					"name": "Runa Pioruna Kulistego",
 					"local_notes": "Value: 900",
 					"tags": [
-						"Third Circle",
 						"Adanos",
-						"Rune"
+						"Rune",
+						"Third Circle"
 					],
 					"vtt_notes": "W cel uderza piorun, który na chwilę paraliżuje go i zadaje obrażenia, tym większe, im więcej mag poświęci many do jego użycia. Maksymalnie można zadać 80 punktów obrażeń przy 5 punktach zainwestowanej energii magicznej, a minimalnie 20.",
 					"difficulty": "iq/h",
@@ -222,6 +465,33 @@
 					"casting_cost": "1 - 5",
 					"casting_time": "1 sec - 5 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -229,9 +499,9 @@
 					"name": "Runa Pirokinezy",
 					"local_notes": "Value: 700",
 					"tags": [
-						"Third Circle",
+						"Rune",
 						"Sleeper",
-						"Rune"
+						"Third Circle"
 					],
 					"vtt_notes": "Polega na podwyższeniu temperatury celu zaklęcia, podpaleniu od środka i sparaliżowaniu, zadając 20 punktów obrażeń na każde pół sekundy trwania czaru. Zaklęcie zużywa 4 punkty many na każdą sekundę działania.",
 					"difficulty": "iq/h",
@@ -244,6 +514,33 @@
 					"maintenance_cost": "1",
 					"casting_time": "1 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 10
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -251,9 +548,9 @@
 					"name": "Runa Snu",
 					"local_notes": "Value: 500",
 					"tags": [
+						"Rune",
 						"Second Circle",
-						"Sleeper",
-						"Rune"
+						"Sleeper"
 					],
 					"vtt_notes": "Usypia cel zaklęcia na 30 sekund.",
 					"difficulty": "iq/a",
@@ -266,6 +563,33 @@
 					"casting_cost": "1",
 					"casting_time": "3 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -273,8 +597,8 @@
 					"name": "Runa Sopla Lodu",
 					"local_notes": "Value: 500",
 					"tags": [
-						"First Circle",
 						"Adanos",
+						"First Circle",
 						"Rune"
 					],
 					"vtt_notes": "Zadaje niewielkie obrażenia od magii (20)",
@@ -287,6 +611,33 @@
 					"casting_cost": "1",
 					"casting_time": "1 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -294,9 +645,9 @@
 					"name": "Runa Tchnienia Śmierci",
 					"local_notes": "Value: 1500",
 					"tags": [
-						"Sixth Circle",
 						"Beliar",
-						"Rune"
+						"Rune",
+						"Sixth Circle"
 					],
 					"vtt_notes": "Cel zostaje owiany potężnym wiatrem śmierci, który wysysa energię życiową.",
 					"difficulty": "iq/vh",
@@ -308,6 +659,33 @@
 					"casting_cost": "10",
 					"casting_time": "1 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 10
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -315,10 +693,11 @@
 					"name": "Runa Telekinezy",
 					"local_notes": "Value: 700",
 					"tags": [
-						"Third Circle",
+						"Rune",
 						"Sleeper",
-						"Rune"
+						"Third Circle"
 					],
+					"vtt_notes": "Podczas inkantacji (zużywającej 1 punkt many na ok. 4-5 sekund) mag przyciąga w swoim kierunku wybrany przedmiot.",
 					"difficulty": "iq/a",
 					"college": [
 						"Sleeper"
@@ -329,6 +708,33 @@
 					"maintenance_cost": "1",
 					"casting_time": "1 sec",
 					"duration": "1 sec or until cancelled",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -344,6 +750,21 @@
 					"casting_cost": "1",
 					"casting_time": "15 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -359,6 +780,21 @@
 					"casting_cost": "1",
 					"casting_time": "15 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -374,6 +810,21 @@
 					"casting_cost": "1",
 					"casting_time": "15 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -389,6 +840,21 @@
 					"casting_cost": "1",
 					"casting_time": "15 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -397,8 +863,8 @@
 					"local_notes": "Value: 900",
 					"tags": [
 						"Fourth Circle",
-						"Sleeper",
-						"Rune"
+						"Rune",
+						"Sleeper"
 					],
 					"vtt_notes": "Odrzuca na dużą odległość i zadaje średnie obrażenia. Ulepszone Uderzenie Wiatru. 15-60 Obrażeń. Siła Knockbacka zależna od zainwestowanej many.",
 					"difficulty": "iq/a",
@@ -410,6 +876,33 @@
 					"casting_cost": "2 - 8",
 					"casting_time": "1 - 4",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -417,9 +910,9 @@
 					"name": "Runa Uderzenia Wiatru",
 					"local_notes": "Value: 500",
 					"tags": [
+						"Rune",
 						"Second Circle",
-						"Sleeper",
-						"Rune"
+						"Sleeper"
 					],
 					"vtt_notes": "Zadaje niewielkie obrażenia od wiatru i odrzuca na małą odległość. (20-40)",
 					"difficulty": "iq/a",
@@ -431,6 +924,33 @@
 					"casting_cost": "1 - 3",
 					"casting_time": "1 sec - 3 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -438,9 +958,9 @@
 					"name": "Runa Uroku",
 					"local_notes": "Value: 700",
 					"tags": [
-						"Third Circle",
+						"Rune",
 						"Sleeper",
-						"Rune"
+						"Third Circle"
 					],
 					"vtt_notes": "Po rzuceniu tego zaklęcia cel przestaje walczyć i traktuje maga przyjaźnie. Jego działanie jednak jest niepewne i nie zawsze działa sprawnie. Mag musi poświęcić 5 punktów many, aby rzucić ten czar.",
 					"difficulty": "iq/a",
@@ -453,6 +973,33 @@
 					"casting_cost": "2",
 					"casting_time": "3 sec",
 					"duration": "10 min",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -460,9 +1007,9 @@
 					"name": "Runa Uzdrowienia",
 					"local_notes": "Value: 500",
 					"tags": [
-						"Second Circle",
 						"Adanos",
-						"Rune"
+						"Rune",
+						"Second Circle"
 					],
 					"vtt_notes": "Uleczenie samego siebie 10 punktów życia / 1 punkt many. Leczenie kogoś innego 5 punktów / 1 punkt many.",
 					"difficulty": "iq/a",
@@ -475,6 +1022,33 @@
 					"maintenance_cost": "1",
 					"casting_time": "1 sec",
 					"duration": "1 sec or until cancelled",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -496,6 +1070,33 @@
 					"casting_cost": "1",
 					"casting_time": "1 sec",
 					"duration": "Instant",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					},
 					"points": 1
 				},
 				{
@@ -517,6 +1118,33 @@
 					"casting_cost": "1",
 					"casting_time": "1 sec",
 					"duration": "10 min",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					},
 					"points": 1
 				}
 			]
@@ -525,8 +1153,8 @@
 			"id": "PNle5JoYSrBOkPgOF",
 			"name": "Scrolls",
 			"tags": [
-				"Scroll",
-				"Magic"
+				"Magic",
+				"Scroll"
 			],
 			"children": [
 				{
@@ -554,9 +1182,9 @@
 					"name": "Zwój Bryły Lodu",
 					"local_notes": "Value: 70",
 					"tags": [
-						"Third Circle",
 						"Adanos",
-						"Scroll"
+						"Scroll",
+						"Third Circle"
 					],
 					"vtt_notes": "50 pkt obrażeń, unieruchamia cel w bryle lodu na 10 sekund. Non-lethal.",
 					"difficulty": "iq/a",
@@ -596,8 +1224,8 @@
 					"name": "Zwój Gniewu",
 					"local_notes": "Value: 200",
 					"tags": [
-						"Sleeper",
-						"Scroll"
+						"Scroll",
+						"Sleeper"
 					],
 					"vtt_notes": "Cel zaklęcia pada na kolana, po czym zaczyna wrzeszczeć i atakuje najbliższą postać niezależną. Efekt trwa 30 sekund.",
 					"difficulty": "iq/h",
@@ -616,8 +1244,8 @@
 					"name": "Zwój Gromu",
 					"local_notes": "Value: 70",
 					"tags": [
-						"Fourth Circle",
 						"Adanos",
+						"Fourth Circle",
 						"Scroll"
 					],
 					"vtt_notes": "Po krótkiej inkantacji czaru z ręki maga strzela błyskawica, unieruchamiając wroga i zadając 25 punktów obrażeń na sekundę. Po chwili zaklęcie przeskoczy na następny cel, nadal zadając obrażenia wszystkim poprzednio trafionym postaciom. Błyskawica będzie z czasem atakować coraz więcej celów, aż nie będzie w stanie znaleźć następnych i zacznie zadawać obrażenia rzucającemu zaklęcie.",
@@ -639,8 +1267,8 @@
 					"local_notes": "Value: 90",
 					"tags": [
 						"Fourth Circle",
-						"Sleeper",
-						"Scroll"
+						"Scroll",
+						"Sleeper"
 					],
 					"vtt_notes": "Pozwala przejąć kontrolę nad celem. Jeśli zaklęcie się nie powiedzie, cel będzie wrogo nastawiony do rzucającego. Czar nie jest ograniczony czasowo, ale nie można oddalić się kontrolowanym przeciwnikiem zbyt daleko od rzucającego zaklęcie.",
 					"difficulty": "iq/h",
@@ -659,9 +1287,9 @@
 					"name": "Zwój Kuli Ognia",
 					"local_notes": "Value: 70",
 					"tags": [
-						"Third Circle",
 						"Innos",
-						"Scroll"
+						"Scroll",
+						"Third Circle"
 					],
 					"vtt_notes": "Po trafieniu kula ognia zadaje duże obrażenia i podpala cel. Dzięki dłuższej inkantacji czar może zostać wzmocniony – zada wówczas więcej obrażeń (maksymalnie 120 punktów życia), kosztem poświęcenia większej ilości many (do maksymalnie 5 punktów).",
 					"difficulty": "iq/h",
@@ -680,8 +1308,8 @@
 					"name": "Zwój Lodowej Fali",
 					"local_notes": "Value: 110",
 					"tags": [
-						"Fifth Circle",
 						"Adanos",
+						"Fifth Circle",
 						"Scroll"
 					],
 					"vtt_notes": "Jest to obszarowa wersja bryły lodu.",
@@ -759,9 +1387,9 @@
 					"name": "Zwój Pioruna Kulistego",
 					"local_notes": "Value: 90",
 					"tags": [
-						"Third Circle",
 						"Adanos",
-						"Scroll"
+						"Scroll",
+						"Third Circle"
 					],
 					"vtt_notes": "W cel uderza piorun, który na chwilę paraliżuje go i zadaje obrażenia, tym większe, im więcej mag poświęci many do jego użycia. Maksymalnie można zadać 80 punktów obrażeń przy 5 punktach zainwestowanej energii magicznej, a minimalnie 20.",
 					"difficulty": "iq/h",
@@ -780,9 +1408,9 @@
 					"name": "Zwój Pirokinezy",
 					"local_notes": "Value: 70",
 					"tags": [
-						"Third Circle",
+						"Scroll",
 						"Sleeper",
-						"Scroll"
+						"Third Circle"
 					],
 					"vtt_notes": "Polega na podwyższeniu temperatury celu zaklęcia, podpaleniu od środka i sparaliżowaniu, zadając 20 punktów obrażeń na każde pół sekundy trwania czaru. Zaklęcie zużywa 4 punkty many na każdą sekundę działania.",
 					"difficulty": "iq/h",
@@ -1071,9 +1699,9 @@
 					"name": "Zwój Snu",
 					"local_notes": "Value: 50",
 					"tags": [
+						"Scroll",
 						"Second Circle",
-						"Sleeper",
-						"Scroll"
+						"Sleeper"
 					],
 					"vtt_notes": "Usypia cel zaklęcia na 30 sekund.",
 					"difficulty": "iq/a",
@@ -1093,8 +1721,8 @@
 					"name": "Zwój Sopla Lodu",
 					"local_notes": "Value: 50",
 					"tags": [
-						"First Circle",
 						"Adanos",
+						"First Circle",
 						"Scroll"
 					],
 					"vtt_notes": "Zadaje niewielkie obrażenia od magii (20)",
@@ -1114,8 +1742,8 @@
 					"name": "Zwój Strachu",
 					"local_notes": "Value: 125",
 					"tags": [
-						"Sleeper",
-						"Scroll"
+						"Scroll",
+						"Sleeper"
 					],
 					"vtt_notes": "Straszy wszystkie cele wokół maga, którzy następnie uciekają w popłochu.",
 					"difficulty": "iq/a",
@@ -1135,9 +1763,9 @@
 					"name": "Zwój Telekinezy",
 					"local_notes": "Value: 70",
 					"tags": [
-						"Third Circle",
+						"Scroll",
 						"Sleeper",
-						"Scroll"
+						"Third Circle"
 					],
 					"difficulty": "iq/a",
 					"college": [
@@ -1217,8 +1845,8 @@
 					"local_notes": "Value: 90",
 					"tags": [
 						"Fourth Circle",
-						"Sleeper",
-						"Scroll"
+						"Scroll",
+						"Sleeper"
 					],
 					"vtt_notes": "Odrzuca na dużą odległość i zadaje średnie obrażenia. Ulepszone Uderzenie Wiatru. 15-60 Obrażeń. Siła Knockbacka zależna od zainwestowanej many.",
 					"difficulty": "iq/a",
@@ -1237,9 +1865,9 @@
 					"name": "Zwój Uderzenia Wiatru",
 					"local_notes": "Value: 50",
 					"tags": [
+						"Scroll",
 						"Second Circle",
-						"Sleeper",
-						"Scroll"
+						"Sleeper"
 					],
 					"vtt_notes": "Zadaje niewielkie obrażenia od wiatru i odrzuca na małą odległość. (20-40)",
 					"difficulty": "iq/a",
@@ -1258,9 +1886,9 @@
 					"name": "Zwój Uroku",
 					"local_notes": "Value: 70",
 					"tags": [
-						"Third Circle",
+						"Scroll",
 						"Sleeper",
-						"Scroll"
+						"Third Circle"
 					],
 					"vtt_notes": "Po rzuceniu tego zaklęcia cel przestaje walczyć i traktuje maga przyjaźnie. Jego działanie jednak jest niepewne i nie zawsze działa sprawnie. Mag musi poświęcić 5 punktów many, aby rzucić ten czar.",
 					"difficulty": "iq/a",
@@ -1280,9 +1908,9 @@
 					"name": "Zwój Uzdrowienia",
 					"local_notes": "Value: 50",
 					"tags": [
-						"Second Circle",
 						"Adanos",
-						"Scroll"
+						"Scroll",
+						"Second Circle"
 					],
 					"vtt_notes": "Uleczenie samego siebie 10 punktów życia / 1 punkt many. Leczenie kogoś innego 5 punktów / 1 punkt many.",
 					"difficulty": "iq/a",
