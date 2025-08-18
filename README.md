@@ -17,9 +17,9 @@ This repository contains ready-to-use files for GURPS Character Sheet (GCS) to h
 
 🔧 How to Use?
 
-Download the .gcs or .xml files.
+Download the repo contents as zip.
 
-Import them into GCS (File → Import).
+Extract to `C:\Users\<user>\GCS\User Library\` or any folder you have set up as User Library in GCS.
 
 Drag & drop into character sheets!
 
