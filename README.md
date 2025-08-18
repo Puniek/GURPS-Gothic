@@ -1,7 +1,7 @@
 ## Gothic (by Piranha Bytes) Adaptation for GURPS (Generic Universal Roleplaying System)
 
 📁 Repository Contents
-⚡ Gothic (Piranha Bytes) ➔ GURPS Adaptation
+⚡ Gothic (Piranha Bytes) ➔ GURPS 4th Edition
 
 This repository contains ready-to-use files for GURPS Character Sheet (GCS) to help you integrate the dark fantasy world of Gothic into GURPS 4e.
 
