@@ -2,16 +2,1272 @@
 	"version": 5,
 	"rows": [
 		{
+			"id": "PIQyCwxmTDClN4CT4",
+			"name": "Ancient Knowledge"
+		},
+		{
 			"id": "PrQ3WSlE3HJMuyUZO",
-			"name": "Runes"
+			"name": "Runes",
+			"children": [
+				{
+					"id": "pIVjC7DFrQhpSZwkh",
+					"name": "Runa Bryły Lodu",
+					"local_notes": "Value: 700",
+					"tags": [
+						"Third Circle",
+						"Adanos"
+					],
+					"vtt_notes": "50 pkt obrażeń, unieruchamia cel w bryle lodu na 10 sekund. Non-lethal.",
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pig5404zrNJ2fNdBF",
+					"name": "Runa Deszczu Ognia",
+					"local_notes": "Value: 1300",
+					"tags": [
+						"Fifth Circle",
+						"Innos"
+					],
+					"vtt_notes": "100 pkt obrażeń, AOE, Lethal.",
+					"difficulty": "iq/h",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "8",
+					"casting_time": "4 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pklKyK5WHB5glGDEI",
+					"name": "Runa Gromu",
+					"local_notes": "Value: 700",
+					"tags": [
+						"Fourth Circle",
+						"Adanos"
+					],
+					"vtt_notes": "Po krótkiej inkantacji czaru z ręki maga strzela błyskawica, unieruchamiając wroga i zadając 25 punktów obrażeń na sekundę. Po chwili zaklęcie przeskoczy na następny cel, nadal zadając obrażenia wszystkim poprzednio trafionym postaciom. Błyskawica będzie z czasem atakować coraz więcej celów, aż nie będzie w stanie znaleźć następnych i zacznie zadawać obrażenia rzucającemu zaklęcie.",
+					"difficulty": "iq/h",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "5",
+					"maintenance_cost": "3",
+					"casting_time": "1 sec",
+					"duration": "1 sec or until cancelled",
+					"points": 1
+				},
+				{
+					"id": "pxy83rh7syS-HiTV5",
+					"name": "Runa Kontroli",
+					"local_notes": "Value: 900",
+					"tags": [
+						"Fourth Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Pozwala przejąć kontrolę nad celem. Jeśli zaklęcie się nie powiedzie, cel będzie wrogo nastawiony do rzucającego. Czar nie jest ograniczony czasowo, ale nie można oddalić się kontrolowanym przeciwnikiem zbyt daleko od rzucającego zaklęcie.",
+					"difficulty": "iq/h",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "4x Enemy Level",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pi0ozMepRxUquGVB7",
+					"name": "Runa Kuli Ognia",
+					"local_notes": "Value: 700",
+					"tags": [
+						"Third Circle",
+						"Innos"
+					],
+					"vtt_notes": "Po trafieniu kula ognia zadaje duże obrażenia i podpala cel. Dzięki dłuższej inkantacji czar może zostać wzmocniony – zada wówczas więcej obrażeń (maksymalnie 120 punktów życia), kosztem poświęcenia większej ilości many (do maksymalnie 5 punktów).",
+					"difficulty": "iq/h",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "2 - 7",
+					"casting_time": "1 sec - 6 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pKUbzf1MEVVo-m-oc",
+					"name": "Runa Lodowej Fali",
+					"local_notes": "Value: 1100",
+					"tags": [
+						"Fifth Circle",
+						"Adanos"
+					],
+					"vtt_notes": "Jest to obszarowa wersja bryły lodu.",
+					"difficulty": "iq/h",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "3",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "p7YznIgXX507XkBsK",
+					"name": "Runa Ognistego Pocisku",
+					"local_notes": "Value: 300",
+					"tags": [
+						"First Circle",
+						"Innos"
+					],
+					"vtt_notes": "Zaklęcie zadaje 30 punktów obrażeń od ognia.",
+					"difficulty": "iq/a",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pa6mC0ejEWrHI6Ng-",
+					"name": "Runa Ognistej Burzy",
+					"local_notes": "Value: 1100",
+					"tags": [
+						"Fourth Circle",
+						"Innos"
+					],
+					"vtt_notes": "Zasada jego działania jest podobna do kuli ognia, lecz zadaje większe obrażenia i atakuje nie tylko sam cel, ale również inne pobliskie postaci lub potwory. W zależności od naładowania zaklęcia magiczną energią zadaje ono głównemu celowi od 50 do 200 punktów obrażeń, natomiast efekt rozprysku zawsze zadaje 50 punktów obrażeń istotom znajdującym się w pobliżu.",
+					"difficulty": "iq/h",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "6 - 21",
+					"casting_time": "1 sec - 6 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pYrcWQJzpbQdmqJRp",
+					"name": "Runa Pioruna Kulistego",
+					"local_notes": "Value: 900",
+					"tags": [
+						"Third Circle",
+						"Adanos"
+					],
+					"vtt_notes": "W cel uderza piorun, który na chwilę paraliżuje go i zadaje obrażenia, tym większe, im więcej mag poświęci many do jego użycia. Maksymalnie można zadać 80 punktów obrażeń przy 5 punktach zainwestowanej energii magicznej, a minimalnie 20.",
+					"difficulty": "iq/h",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1 - 5",
+					"casting_time": "1 sec - 5 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pU-ss8NFShi06I5qO",
+					"name": "Runa Pirokinezy",
+					"local_notes": "Value: 700",
+					"tags": [
+						"Third Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Polega na podwyższeniu temperatury celu zaklęcia, podpaleniu od środka i sparaliżowaniu, zadając 20 punktów obrażeń na każde pół sekundy trwania czaru. Zaklęcie zużywa 4 punkty many na każdą sekundę działania.",
+					"difficulty": "iq/h",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "10",
+					"maintenance_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "piyi8vlvXcUFm_AkC",
+					"name": "Runa Snu",
+					"local_notes": "Value: 500",
+					"tags": [
+						"Second Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Usypia cel zaklęcia na 30 sekund.",
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "Will",
+					"casting_cost": "1",
+					"casting_time": "3 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "prD3q08cnfO3EeUx3",
+					"name": "Runa Sopla Lodu",
+					"local_notes": "Value: 500",
+					"tags": [
+						"First Circle",
+						"Adanos"
+					],
+					"vtt_notes": "Zadaje niewielkie obrażenia od magii (20)",
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "p8y6LLtoD3zaOMux3",
+					"name": "Runa Telekinezy",
+					"local_notes": "Value: 700",
+					"tags": [
+						"Third Circle",
+						"Sleeper"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "3",
+					"maintenance_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "1 sec or until cancelled",
+					"points": 1
+				},
+				{
+					"id": "pGdz7h21wUL_MFQjH",
+					"name": "Runa Teleportacji do Magów Ognia",
+					"vtt_notes": "Teleportuje do Magów Ognia w Starym Obozie",
+					"difficulty": "iq/a",
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1",
+					"casting_time": "15 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pGDUXjFGgnNUnVgkm",
+					"name": "Runa Teleportacji do Magów Wody",
+					"vtt_notes": "Teleportuje do Magów Wody w Nowym Obozie",
+					"difficulty": "iq/a",
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1",
+					"casting_time": "15 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "p20cRSLTTIykO8jzz",
+					"name": "Runa Teleportacji do Nekromanty",
+					"vtt_notes": "Teleportuje do Wieży Nekromanty",
+					"difficulty": "iq/a",
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1",
+					"casting_time": "15 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pDtC0DBNrQBWTEPKB",
+					"name": "Runa Teleportacji do Obozu na Bagnie",
+					"vtt_notes": "Teleportuje na plac świątynny w Obozie na Bagnie",
+					"difficulty": "iq/a",
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1",
+					"casting_time": "15 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pvvsv-9THym8oj0ne",
+					"name": "Runa Uderzenia Burzy",
+					"local_notes": "Value: 900",
+					"tags": [
+						"Fourth Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Odrzuca na dużą odległość i zadaje średnie obrażenia. Ulepszone Uderzenie Wiatru. 15-60 Obrażeń. Siła Knockbacka zależna od zainwestowanej many.",
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "2 - 8",
+					"casting_time": "1 - 4",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pBkRJtHih0yRbBznn",
+					"name": "Runa Uderzenia Wiatru",
+					"local_notes": "Value: 500",
+					"tags": [
+						"Second Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Zadaje niewielkie obrażenia od wiatru i odrzuca na małą odległość. (20-40)",
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "1 - 3",
+					"casting_time": "1 sec - 3 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pGZVbEVkLqYcIPKFW",
+					"name": "Runa Uroku",
+					"local_notes": "Value: 700",
+					"tags": [
+						"Third Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Po rzuceniu tego zaklęcia cel przestaje walczyć i traktuje maga przyjaźnie. Jego działanie jednak jest niepewne i nie zawsze działa sprawnie. Mag musi poświęcić 5 punktów many, aby rzucić ten czar.",
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "Will",
+					"casting_cost": "2",
+					"casting_time": "3 sec",
+					"duration": "10 min",
+					"points": 1
+				},
+				{
+					"id": "pSShRzT8_Sa813cBp",
+					"name": "Runa Uzdrowienia",
+					"local_notes": "Value: 500",
+					"tags": [
+						"Second Circle",
+						"Adanos"
+					],
+					"vtt_notes": "Uleczenie samego siebie 10 punktów życia / 1 punkt many. Leczenie kogoś innego 5 punktów / 1 punkt many.",
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"maintenance_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "1 sec or until cancelled",
+					"points": 1
+				},
+				{
+					"id": "pdJ_qbd6x2rh0XKWe",
+					"name": "Runa Śmierci Ożywieńcom",
+					"local_notes": "Value: 1100",
+					"tags": [
+						"Fourth Circle",
+						"Innos"
+					],
+					"vtt_notes": "Natychmiastowo niszczy ożywieńca będącego celem, takiego jak szkielet czy zombie.",
+					"difficulty": "iq/vh",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "p3w8B7i6TbxxLVl0c",
+					"name": "Runa Światła",
+					"local_notes": "Value: 300",
+					"tags": [
+						"First Circle",
+						"Innos"
+					],
+					"vtt_notes": "Nad głową bohatera pojawia się kula oświetlająca otoczenie.",
+					"difficulty": "iq/e",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "10 min",
+					"points": 1
+				},
+				{
+					"id": "pNTu17DCJ4oG8Y2PE",
+					"name": "Runa Fali Śmierci Uriziela",
+					"local_notes": "Value: 10000",
+					"tags": [
+						"Sixth Circle",
+						"Beliar"
+					],
+					"vtt_notes": "Po inkantacji czaru od maga odchodzi potężny pierścień magicznej energii, który zadaje 200 punktów obrażeń każdej istocie, jaką napotka na swojej drodze.",
+					"difficulty": "iq/vh",
+					"college": [
+						"Beliar"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "10",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pMkDPFGcid-Vk3mBK",
+					"name": "Runa Tchnienia Śmierci",
+					"local_notes": "Value: 1500",
+					"tags": [
+						"Sixth Circle",
+						"Beliar"
+					],
+					"vtt_notes": "Cel zostaje owiany potężnym wiatrem śmierci, który wysysa energię życiową.",
+					"difficulty": "iq/vh",
+					"college": [
+						"Beliar"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "10",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				}
+			]
 		},
 		{
 			"id": "PNle5JoYSrBOkPgOF",
-			"name": "Scrolls"
-		},
-		{
-			"id": "PIQyCwxmTDClN4CT4",
-			"name": "Ancient Knowledge"
+			"name": "Scrolls",
+			"children": [
+				{
+					"id": "ptjxffmFGb6E7PjSu",
+					"name": "Zwój Armii Ciemności",
+					"local_notes": "Value: 666",
+					"tags": [
+						"Beliar"
+					],
+					"vtt_notes": "Summons 6 skeletons, and 3 skeleton warriors.",
+					"difficulty": "iq/vh",
+					"college": [
+						"Beliar"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "10",
+					"casting_time": "10 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pHMiVibhU_IuZ9syv",
+					"name": "Zwój Bryły Lodu",
+					"local_notes": "Value: 70",
+					"tags": [
+						"Third Circle",
+						"Adanos"
+					],
+					"vtt_notes": "50 pkt obrażeń, unieruchamia cel w bryle lodu na 10 sekund. Non-lethal.",
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "p8E8Wil92iVNa1_nc",
+					"name": "Zwój Deszczu Ognia",
+					"local_notes": "Value: 130",
+					"tags": [
+						"Fifth Circle",
+						"Innos"
+					],
+					"vtt_notes": "100 pkt obrażeń, AOE, Lethal.",
+					"difficulty": "iq/h",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "8",
+					"casting_time": "4 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pTHgDZ3GpG5fJdfLe",
+					"name": "Zwój Gniewu",
+					"local_notes": "Value: 200",
+					"tags": [
+						"Sleeper"
+					],
+					"vtt_notes": "Cel zaklęcia pada na kolana, po czym zaczyna wrzeszczeć i atakuje najbliższą postać niezależną. Efekt trwa 30 sekund.",
+					"difficulty": "iq/h",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "6",
+					"casting_time": "5 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pXf-7j3vxxT-I_vdz",
+					"name": "Zwój Gromu",
+					"local_notes": "Value: 70",
+					"tags": [
+						"Fourth Circle",
+						"Adanos"
+					],
+					"vtt_notes": "Po krótkiej inkantacji czaru z ręki maga strzela błyskawica, unieruchamiając wroga i zadając 25 punktów obrażeń na sekundę. Po chwili zaklęcie przeskoczy na następny cel, nadal zadając obrażenia wszystkim poprzednio trafionym postaciom. Błyskawica będzie z czasem atakować coraz więcej celów, aż nie będzie w stanie znaleźć następnych i zacznie zadawać obrażenia rzucającemu zaklęcie.",
+					"difficulty": "iq/h",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "5",
+					"maintenance_cost": "3",
+					"casting_time": "1 sec",
+					"duration": "1 sec or until cancelled",
+					"points": 1
+				},
+				{
+					"id": "pCg6cO8JqTmkdSd09",
+					"name": "Zwój Kontroli",
+					"local_notes": "Value: 90",
+					"tags": [
+						"Fourth Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Pozwala przejąć kontrolę nad celem. Jeśli zaklęcie się nie powiedzie, cel będzie wrogo nastawiony do rzucającego. Czar nie jest ograniczony czasowo, ale nie można oddalić się kontrolowanym przeciwnikiem zbyt daleko od rzucającego zaklęcie.",
+					"difficulty": "iq/h",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "4x Enemy Level",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pOdsqvVtl-xktY48o",
+					"name": "Zwój Kuli Ognia",
+					"local_notes": "Value: 70",
+					"tags": [
+						"Third Circle",
+						"Innos"
+					],
+					"vtt_notes": "Po trafieniu kula ognia zadaje duże obrażenia i podpala cel. Dzięki dłuższej inkantacji czar może zostać wzmocniony – zada wówczas więcej obrażeń (maksymalnie 120 punktów życia), kosztem poświęcenia większej ilości many (do maksymalnie 5 punktów).",
+					"difficulty": "iq/h",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "2 - 7",
+					"casting_time": "1 sec - 6 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pHbO-KNIkejAH4g-O",
+					"name": "Zwój Lodowej Fali",
+					"local_notes": "Value: 110",
+					"tags": [
+						"Fifth Circle",
+						"Adanos"
+					],
+					"vtt_notes": "Jest to obszarowa wersja bryły lodu.",
+					"difficulty": "iq/h",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "3",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pujuc6edMiN-mRrd9",
+					"name": "Zwój Ognistego Pocisku",
+					"local_notes": "Value: 30",
+					"tags": [
+						"First Circle",
+						"Innos"
+					],
+					"vtt_notes": "Zaklęcie zadaje 30 punktów obrażeń od ognia.",
+					"difficulty": "iq/a",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pQW1kqJFJCNcjM_al",
+					"name": "Zwój Ognistej Burzy",
+					"local_notes": "Value: 110",
+					"tags": [
+						"Fourth Circle",
+						"Innos"
+					],
+					"vtt_notes": "Zasada jego działania jest podobna do kuli ognia, lecz zadaje większe obrażenia i atakuje nie tylko sam cel, ale również inne pobliskie postaci lub potwory. W zależności od naładowania zaklęcia magiczną energią zadaje ono głównemu celowi od 50 do 200 punktów obrażeń, natomiast efekt rozprysku zawsze zadaje 50 punktów obrażeń istotom znajdującym się w pobliżu.",
+					"difficulty": "iq/h",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "6 - 21",
+					"casting_time": "1 sec - 6 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "p_Ypc902UjKrtqdey",
+					"name": "Zwój Orkowego Zaklęcia Teleportacji",
+					"local_notes": "Value: 0",
+					"vtt_notes": "Teleportacja do sekretnej części cmentarzyska orków i świątyni Śniącego w Dolinie Górniczej.",
+					"difficulty": "iq/e",
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1",
+					"casting_time": "5 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pgGtOQlY2_Q4jfutr",
+					"name": "Zwój Pioruna Kulistego",
+					"local_notes": "Value: 90",
+					"tags": [
+						"Third Circle",
+						"Adanos"
+					],
+					"vtt_notes": "W cel uderza piorun, który na chwilę paraliżuje go i zadaje obrażenia, tym większe, im więcej mag poświęci many do jego użycia. Maksymalnie można zadać 80 punktów obrażeń przy 5 punktach zainwestowanej energii magicznej, a minimalnie 20.",
+					"difficulty": "iq/h",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1 - 5",
+					"casting_time": "1 sec - 5 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "p86Y07yN6N1lMMnyS",
+					"name": "Zwój Pirokinezy",
+					"local_notes": "Value: 70",
+					"tags": [
+						"Third Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Polega na podwyższeniu temperatury celu zaklęcia, podpaleniu od środka i sparaliżowaniu, zadając 20 punktów obrażeń na każde pół sekundy trwania czaru. Zaklęcie zużywa 4 punkty many na każdą sekundę działania.",
+					"difficulty": "iq/h",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "10",
+					"maintenance_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "p4RIq6OkEc-Pu34_9",
+					"name": "Zwój Przemiany w Chrząszcza",
+					"local_notes": "Value: 100",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "1",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pJqCexVYtxSb8Nry_",
+					"name": "Zwój Przemiany w Cieniostwora",
+					"local_notes": "Value: 200",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "10",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pjLLr99RggvR9SybG",
+					"name": "Zwój Przemiany w Jaszczura",
+					"local_notes": "Value: 100",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "8",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pjdeTCnJyNwthiGfC",
+					"name": "Zwój Przemiany w Kretoszczura",
+					"local_notes": "Value: 100",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "1",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pKIuRXCckRGQD4tUp",
+					"name": "Zwój Przemiany w Krwiopijcę",
+					"local_notes": "Value: 100",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "3",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pl6dI2RQAVN1XyMoj",
+					"name": "Zwój Przemiany w Orkowego Psa",
+					"local_notes": "Value: 200",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "10",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pCv5YCSF_QbO5POkS",
+					"name": "Zwój Przemiany w Pełzacza",
+					"local_notes": "Value: 100",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "10",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pN3-hEVcQM0cmhhTf",
+					"name": "Zwój Przemiany w Topielca",
+					"local_notes": "Value: 100",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "6",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pvXJKKwapHOqeEmx_",
+					"name": "Zwój Przemiany w Wilka",
+					"local_notes": "Value: 100",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "3",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pPmYqcqy3Z6d1IB6A",
+					"name": "Zwój Przemiany w Zębacza",
+					"local_notes": "Value: 150",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "12",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "pYDDzC69ZiduUAUxH",
+					"name": "Zwój Przemiany w Ścierwojada",
+					"local_notes": "Value: 100",
+					"tags": [
+						"Adanos"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "2",
+					"casting_time": "5 sec",
+					"duration": "Indefinite",
+					"points": 1
+				},
+				{
+					"id": "phup4dyNc1EpcJtSq",
+					"name": "Zwój Przyzwania Demona",
+					"local_notes": "Value: 550",
+					"tags": [
+						"Beliar"
+					],
+					"vtt_notes": "Po inkantacji zaklęcia pojawia się potężny demon ognia. Przywołanemu demonowi stopniowo ubywa punktów życia, więc nawet jeśli nie zostanie on zraniony, sam zginie po około 10 minutach czasu rzeczywistego.",
+					"difficulty": "iq/h",
+					"college": [
+						"Beliar"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "12",
+					"casting_time": "8 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pCRgQWUBNXl-YBE_3",
+					"name": "Zwój Przyzwania Golema",
+					"local_notes": "Value: 450",
+					"tags": [
+						"Adanos"
+					],
+					"vtt_notes": "Pojawia się kamienny golem gotów do pomocy w walce. Golemowi stopniowo ubywa punktów życia, więc nawet jeśli nie zostanie zraniony, sam zginie po około pół godziny czasu rzeczywistego.",
+					"difficulty": "iq/h",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "6",
+					"casting_time": "5 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pincW6NNZuSm10mGI",
+					"name": "Zwój Przyzwania Szkieletów",
+					"local_notes": "Value: 350",
+					"tags": [
+						"Beliar"
+					],
+					"vtt_notes": "Przywołuje dwa szkielety i jednego wojownika, które pomagają w walce.",
+					"difficulty": "iq/h",
+					"college": [
+						"Beliar"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "3",
+					"casting_time": "5 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pRZqbYbBsCNFAifNb",
+					"name": "Zwój Snu",
+					"local_notes": "Value: 50",
+					"tags": [
+						"Second Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Usypia cel zaklęcia na 30 sekund.",
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "Will",
+					"casting_cost": "1",
+					"casting_time": "3 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pV8fZPwjA2XotaKhF",
+					"name": "Zwój Sopla Lodu",
+					"local_notes": "Value: 50",
+					"tags": [
+						"First Circle",
+						"Adanos"
+					],
+					"vtt_notes": "Zadaje niewielkie obrażenia od magii (20)",
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pmuPvZNbn1yVzvtOq",
+					"name": "Zwój Strachu",
+					"local_notes": "Value: 125",
+					"tags": [
+						"Sleeper"
+					],
+					"vtt_notes": "Straszy wszystkie cele wokół maga, którzy następnie uciekają w popłochu.",
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"resist": "Will",
+					"casting_cost": "1",
+					"casting_time": "3 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "p9zM2HNs-vp6yWCP6",
+					"name": "Zwój Telekinezy",
+					"local_notes": "Value: 70",
+					"tags": [
+						"Third Circle",
+						"Sleeper"
+					],
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "3",
+					"maintenance_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "1 sec or until cancelled",
+					"points": 1
+				},
+				{
+					"id": "p_PjwZ_1J18sW8omp",
+					"name": "Zwój Teleportacji do Magów Ognia",
+					"vtt_notes": "Teleportuje do Magów Ognia w Starym Obozie",
+					"difficulty": "iq/a",
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1",
+					"casting_time": "15 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pm7bjLphab3o6YqMj",
+					"name": "Zwój Teleportacji do Magów Wody",
+					"vtt_notes": "Teleportuje do Magów Wody w Nowym Obozie",
+					"difficulty": "iq/a",
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1",
+					"casting_time": "15 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "ptSW2eSk5C5cVSiK1",
+					"name": "Zwój Teleportacji do Nekromanty",
+					"vtt_notes": "Teleportuje do Wieży Nekromanty",
+					"difficulty": "iq/a",
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1",
+					"casting_time": "15 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pydwmkaOw4imD3Eoi",
+					"name": "Zwój Teleportacji do Obozu na Bagnie",
+					"vtt_notes": "Teleportuje na plac świątynny w Obozie na Bagnie",
+					"difficulty": "iq/a",
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1",
+					"casting_time": "15 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pReqYxbZGwNDgvai7",
+					"name": "Zwój Uderzenia Burzy",
+					"local_notes": "Value: 90",
+					"tags": [
+						"Fourth Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Odrzuca na dużą odległość i zadaje średnie obrażenia. Ulepszone Uderzenie Wiatru. 15-60 Obrażeń. Siła Knockbacka zależna od zainwestowanej many.",
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "2 - 8",
+					"casting_time": "1 - 4",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pRGiRPMgy2_Bj7pxP",
+					"name": "Zwój Uderzenia Wiatru",
+					"local_notes": "Value: 50",
+					"tags": [
+						"Second Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Zadaje niewielkie obrażenia od wiatru i odrzuca na małą odległość. (20-40)",
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "1 - 3",
+					"casting_time": "1 sec - 3 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "peQ011RXUzsk6GNFS",
+					"name": "Zwój Uroku",
+					"local_notes": "Value: 70",
+					"tags": [
+						"Third Circle",
+						"Sleeper"
+					],
+					"vtt_notes": "Po rzuceniu tego zaklęcia cel przestaje walczyć i traktuje maga przyjaźnie. Jego działanie jednak jest niepewne i nie zawsze działa sprawnie. Mag musi poświęcić 5 punktów many, aby rzucić ten czar.",
+					"difficulty": "iq/a",
+					"college": [
+						"Sleeper"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "Will",
+					"casting_cost": "2",
+					"casting_time": "3 sec",
+					"duration": "10 min",
+					"points": 1
+				},
+				{
+					"id": "pKn0wgLFkZR83Ox3c",
+					"name": "Zwój Uzdrowienia",
+					"local_notes": "Value: 50",
+					"tags": [
+						"Second Circle",
+						"Adanos"
+					],
+					"vtt_notes": "Uleczenie samego siebie 10 punktów życia / 1 punkt many. Leczenie kogoś innego 5 punktów / 1 punkt many.",
+					"difficulty": "iq/a",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"maintenance_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "1 sec or until cancelled",
+					"points": 1
+				},
+				{
+					"id": "pm3oG6td-R8nwov-1",
+					"name": "Zwój Zmniejszenia Potwora",
+					"local_notes": "Value: 1000",
+					"tags": [
+						"Adanos"
+					],
+					"vtt_notes": "Kilkakrotnie zmniejsza potwora i pogarsza jego statystyki. Statystyki, obrona i inne spadają o 90% (zaokrąglając w dół).",
+					"difficulty": "iq/h",
+					"college": [
+						"Adanos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "Will",
+					"casting_cost": "2",
+					"casting_time": "5 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "pMWtBm_ZCHB-9KaoT",
+					"name": "Zwój Śmierci Ożywieńcom",
+					"local_notes": "Value: 110",
+					"tags": [
+						"Fourth Circle",
+						"Innos"
+					],
+					"vtt_notes": "Natychmiastowo niszczy ożywieńca będącego celem, takiego jak szkielet czy zombie.",
+					"difficulty": "iq/vh",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1
+				},
+				{
+					"id": "phvj7VUM-CH2OoT1I",
+					"name": "Zwój Światła",
+					"local_notes": "Value: 5",
+					"tags": [
+						"First Circle",
+						"Innos"
+					],
+					"vtt_notes": "Nad głową bohatera pojawia się kula oświetlająca otoczenie.",
+					"difficulty": "iq/e",
+					"college": [
+						"Innos"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Enchantment",
+					"casting_cost": "1",
+					"casting_time": "1 sec",
+					"duration": "10 min",
+					"points": 1
+				}
+			]
 		}
 	]
 }

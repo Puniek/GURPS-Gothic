@@ -55,11 +55,6 @@
 						{
 							"type": "skill",
 							"name": "Bows",
-							"specialization": "Longbows"
-						},
-						{
-							"type": "skill",
-							"name": "Bows",
 							"specialization": "Shortbows",
 							"modifier": -4
 						},
@@ -88,11 +83,6 @@
 					"specialization": "Reflex Bows",
 					"difficulty": "dx/e",
 					"defaults": [
-						{
-							"type": "skill",
-							"name": "Bows",
-							"specialization": "Reflex Bows"
-						},
 						{
 							"type": "skill",
 							"name": "Bows",
@@ -135,11 +125,6 @@
 							"name": "Bows",
 							"specialization": "Reflex Bows",
 							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Bows",
-							"specialization": "Shortbows"
 						},
 						{
 							"type": "dx",
@@ -222,6 +207,24 @@
 					"points": 1
 				},
 				{
+					"id": "sJCPV7eDOHjFaAQkM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "spdUP_VQ1WFDBlGW0"
+					},
+					"name": "Fast-Draw",
+					"reference": "B194,MA56",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Dagger",
+					"difficulty": "dx/e",
+					"points": 1
+				},
+				{
 					"id": "sFw5uBeWGFJrZGgTh",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -274,17 +277,20 @@
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "One-Handed Sword",
+							"name": "One-Handed",
+							"specialization": "Swords",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "One-Handed Mace",
+							"name": "One-Handed",
+							"specialization": "Maces",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "One-Handed Axe",
+							"name": "One-Handed",
+							"specialization": "Axes",
 							"modifier": -4
 						},
 						{
@@ -307,17 +313,21 @@
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "One-Handed Sword",
+							"name": "One-Handed",
+							"specialization": "Daggers",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "One-Handed Mace",
+							"name": "One-Handed",
+							"specialization": "Swords",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "One-Handed Axe"
+							"name": "One-Handed",
+							"specialization": "Maces",
+							"modifier": -2
 						},
 						{
 							"type": "dx",
@@ -339,17 +349,21 @@
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "One-Handed Sword",
+							"name": "One-Handed",
+							"specialization": "Daggers",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "One-Handed Mace"
+							"name": "One-Handed",
+							"specialization": "Swords",
+							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "One-Handed Axe",
-							"modifier": -4
+							"name": "One-Handed",
+							"specialization": "Axes",
+							"modifier": -2
 						},
 						{
 							"type": "dx",
@@ -371,21 +385,48 @@
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "One-Handed Sword"
-						},
-						{
-							"type": "skill",
-							"name": "One-Handed Mace",
+							"name": "One-Handed",
+							"specialization": "Daggers",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "One-Handed Axe",
+							"name": "One-Handed",
+							"specialization": "Maces",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed",
+							"specialization": "Axes",
 							"modifier": -4
 						},
 						{
 							"type": "dx",
 							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sJnT2CQvQPWR2tIvY",
+					"name": "One-Handed",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"specialization": "Daggers",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed",
+							"modifier": -4
 						}
 					],
 					"points": 1
@@ -456,22 +497,26 @@
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "Two-Handed Axe",
+							"name": "Two-Handed",
+							"specialization": "Axes",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Mace",
+							"name": "Two-Handed",
+							"specialization": "Maces",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Staff",
+							"name": "Two-Handed",
+							"specialization": "Staves",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Sword",
+							"name": "Two-Handed",
+							"specialization": "Swords",
 							"modifier": -4
 						},
 						{
@@ -495,21 +540,20 @@
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "Two-Handed Axe"
+							"name": "Two-Handed",
+							"specialization": "Maces",
+							"modifier": -2
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Mace",
+							"name": "Two-Handed",
+							"specialization": "Staves",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Staff",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Two-Handed Sword",
+							"name": "Two-Handed",
+							"specialization": "Swords",
 							"modifier": -4
 						},
 						{
@@ -533,21 +577,20 @@
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "Two-Handed Axe",
+							"name": "Two-Handed",
+							"specialization": "Axes",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed",
+							"specialization": "Staves",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Mace"
-						},
-						{
-							"type": "skill",
-							"name": "Two-Handed Staff",
-							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Two-Handed Sword",
+							"name": "Two-Handed",
+							"specialization": "Swords",
 							"modifier": -4
 						},
 						{
@@ -571,21 +614,20 @@
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "Two-Handed Axe",
+							"name": "Two-Handed",
+							"specialization": "Axes",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Mace",
+							"name": "Two-Handed",
+							"specialization": "Maces",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Staff"
-						},
-						{
-							"type": "skill",
-							"name": "Two-Handed Sword",
+							"name": "Two-Handed",
+							"specialization": "Swords",
 							"modifier": -4
 						},
 						{
@@ -609,22 +651,21 @@
 					"defaults": [
 						{
 							"type": "skill",
-							"name": "Two-Handed Axe",
+							"name": "Two-Handed",
+							"specialization": "Axes",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Mace",
+							"name": "Two-Handed",
+							"specialization": "Maces",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Two-Handed Staff",
+							"name": "Two-Handed",
+							"specialization": "Staves",
 							"modifier": -4
-						},
-						{
-							"type": "skill",
-							"name": "Two-Handed Sword"
 						},
 						{
 							"type": "dx",
@@ -655,6 +696,46 @@
 						"Occult"
 					],
 					"difficulty": "iq/vh",
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "shZmpBIzyauDloc8b",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sVa9gXF-NnYK9vQkh"
+					},
+					"name": "Poisons",
+					"reference": "B214",
+					"tags": [
+						"Criminal",
+						"Medical",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Chemistry",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Pharmacy",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -3
+						}
+					],
 					"tech_level": "",
 					"points": 1
 				},
@@ -815,35 +896,6 @@
 					"points": 1
 				},
 				{
-					"id": "sV0bjfDztJSewabTY",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sB651vLUsyZcvdcaR"
-					},
-					"name": "Forgery",
-					"reference": "B196",
-					"tags": [
-						"Criminal",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Counterfeiting",
-							"modifier": -2
-						}
-					],
-					"tech_level": "",
-					"points": 1
-				},
-				{
 					"id": "sH5rB1P8gbnerRoTj",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -899,6 +951,35 @@
 				},
 				{
 					"id": "sEOluCDu-mWEu82P5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sB651vLUsyZcvdcaR"
+					},
+					"name": "Forgery",
+					"reference": "B196",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Counterfeiting",
+							"modifier": -2
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sV0bjfDztJSewabTY",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
@@ -1353,6 +1434,174 @@
 						{
 							"type": "iq",
 							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sNcSEV578SOFCD72u",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sl4przyjEyVwBXGxS"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@Large Nation@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sRptbpso-BGzyBj11",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "soKtvjo-sx-2Xe43k"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@Large Nation@; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "stnVVdBwAZ_egYN-9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sFttohBrn2W9Wol4y"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@Rural Area@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sCDJpFNOQTHH5Buos",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sR91CuoDpNnzJEoHu"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@Rural Area@; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sbE0Lhg-9D0EdKVyS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sB3YbqQTIGRgGv7T5"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@Village or Town@",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s5b9_MUIPpjvd33pA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "svOtVCRUaA3C_G6O7"
+					},
+					"name": "Area Knowledge",
+					"reference": "B176",
+					"local_notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+					"tags": [
+						"Everyman",
+						"Knowledge"
+					],
+					"specialization": "@Village or Town@; Lived there",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Geography",
+							"specialization": "@Specialty@",
+							"modifier": -3
 						}
 					],
 					"points": 1
