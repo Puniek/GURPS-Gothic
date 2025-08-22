@@ -2955,6 +2955,7 @@
 									"weapons": [
 										{
 											"id": "WJSfEN7h95nv_B6Nz",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -2984,7 +2985,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr-1 imp"
+												"damage": "thr-1 imp",
+												"range": "70/105"
 											}
 										}
 									],
@@ -3012,6 +3014,7 @@
 									"weapons": [
 										{
 											"id": "Wxix75xmDhQ7tSWCH",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr"
@@ -3040,7 +3043,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr imp"
+												"damage": "thr imp",
+												"range": "70/105"
 											}
 										}
 									],
@@ -3068,6 +3072,7 @@
 									"weapons": [
 										{
 											"id": "WkZnPN9MG67GtAk8k",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3097,7 +3102,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+1 imp"
+												"damage": "thr+1 imp",
+												"range": "70/105"
 											}
 										}
 									],
@@ -3125,6 +3131,7 @@
 									"weapons": [
 										{
 											"id": "WOFTt3IVafnclRf9x",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3154,7 +3161,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+2 imp"
+												"damage": "thr+2 imp",
+												"range": "80/120"
 											}
 										}
 									],
@@ -3164,62 +3172,6 @@
 									"calc": {
 										"value": 160,
 										"extended_value": 160,
-										"weight": "3 lb",
-										"extended_weight": "3 lb"
-									}
-								},
-								{
-									"id": "eJLENmoijd-sjcHTR",
-									"description": "Łuk Wilka",
-									"local_notes": "Wolf's Bow",
-									"legality_class": "4",
-									"tags": [
-										"Bow",
-										"Longbow"
-									],
-									"base_value": "200",
-									"base_weight": "3",
-									"weapons": [
-										{
-											"id": "WyRzgJVw1IRHLH6YA",
-											"damage": {
-												"type": "imp",
-												"st": "thr"
-											},
-											"strength": "11†",
-											"usage": "Shoot",
-											"accuracy": "3",
-											"range": "x15/x20",
-											"rate_of_fire": "1",
-											"shots": "1(2)",
-											"bulk": "-8",
-											"defaults": [
-												{
-													"type": "dx",
-													"modifier": -5
-												},
-												{
-													"type": "skill",
-													"name": "Bows",
-													"modifier": -4
-												},
-												{
-													"type": "skill",
-													"name": "Bows",
-													"specialization": "Longbows"
-												}
-											],
-											"calc": {
-												"damage": "thr imp"
-											}
-										}
-									],
-									"rated_strength": 11,
-									"quantity": 1,
-									"equipped": true,
-									"calc": {
-										"value": 200,
-										"extended_value": 200,
 										"weight": "3 lb",
 										"extended_weight": "3 lb"
 									}
@@ -3238,6 +3190,7 @@
 									"weapons": [
 										{
 											"id": "WhE3BERNu6koletVd",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3267,7 +3220,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+3 imp"
+												"damage": "thr+3 imp",
+												"range": "80/120"
 											}
 										}
 									],
@@ -3279,6 +3233,64 @@
 										"extended_value": 200,
 										"weight": "4 lb",
 										"extended_weight": "4 lb"
+									}
+								},
+								{
+									"id": "eJLENmoijd-sjcHTR",
+									"description": "Łuk Wilka",
+									"local_notes": "Wolf's Bow",
+									"legality_class": "4",
+									"tags": [
+										"Bow",
+										"Longbow"
+									],
+									"base_value": "200",
+									"base_weight": "3",
+									"weapons": [
+										{
+											"id": "WyRzgJVw1IRHLH6YA",
+											"sv": 1,
+											"damage": {
+												"type": "imp",
+												"st": "thr"
+											},
+											"strength": "11†",
+											"usage": "Shoot",
+											"accuracy": "3",
+											"range": "x15/x20",
+											"rate_of_fire": "1",
+											"shots": "1(2)",
+											"bulk": "-8",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -5
+												},
+												{
+													"type": "skill",
+													"name": "Bows",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Bows",
+													"specialization": "Longbows"
+												}
+											],
+											"calc": {
+												"damage": "thr imp",
+												"range": "165/220"
+											}
+										}
+									],
+									"rated_strength": 11,
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 200,
+										"extended_value": 200,
+										"weight": "3 lb",
+										"extended_weight": "3 lb"
 									}
 								},
 								{
@@ -3295,6 +3307,7 @@
 									"weapons": [
 										{
 											"id": "WVeDAtvzv-bdcq8Za",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3324,7 +3337,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+1 imp"
+												"damage": "thr+1 imp",
+												"range": "165/220"
 											}
 										}
 									],
@@ -3352,6 +3366,7 @@
 									"weapons": [
 										{
 											"id": "WNApnZOF2mHC9ptki",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3381,7 +3396,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+2 imp"
+												"damage": "thr+2 imp",
+												"range": "165/220"
 											}
 										}
 									],
@@ -3409,6 +3425,7 @@
 									"weapons": [
 										{
 											"id": "W0HLM_v9YLhZXgfIq",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3438,7 +3455,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+3 imp"
+												"damage": "thr+3 imp",
+												"range": "165/220"
 											}
 										}
 									],
@@ -3466,6 +3484,7 @@
 									"weapons": [
 										{
 											"id": "WMDUV5G9zakhJPAHy",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3495,7 +3514,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+4 imp"
+												"damage": "thr+4 imp",
+												"range": "165/220"
 											}
 										}
 									],
@@ -3523,6 +3543,7 @@
 									"weapons": [
 										{
 											"id": "WVtuda9vjryfw5INi",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3552,7 +3573,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+5 imp"
+												"damage": "thr+5 imp",
+												"range": "165/220"
 											}
 										}
 									],
@@ -3580,6 +3602,7 @@
 									"weapons": [
 										{
 											"id": "Wqua6Mv6Iw-mfCChh",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3609,7 +3632,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+6 imp"
+												"damage": "thr+6 imp",
+												"range": "165/220"
 											}
 										}
 									],
@@ -3637,6 +3661,7 @@
 									"weapons": [
 										{
 											"id": "WbZHcocCNp4Tuo9OF",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3666,7 +3691,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+3 imp"
+												"damage": "thr+3 imp",
+												"range": "195/260"
 											}
 										}
 									],
@@ -3694,6 +3720,7 @@
 									"weapons": [
 										{
 											"id": "WnWf_qCO5Cg85rK1B",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3723,7 +3750,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+4 imp"
+												"damage": "thr+4 imp",
+												"range": "195/260"
 											}
 										}
 									],
@@ -3751,6 +3779,7 @@
 									"weapons": [
 										{
 											"id": "WSeH0P32pgmlN9X4j",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3780,7 +3809,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+5 imp"
+												"damage": "thr+5 imp",
+												"range": "195/260"
 											}
 										}
 									],
@@ -3808,6 +3838,7 @@
 									"weapons": [
 										{
 											"id": "Wu1KOS-1Pi0B8W2qG",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3837,7 +3868,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+6 imp"
+												"damage": "thr+6 imp",
+												"range": "195/260"
 											}
 										}
 									],
@@ -3865,6 +3897,7 @@
 									"weapons": [
 										{
 											"id": "WMvdT3bAEINVX7cUG",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3894,7 +3927,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+1d-1 imp"
+												"damage": "thr+1d-1 imp",
+												"range": "300/375"
 											}
 										}
 									],
@@ -3922,6 +3956,7 @@
 									"weapons": [
 										{
 											"id": "WP70sO03Prv97_O2w",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -3951,7 +3986,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+1d imp"
+												"damage": "thr+1d imp",
+												"range": "300/375"
 											}
 										}
 									],
@@ -3979,6 +4015,7 @@
 									"weapons": [
 										{
 											"id": "W_-10A9iYN_SMdacI",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4008,7 +4045,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+1d+1 imp"
+												"damage": "thr+1d+1 imp",
+												"range": "300/375"
 											}
 										}
 									],
@@ -4036,6 +4074,7 @@
 									"weapons": [
 										{
 											"id": "WcRo2Bi8yJhpbuudh",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4065,7 +4104,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+1d+2 imp"
+												"damage": "thr+1d+2 imp",
+												"range": "300/375"
 											}
 										}
 									],
@@ -4093,6 +4133,7 @@
 									"weapons": [
 										{
 											"id": "WuebJDuZnejDx3gcS",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4122,7 +4163,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+2d imp"
+												"damage": "thr+2d imp",
+												"range": "340/425"
 											}
 										}
 									],
@@ -4164,6 +4206,7 @@
 									"weapons": [
 										{
 											"id": "WQpXgV9wMaVynYgoi",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4187,7 +4230,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+2 imp"
+												"damage": "thr+2 imp",
+												"range": "220/275"
 											}
 										}
 									],
@@ -4214,6 +4258,7 @@
 									"weapons": [
 										{
 											"id": "WOgR8RmPRCvUpZ1eP",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4237,7 +4282,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+1d+2 imp"
+												"damage": "thr+1d+2 imp",
+												"range": "260/325"
 											}
 										}
 									],
@@ -4264,6 +4310,7 @@
 									"weapons": [
 										{
 											"id": "Wc4YDv5J4nZ_MsWn0",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4287,7 +4334,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+1d+3 imp"
+												"damage": "thr+1d+3 imp",
+												"range": "375/450"
 											}
 										}
 									],
@@ -4314,6 +4362,7 @@
 									"weapons": [
 										{
 											"id": "WRcdbb8SgRUdiGHI7",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4337,7 +4386,8 @@
 												}
 											],
 											"calc": {
-												"damage": "thr+2d+3 imp"
+												"damage": "thr+2d+3 imp",
+												"range": "475/570"
 											}
 										}
 									],
@@ -4380,6 +4430,7 @@
 									"weapons": [
 										{
 											"id": "whim0NdNmaSvNb5ij",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -4439,6 +4490,7 @@
 									"weapons": [
 										{
 											"id": "wF2pyd4F60-4-FHGg",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4476,6 +4528,7 @@
 										},
 										{
 											"id": "wGwXyk4i4ufnBZ-1Z",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -4534,6 +4587,7 @@
 									"weapons": [
 										{
 											"id": "whHbgREwAC8sjP_6c",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -4593,6 +4647,7 @@
 									"weapons": [
 										{
 											"id": "wZ-809QHwwwG59_mb",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -4652,6 +4707,7 @@
 									"weapons": [
 										{
 											"id": "w0ID1Ea4VbqtkgRox",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -4711,6 +4767,7 @@
 									"weapons": [
 										{
 											"id": "wTDPmooh2Ftwc6-7f",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -4742,6 +4799,7 @@
 										},
 										{
 											"id": "wtmcvS5mFLbozsoqQ",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4795,6 +4853,7 @@
 									"weapons": [
 										{
 											"id": "w_aLxa1G8_QXxDOvu",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -4825,6 +4884,7 @@
 										},
 										{
 											"id": "wuoWQmGME5cf8Bmor",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -4878,6 +4938,7 @@
 									"weapons": [
 										{
 											"id": "wE6DY7jtrRzVnz97p",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -4937,6 +4998,7 @@
 									"weapons": [
 										{
 											"id": "w9qM8VcH8yXcIRDi-",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -4983,6 +5045,90 @@
 									}
 								},
 								{
+									"id": "ezyfyOJS7CrPwkBCr",
+									"description": "Sztylet",
+									"reference": "B272",
+									"local_notes": "Dagger",
+									"tags": [
+										"Dagger",
+										"Melee Weapon",
+										"Missile Weapon",
+										"One-Handed"
+									],
+									"base_value": "20",
+									"base_weight": "0.25 lb",
+									"weapons": [
+										{
+											"id": "wAHy3ls4X0u53-QwG",
+											"sv": 1,
+											"damage": {
+												"type": "imp",
+												"st": "thr",
+												"base": "-1"
+											},
+											"strength": "5",
+											"usage": "Thrust",
+											"reach": "C",
+											"parry": "-1",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "One-Handed",
+													"modifier": -3
+												},
+												{
+													"type": "skill",
+													"name": "One-Handed",
+													"specialization": "Daggers"
+												}
+											],
+											"calc": {
+												"damage": "thr-1 imp"
+											}
+										},
+										{
+											"id": "WgZ0_pH4cJouVadlF",
+											"sv": 1,
+											"damage": {
+												"type": "imp",
+												"st": "thr",
+												"base": "-1"
+											},
+											"strength": "5",
+											"usage": "Thrown",
+											"range": "x0.5/x1",
+											"rate_of_fire": "1",
+											"shots": "T",
+											"bulk": "-1",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "One-Handed",
+													"specialization": "Daggers"
+												}
+											],
+											"calc": {
+												"damage": "thr-1 imp"
+											}
+										}
+									],
+									"quantity": 1,
+									"calc": {
+										"value": 20,
+										"extended_value": 20,
+										"weight": "0.25 lb",
+										"extended_weight": "0.25 lb"
+									}
+								},
+								{
 									"id": "e39HJwMljeZED6TgC",
 									"description": "Siekacz (Sierp)",
 									"local_notes": "Cutter",
@@ -4996,6 +5142,7 @@
 									"weapons": [
 										{
 											"id": "wghZGKSZcvLsUB7CL",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -5055,6 +5202,7 @@
 									"weapons": [
 										{
 											"id": "wkNeJ_dnRZsNoVcUS",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -5086,6 +5234,7 @@
 										},
 										{
 											"id": "w6DiW5ou-t0zJYHFY",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -5138,6 +5287,7 @@
 									"weapons": [
 										{
 											"id": "we64vhG2bORAs1riB",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw"
@@ -5196,6 +5346,7 @@
 									"weapons": [
 										{
 											"id": "wLWWzZoPU8pZdnzCF",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -5227,6 +5378,7 @@
 										},
 										{
 											"id": "wIHaSsNcqWc70ycfj",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -5280,6 +5432,7 @@
 									"weapons": [
 										{
 											"id": "wLYFMoGuOh5c2cP66",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr"
@@ -5338,6 +5491,7 @@
 									"weapons": [
 										{
 											"id": "waFbhB06kx02ARyU0",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -5369,6 +5523,7 @@
 										},
 										{
 											"id": "wb4bFA1GnHsh6hJRd",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -5422,6 +5577,7 @@
 									"weapons": [
 										{
 											"id": "w0yD1Rfh8t0k8LseM",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr"
@@ -5480,6 +5636,7 @@
 									"weapons": [
 										{
 											"id": "wI6d9dH5Sss57qsqB",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw"
@@ -5510,6 +5667,7 @@
 										},
 										{
 											"id": "wUCkMu-o1OQiLrB0l",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr"
@@ -5562,6 +5720,7 @@
 									"weapons": [
 										{
 											"id": "wbiCUt2lxhcNcU-sx",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -5593,6 +5752,7 @@
 										},
 										{
 											"id": "w_5qDRlCyByowp4Rg",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -5646,6 +5806,7 @@
 									"weapons": [
 										{
 											"id": "wtwYPQZVYjezYzd5w",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw"
@@ -5676,6 +5837,7 @@
 										},
 										{
 											"id": "wwyzyaTgJd8f0yRz9",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr"
@@ -5728,6 +5890,7 @@
 									"weapons": [
 										{
 											"id": "wUR4bUSX4ScG1ceC7",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -5759,6 +5922,7 @@
 										},
 										{
 											"id": "wepk4lY9DBeJzZKoY",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -5812,6 +5976,7 @@
 									"weapons": [
 										{
 											"id": "wN8lBiaozMA71Ao2A",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw"
@@ -5842,6 +6007,7 @@
 										},
 										{
 											"id": "w8E0wWh5k35NLXOUh",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr"
@@ -5894,6 +6060,7 @@
 									"weapons": [
 										{
 											"id": "wDYohBMHGc6tu7Lav",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -5925,6 +6092,7 @@
 										},
 										{
 											"id": "w89xksVPrHKowwyDL",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -5978,6 +6146,7 @@
 									"weapons": [
 										{
 											"id": "wIsnGTjeDjuiykJDJ",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -6037,6 +6206,7 @@
 									"weapons": [
 										{
 											"id": "wzVpT0lvO8xI2yIiB",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw"
@@ -6067,6 +6237,7 @@
 										},
 										{
 											"id": "wPLaLQNRswHJP8UXX",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr"
@@ -6119,6 +6290,7 @@
 									"weapons": [
 										{
 											"id": "wP7WKVU259jrG_JUt",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -6150,6 +6322,7 @@
 										},
 										{
 											"id": "wMa5CdEsSsqDYqRi-",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -6203,6 +6376,7 @@
 									"weapons": [
 										{
 											"id": "wr9jmgh9IEw4h5jb8",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -6262,6 +6436,7 @@
 									"weapons": [
 										{
 											"id": "wcUuOWte9LPMdkErg",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -6321,6 +6496,7 @@
 									"weapons": [
 										{
 											"id": "w3qoXBB1N5rOmgJd0",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr",
@@ -6380,6 +6556,7 @@
 									"weapons": [
 										{
 											"id": "wugdXDLFavYxgr8oC",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -6411,6 +6588,7 @@
 										},
 										{
 											"id": "w-8R8UEIqTDimbcwq",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr",
@@ -6464,6 +6642,7 @@
 									"weapons": [
 										{
 											"id": "wQ-zM_vxVfxqeKhDJ",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -6495,6 +6674,7 @@
 										},
 										{
 											"id": "wLO9Xsiok6GE19Ze5",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -6548,6 +6728,7 @@
 									"weapons": [
 										{
 											"id": "wWBYB_w8pkGlaNV21",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -6607,6 +6788,7 @@
 									"weapons": [
 										{
 											"id": "weio8jCAyqSQESNJk",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -6639,6 +6821,7 @@
 										},
 										{
 											"id": "wFUGMiAZ1A4mvmZ-o",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -6693,6 +6876,7 @@
 									"weapons": [
 										{
 											"id": "wrSuOXcDWknbpJMWU",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -6752,6 +6936,7 @@
 									"weapons": [
 										{
 											"id": "wgAIof6vMcztfF0Ze",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -6811,6 +6996,7 @@
 									"weapons": [
 										{
 											"id": "wLCwHlO0bhZfHQ1ET",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw"
@@ -6869,6 +7055,7 @@
 									"weapons": [
 										{
 											"id": "w5LVtYQH2_T79SjBf",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -6928,6 +7115,7 @@
 									"weapons": [
 										{
 											"id": "wH6yCUOp1In6RbdS5",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -6987,6 +7175,7 @@
 									"weapons": [
 										{
 											"id": "witK3uaXjFTGHmqxa",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7046,6 +7235,7 @@
 									"weapons": [
 										{
 											"id": "wzrYlDJ9SjeOuin_r",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7077,6 +7267,7 @@
 										},
 										{
 											"id": "wxnIGd4u6lpwAB0Nq",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -7130,6 +7321,7 @@
 									"weapons": [
 										{
 											"id": "wRMtaN34pa8uV-BOa",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7161,6 +7353,7 @@
 										},
 										{
 											"id": "wkX_hssLub9nBbB_-",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -7214,6 +7407,7 @@
 									"weapons": [
 										{
 											"id": "wVQWlnCQExPTxh1jR",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7245,6 +7439,7 @@
 										},
 										{
 											"id": "wQZNOcxlh4TqP7bE_",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -7298,6 +7493,7 @@
 									"weapons": [
 										{
 											"id": "wM-3NrVVlFFCebwCV",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7329,6 +7525,7 @@
 										},
 										{
 											"id": "wnJFVIAWxxxPt_366",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -7382,6 +7579,7 @@
 									"weapons": [
 										{
 											"id": "wqRM_eDtAjv_YvV-F",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw"
@@ -7412,6 +7610,7 @@
 										},
 										{
 											"id": "w6x5xzHvAJrwrbGA1",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr"
@@ -7464,6 +7663,7 @@
 									"weapons": [
 										{
 											"id": "wmRJICWu8wUyftTzp",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -7523,6 +7723,7 @@
 									"weapons": [
 										{
 											"id": "w-ZnGqEbbSdn5DzSq",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7554,6 +7755,7 @@
 										},
 										{
 											"id": "wIFrIWHt6p4_YTqLh",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -7607,6 +7809,7 @@
 									"weapons": [
 										{
 											"id": "w0KZSlWfFA1kBZjir",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7638,6 +7841,7 @@
 										},
 										{
 											"id": "wWMiZna46tlFMYz5q",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -7691,6 +7895,7 @@
 									"weapons": [
 										{
 											"id": "wKa8739aEQ7576DWN",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7722,6 +7927,7 @@
 										},
 										{
 											"id": "w5X4mLA2HO4SEap6u",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -7775,6 +7981,7 @@
 									"weapons": [
 										{
 											"id": "wR31oVHxoR1L3tr00",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7806,6 +8013,7 @@
 										},
 										{
 											"id": "wdyszbTt_0MfVIhwu",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -7859,6 +8067,7 @@
 									"weapons": [
 										{
 											"id": "wbTd33GEqpSanP-PN",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -7890,6 +8099,7 @@
 										},
 										{
 											"id": "wOPAfP0x3GHQPNvKO",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -7943,6 +8153,7 @@
 									"weapons": [
 										{
 											"id": "wLpTICef_33wGTbiT",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -8002,6 +8213,7 @@
 									"weapons": [
 										{
 											"id": "wS5bBx1RuVIMZcn7Z",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8061,6 +8273,7 @@
 									"weapons": [
 										{
 											"id": "wXSzcUH82ZGrMnGhq",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -8120,6 +8333,7 @@
 									"weapons": [
 										{
 											"id": "waFQgYhyshLpEwSbu",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -8179,6 +8393,7 @@
 									"weapons": [
 										{
 											"id": "wUY1ELefRSwsNwHu3",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8238,6 +8453,7 @@
 									"weapons": [
 										{
 											"id": "wdv5G6lB2jk0Phz1C",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8269,6 +8485,7 @@
 										},
 										{
 											"id": "wHEKcGHKrWe4yXVyd",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -8322,6 +8539,7 @@
 									"weapons": [
 										{
 											"id": "wnnNOB8DenHkKAqp7",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8353,6 +8571,7 @@
 										},
 										{
 											"id": "w9zn62PnvSGNeHNvK",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -8406,6 +8625,7 @@
 									"weapons": [
 										{
 											"id": "wQSuM5PRyeRwpyZ73",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8437,6 +8657,7 @@
 										},
 										{
 											"id": "wkNSTfJS6pM2IApqA",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -8489,6 +8710,7 @@
 									"weapons": [
 										{
 											"id": "wfSTS1bO1cFk18ZUx",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8520,6 +8742,7 @@
 										},
 										{
 											"id": "wKWGhVS9Uct0PsES4",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -8573,6 +8796,7 @@
 									"weapons": [
 										{
 											"id": "wxMhliDjg-eGg_u9e",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8603,6 +8827,7 @@
 										},
 										{
 											"id": "wIM0u592i0lQEin1J",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -8655,6 +8880,7 @@
 									"weapons": [
 										{
 											"id": "wETVPxzDBCRp1oZuC",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8686,6 +8912,7 @@
 										},
 										{
 											"id": "w7_tpBLV7N4tOxPUF",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -8739,6 +8966,7 @@
 									"weapons": [
 										{
 											"id": "wOSZzgca4FE8rIJaj",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8770,6 +8998,7 @@
 										},
 										{
 											"id": "wgmfiNC7ODH0bhHmW",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -8812,9 +9041,9 @@
 							],
 							"calc": {
 								"value": 0,
-								"extended_value": 27020,
+								"extended_value": 27040,
 								"weight": "0 lb",
-								"extended_weight": "251 lb"
+								"extended_weight": "251.25 lb"
 							}
 						},
 						{
@@ -8878,6 +9107,7 @@
 									"weapons": [
 										{
 											"id": "wVzWT_I8p5ZMZ4OOP",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -8909,6 +9139,7 @@
 										},
 										{
 											"id": "w2CidwFbs_hA4P-LR",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -8962,6 +9193,7 @@
 									"weapons": [
 										{
 											"id": "woiyeTlhA0mHeiede",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -9021,6 +9253,7 @@
 									"weapons": [
 										{
 											"id": "wMiOLcYjOcgGcNfa2",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -9080,6 +9313,7 @@
 									"weapons": [
 										{
 											"id": "wvKcUdM5imgcrfME6",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -9139,6 +9373,7 @@
 									"weapons": [
 										{
 											"id": "wdiMi_784RUCuxyJu",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -9198,6 +9433,7 @@
 									"weapons": [
 										{
 											"id": "wtaYTVQSeOQJiUhT9",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -9257,6 +9493,7 @@
 									"weapons": [
 										{
 											"id": "wIFLBqCBTrTdbhQpJ",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -9335,6 +9572,7 @@
 									"weapons": [
 										{
 											"id": "wC7yEJrErFfXTwphY",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr"
@@ -9403,6 +9641,7 @@
 									"weapons": [
 										{
 											"id": "wlBppUBEoowC1O0i-",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr"
@@ -9471,6 +9710,7 @@
 									"weapons": [
 										{
 											"id": "wnETWbGmLid7t2skh",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr"
@@ -9539,6 +9779,7 @@
 									"weapons": [
 										{
 											"id": "wzJS7jD1Ya26wvY49",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr"
@@ -9607,6 +9848,7 @@
 									"weapons": [
 										{
 											"id": "ws5CuWWCeDBQeuc7S",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr",
@@ -9675,6 +9917,7 @@
 									"weapons": [
 										{
 											"id": "wKESY8jlJYMA7BeB3",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr"
@@ -9743,6 +9986,7 @@
 									"weapons": [
 										{
 											"id": "waXUKJRvX9sUceXZT",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr"
@@ -9809,6 +10053,7 @@
 									"weapons": [
 										{
 											"id": "wKdO6n-5dkCheBP7d",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr",
@@ -9877,6 +10122,7 @@
 									"weapons": [
 										{
 											"id": "w0FKzLnYfbZpd2zxp",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr",
@@ -9946,6 +10192,7 @@
 									"weapons": [
 										{
 											"id": "wGa2-iGH3_i9bfstg",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "thr"
@@ -10030,6 +10277,7 @@
 									"weapons": [
 										{
 											"id": "wOOGGCS8aRmliENsv",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -10089,6 +10337,7 @@
 									"weapons": [
 										{
 											"id": "wZ5SwWpLPrtVisdRr",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -10142,6 +10391,7 @@
 									"weapons": [
 										{
 											"id": "wLGesaoIZbQwPpFp0",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -10195,6 +10445,7 @@
 									"weapons": [
 										{
 											"id": "wtrENHJ4eQXjOQZMF",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -10248,6 +10499,7 @@
 									"weapons": [
 										{
 											"id": "wFPVIej7Q_ec3YIS2",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -10307,6 +10559,7 @@
 									"weapons": [
 										{
 											"id": "wu_0Q42RZVUwLpWuw",
+											"sv": 1,
 											"damage": {
 												"type": "cr",
 												"st": "sw",
@@ -10360,6 +10613,7 @@
 									"weapons": [
 										{
 											"id": "w2s_01Cfruy3aFfeq",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -10391,6 +10645,7 @@
 										},
 										{
 											"id": "wy6Q_NOQRBiv8aZMz",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -10444,6 +10699,7 @@
 									"weapons": [
 										{
 											"id": "wZx2_DL46vuWUOoLe",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -10503,6 +10759,7 @@
 									"weapons": [
 										{
 											"id": "wNvqGfSH6o_B5i_50",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -10562,6 +10819,7 @@
 									"weapons": [
 										{
 											"id": "wY5758ZBBuAIPqTZb",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -10621,6 +10879,7 @@
 									"weapons": [
 										{
 											"id": "w9QDEEeFQrTCOWjXI",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -10680,6 +10939,7 @@
 									"weapons": [
 										{
 											"id": "wG6RscFx1ArQcA1qQ",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -10711,6 +10971,7 @@
 										},
 										{
 											"id": "wdh-zDWhmbBYLjeo-",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -10764,6 +11025,7 @@
 									"weapons": [
 										{
 											"id": "w2yWs5gIdZ66XhWVo",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -10795,6 +11057,7 @@
 										},
 										{
 											"id": "wKVyBGeaM_pQSHB9K",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -10847,6 +11110,7 @@
 									"weapons": [
 										{
 											"id": "wCe20eYCgl224D6fU",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -10878,6 +11142,7 @@
 										},
 										{
 											"id": "wYa8k0l9afgf0XrRa",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -10931,6 +11196,7 @@
 									"weapons": [
 										{
 											"id": "w7zIVRkHWH16n3aPF",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -10962,6 +11228,7 @@
 										},
 										{
 											"id": "w1h0Xqe0d3qdDO_fX",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -11015,6 +11282,7 @@
 									"weapons": [
 										{
 											"id": "wwN3ZHcM5XvG8dnl4",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11074,6 +11342,7 @@
 									"weapons": [
 										{
 											"id": "wbNcqyObGs91tWMHC",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11133,6 +11402,7 @@
 									"weapons": [
 										{
 											"id": "w31BVxpU98iKk10JI",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11192,6 +11462,7 @@
 									"weapons": [
 										{
 											"id": "wQnPnMSFOAFZiqapN",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11223,6 +11494,7 @@
 										},
 										{
 											"id": "wFYSEcBQkTa4q9wRO",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -11276,6 +11548,7 @@
 									"weapons": [
 										{
 											"id": "w6bncF278d8n0QOBr",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11307,6 +11580,7 @@
 										},
 										{
 											"id": "wbanQDD_o-l7RWvbN",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -11360,6 +11634,7 @@
 									"weapons": [
 										{
 											"id": "wODYYRUzxlDguAN4N",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11391,6 +11666,7 @@
 										},
 										{
 											"id": "wO5OKK7AnvEp6wuiY",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -11444,6 +11720,7 @@
 									"weapons": [
 										{
 											"id": "w0x5roNkMgyEEWPy1",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11475,6 +11752,7 @@
 										},
 										{
 											"id": "wfVZOAxGnY9i90EOV",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -11528,6 +11806,7 @@
 									"weapons": [
 										{
 											"id": "wCR3L88Y1HswnizZ6",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11559,6 +11838,7 @@
 										},
 										{
 											"id": "wxqLHCE8k8pBBLnSn",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -11612,6 +11892,7 @@
 									"weapons": [
 										{
 											"id": "ws1TOySxBeiIxLncf",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11671,6 +11952,7 @@
 									"weapons": [
 										{
 											"id": "wtyTwkdDhvhdp5W6h",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11730,6 +12012,7 @@
 									"weapons": [
 										{
 											"id": "wC78geJIN7W_IUuet",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11789,6 +12072,7 @@
 									"weapons": [
 										{
 											"id": "wSEolSoMH6Ya8y62Q",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11820,6 +12104,7 @@
 										},
 										{
 											"id": "wuO_5kTgSMPZxIsJM",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -11873,6 +12158,7 @@
 									"weapons": [
 										{
 											"id": "wwhfhkp8mNqU0v8Ij",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11904,6 +12190,7 @@
 										},
 										{
 											"id": "wpidRDwSw9IAEzAjw",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -11957,6 +12244,7 @@
 									"weapons": [
 										{
 											"id": "w0WLuVW2rDC3t1L_q",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -11988,6 +12276,7 @@
 										},
 										{
 											"id": "wrwP75_RurxI2f3x1",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -12041,6 +12330,7 @@
 									"weapons": [
 										{
 											"id": "wpvD_C1OLbvUHOrlY",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -12072,6 +12362,7 @@
 										},
 										{
 											"id": "wvUAkLH9uFToQTbKP",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -12125,6 +12416,7 @@
 									"weapons": [
 										{
 											"id": "wvwmHNtkBKMsWmB7L",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -12156,6 +12448,7 @@
 										},
 										{
 											"id": "w5zlDb3EtoB_Jh9nu",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -12209,6 +12502,7 @@
 									"weapons": [
 										{
 											"id": "wpH_vJWmkwZspSrcE",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -12240,6 +12534,7 @@
 										},
 										{
 											"id": "wmE0qooXsWD5p21Tm",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -12293,6 +12588,7 @@
 									"weapons": [
 										{
 											"id": "wNhM8xGwQVLv1-P8K",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -12324,6 +12620,7 @@
 										},
 										{
 											"id": "wvM8BrSuxiiRu0_Ng",
+											"sv": 1,
 											"damage": {
 												"type": "imp",
 												"st": "thr",
@@ -12377,6 +12674,7 @@
 									"weapons": [
 										{
 											"id": "whP0W2zb0R066Jbtr",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -12436,6 +12734,7 @@
 									"weapons": [
 										{
 											"id": "w3TJemlqz9QQRkSKL",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -12495,6 +12794,7 @@
 									"weapons": [
 										{
 											"id": "wsylMgavN6gUV2OL9",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -12554,6 +12854,7 @@
 									"weapons": [
 										{
 											"id": "wPApqwfviJeqLPSb_",
+											"sv": 1,
 											"damage": {
 												"type": "cut",
 												"st": "sw",
@@ -12629,23 +12930,22 @@
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 117839,
+						"extended_value": 117859,
 						"weight": "0 lb",
-						"extended_weight": "776 lb"
+						"extended_weight": "776.25 lb"
 					}
 				}
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 178289,
+				"extended_value": 178309,
 				"weight": "0 lb",
-				"extended_weight": "1,372 lb"
+				"extended_weight": "1,372.25 lb"
 			}
 		},
 		{
 			"id": "EHWfKYUVK320DEEhE",
 			"description": "Herbs",
-			"tech_level": "0",
 			"legality_class": "4",
 			"quantity": 1,
 			"equipped": true,
@@ -12655,13 +12955,29 @@
 					"description": "Bagienne Ziele",
 					"local_notes": "Swampweed",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "eXoyqXNyLws2_oHBY",
+					"description": "Chwasty",
+					"local_notes": "Weed",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12669,13 +12985,14 @@
 					"description": "Czarne Ziele",
 					"local_notes": "Dark Herbs",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12683,13 +13000,29 @@
 					"description": "Dragrot",
 					"local_notes": "Dragonroot",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "ezwrv37AcbHhZDx_Z",
+					"description": "Goblinie Jagody",
+					"local_notes": "Goblin Berries",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12697,13 +13030,14 @@
 					"description": "Górski Mech",
 					"local_notes": "Mountain Moss",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12711,13 +13045,14 @@
 					"description": "Jagody",
 					"local_notes": "Blueberries",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12725,13 +13060,14 @@
 					"description": "Kocianka",
 					"local_notes": "Lunanaceae",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12739,13 +13075,14 @@
 					"description": "Korzeń Leczniczy",
 					"local_notes": "Healing Root",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12753,13 +13090,29 @@
 					"description": "Krucze Ziele",
 					"local_notes": "Raven Herbs",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "e60KTut_osElfeDcD",
+					"description": "Leśna Jagoda",
+					"local_notes": "Woodland Berry",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12767,13 +13120,14 @@
 					"description": "Liść Dębu",
 					"local_notes": "Oak Leaf",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12781,13 +13135,14 @@
 					"description": "Mech Nagrobny",
 					"local_notes": "Oak Leaf",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12795,13 +13150,14 @@
 					"description": "Nasienie Czerwonego Buka",
 					"local_notes": "Copper Beech Seed",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12809,13 +13165,29 @@
 					"description": "Nasienie Wysokiego Dębu",
 					"local_notes": "Tower Oak Seed",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "e19o12hsLy6i6W3c5",
+					"description": "Niebieski Bez",
+					"local_notes": "Blue Elder",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12823,13 +13195,59 @@
 					"description": "Ogniocierń",
 					"local_notes": "Flame Thorn",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "ekuh0zEQBbMa-nkz3",
+					"description": "Ognista Pokrzywa",
+					"local_notes": "Fire Nettle",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "eppQ3mh_viWCn-EtN",
+					"description": "Ogniste Ziele",
+					"local_notes": "Fire Herb",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "e97Hlu26gH7VAQszH",
+					"description": "Ognisty Korzeń",
+					"local_notes": "Fire Root",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12837,13 +13255,29 @@
 					"description": "Orkowe Ziele",
 					"local_notes": "Orc Leaf",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "eRh_QUpqR5NAA3ntV",
+					"description": "Polna Jagoda",
+					"local_notes": "Meadow Berry",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12851,13 +13285,28 @@
 					"description": "Psianka",
 					"local_notes": "Solanaceae",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "emt6LLcYNrUEfXJcF",
+					"description": "Rdest Polny",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12865,13 +13314,29 @@
 					"description": "Roślina Lecznicza",
 					"local_notes": "Healing Plant",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "eoGmaLiD6O1NEIBwP",
+					"description": "Rzepa",
+					"local_notes": "Turnip",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12879,13 +13344,14 @@
 					"description": "Serafis",
 					"local_notes": "Seraphis",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12893,13 +13359,44 @@
 					"description": "Smoczy Korzeń",
 					"local_notes": "Dragonroot",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "enZyyVVMwIMGOK8iD",
+					"description": "Szczaw Królewski",
+					"local_notes": "King's Sorrel",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "eYgr38_Ovk8TNFuFD",
+					"description": "Słoneczny Aloes",
+					"local_notes": "Sun Aloe",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12907,13 +13404,14 @@
 					"description": "Trolest",
 					"local_notes": "Troll Nightshade",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12921,13 +13419,14 @@
 					"description": "Twardzień",
 					"local_notes": "Stoneroot",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12935,13 +13434,14 @@
 					"description": "Velais",
 					"local_notes": "Velayis",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				},
 				{
@@ -12949,13 +13449,29 @@
 					"description": "Ziele Lecznicze",
 					"local_notes": "Healing Herb",
 					"legality_class": "4",
+					"base_weight": "0.1",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
 						"value": 0,
 						"extended_value": 0,
-						"weight": "0 lb",
-						"extended_weight": "0 lb"
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "ebdyDVRB8Xieks3md",
+					"description": "Zębate Ziele",
+					"local_notes": "Snapperweed",
+					"legality_class": "4",
+					"base_weight": "0.1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
 					}
 				}
 			],
@@ -12963,7 +13479,7 @@
 				"value": 0,
 				"extended_value": 0,
 				"weight": "0 lb",
-				"extended_weight": "0 lb"
+				"extended_weight": "3.5 lb"
 			}
 		},
 		{
@@ -12981,8 +13497,8 @@
 					"equipped": true,
 					"children": [
 						{
-							"id": "e4uo-SnEjutDc8bw8",
-							"description": "Runa Teleportacji do Obozu na Bagnie",
+							"id": "e24uQpMfvGrPpabaF",
+							"description": "Runa Teleportacji do Magów Ognia",
 							"legality_class": "4",
 							"tags": [
 								"Rune"
@@ -13003,40 +13519,7 @@
 									}
 								]
 							},
-							"vtt_notes": "Teleportuje na plac świątynny w Obozie na Bagnie",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 0,
-								"extended_value": 0,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "ekr3oJdB5Xvg3cYxi",
-							"description": "Runa Teleportacji do Nekromanty",
-							"legality_class": "4",
-							"tags": [
-								"Rune"
-							],
-							"base_value": "0",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 1
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"vtt_notes": "Teleportuje do Wieży Nekromanty",
+							"vtt_notes": "Teleportuje do Magów Ognia w Starym Obozie",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -13080,8 +13563,8 @@
 							}
 						},
 						{
-							"id": "e24uQpMfvGrPpabaF",
-							"description": "Runa Teleportacji do Magów Ognia",
+							"id": "ekr3oJdB5Xvg3cYxi",
+							"description": "Runa Teleportacji do Nekromanty",
 							"legality_class": "4",
 							"tags": [
 								"Rune"
@@ -13102,7 +13585,40 @@
 									}
 								]
 							},
-							"vtt_notes": "Teleportuje do Magów Ognia w Starym Obozie",
+							"vtt_notes": "Teleportuje do Wieży Nekromanty",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 0,
+								"extended_value": 0,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e4uo-SnEjutDc8bw8",
+							"description": "Runa Teleportacji do Obozu na Bagnie",
+							"legality_class": "4",
+							"tags": [
+								"Rune"
+							],
+							"base_value": "0",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 1
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"vtt_notes": "Teleportuje na plac świątynny w Obozie na Bagnie",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -13207,53 +13723,6 @@
 							}
 						},
 						{
-							"id": "eNwCwq7kU_oJi4526",
-							"description": "Runa Sopla Lodu",
-							"legality_class": "4",
-							"tags": [
-								"Adanos",
-								"First Circle",
-								"Rune"
-							],
-							"base_value": "500",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 1
-										},
-										"which": "fp"
-									},
-									{
-										"type": "trait_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "Magery"
-										},
-										"level": {
-											"compare": "at_least",
-											"qualifier": 1
-										}
-									}
-								]
-							},
-							"vtt_notes": "Zadaje niewielkie obrażenia od magii (20)",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 500,
-								"extended_value": 500,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
 							"id": "eu-i363seW1YRz3UH",
 							"description": "Runa Snu",
 							"legality_class": "4",
@@ -13291,6 +13760,53 @@
 								]
 							},
 							"vtt_notes": "Usypia cel zaklęcia na 30 sekund.",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 500,
+								"extended_value": 500,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eNwCwq7kU_oJi4526",
+							"description": "Runa Sopla Lodu",
+							"legality_class": "4",
+							"tags": [
+								"Adanos",
+								"First Circle",
+								"Rune"
+							],
+							"base_value": "500",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 1
+										},
+										"which": "fp"
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 1
+										}
+									}
+								]
+							},
+							"vtt_notes": "Zadaje niewielkie obrażenia od magii (20)",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -13348,147 +13864,6 @@
 							}
 						},
 						{
-							"id": "eelahCtBn0OKNT1eN",
-							"description": "Runa Kuli Ognia",
-							"legality_class": "4",
-							"tags": [
-								"Innos",
-								"Rune",
-								"Third Circle"
-							],
-							"base_value": "700",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 2
-										},
-										"which": "fp"
-									},
-									{
-										"type": "trait_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "Magery"
-										},
-										"level": {
-											"compare": "at_least",
-											"qualifier": 3
-										}
-									}
-								]
-							},
-							"vtt_notes": "Po trafieniu kula ognia zadaje duże obrażenia i podpala cel. Dzięki dłuższej inkantacji czar może zostać wzmocniony – zada wówczas więcej obrażeń (maksymalnie 120 punktów życia), kosztem poświęcenia większej ilości many (do maksymalnie 5 punktów).",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 700,
-								"extended_value": 700,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "e0yCpJzjd1LTJBEcs",
-							"description": "Runa Pirokinezy",
-							"legality_class": "4",
-							"tags": [
-								"Rune",
-								"Sleeper",
-								"Third Circle"
-							],
-							"base_value": "700",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 10
-										},
-										"which": "fp"
-									},
-									{
-										"type": "trait_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "Magery"
-										},
-										"level": {
-											"compare": "at_least",
-											"qualifier": 3
-										}
-									}
-								]
-							},
-							"vtt_notes": "Polega na podwyższeniu temperatury celu zaklęcia, podpaleniu od środka i sparaliżowaniu, zadając 20 punktów obrażeń na każde pół sekundy trwania czaru. Zaklęcie zużywa 4 punkty many na każdą sekundę działania.",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 700,
-								"extended_value": 700,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "eagPoRftnyjV1dOqQ",
-							"description": "Runa Uzdrowienia",
-							"legality_class": "4",
-							"tags": [
-								"Adanos",
-								"Rune",
-								"Second Circle"
-							],
-							"base_value": "700",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 1
-										},
-										"which": "fp"
-									},
-									{
-										"type": "trait_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "Magery"
-										},
-										"level": {
-											"compare": "at_least",
-											"qualifier": 2
-										}
-									}
-								]
-							},
-							"vtt_notes": "Uleczenie samego siebie 10 punktów życia / 1 punkt many. Leczenie kogoś innego 5 punktów / 1 punkt many.",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 700,
-								"extended_value": 700,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
 							"id": "erDaXRUwOW2l_YOJu",
 							"description": "Runa Bryły Lodu",
 							"legality_class": "4",
@@ -13535,12 +13910,59 @@
 							}
 						},
 						{
-							"id": "eRaiPlMtnXjwwzDpF",
-							"description": "Runa Uroku",
+							"id": "eT5Qk8hdsXyosYEcb",
+							"description": "Runa Gromu",
 							"legality_class": "4",
 							"tags": [
+								"Adanos",
+								"Fourth Circle",
+								"Rune"
+							],
+							"base_value": "700",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 5
+										},
+										"which": "st"
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 4
+										}
+									}
+								]
+							},
+							"vtt_notes": "Po krótkiej inkantacji czaru z ręki maga strzela błyskawica, unieruchamiając wroga i zadając 25 punktów obrażeń na sekundę. Po chwili zaklęcie przeskoczy na następny cel, nadal zadając obrażenia wszystkim poprzednio trafionym postaciom. Błyskawica będzie z czasem atakować coraz więcej celów, aż nie będzie w stanie znaleźć następnych i zacznie zadawać obrażenia rzucającemu zaklęcie.",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 700,
+								"extended_value": 700,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eelahCtBn0OKNT1eN",
+							"description": "Runa Kuli Ognia",
+							"legality_class": "4",
+							"tags": [
+								"Innos",
 								"Rune",
-								"Sleeper",
 								"Third Circle"
 							],
 							"base_value": "700",
@@ -13571,54 +13993,7 @@
 									}
 								]
 							},
-							"vtt_notes": "Po rzuceniu tego zaklęcia cel przestaje walczyć i traktuje maga przyjaźnie. Jego działanie jednak jest niepewne i nie zawsze działa sprawnie. Mag musi poświęcić 5 punktów many, aby rzucić ten czar.",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 700,
-								"extended_value": 700,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "eHDScqDhW-PBvKcmE",
-							"description": "Runa Telekinezy",
-							"legality_class": "4",
-							"tags": [
-								"Rune",
-								"Sleeper",
-								"Third Circle"
-							],
-							"base_value": "700",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 3
-										},
-										"which": "fp"
-									},
-									{
-										"type": "trait_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "Magery"
-										},
-										"level": {
-											"compare": "at_least",
-											"qualifier": 3
-										}
-									}
-								]
-							},
-							"vtt_notes": "Podczas inkantacji (zużywającej 1 punkt many na ok. 4-5 sekund) mag przyciąga w swoim kierunku wybrany przedmiot.",
+							"vtt_notes": "Po trafieniu kula ognia zadaje duże obrażenia i podpala cel. Dzięki dłuższej inkantacji czar może zostać wzmocniony – zada wówczas więcej obrażeń (maksymalnie 120 punktów życia), kosztem poświęcenia większej ilości many (do maksymalnie 5 punktów).",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -13723,13 +14098,13 @@
 							}
 						},
 						{
-							"id": "eT5Qk8hdsXyosYEcb",
-							"description": "Runa Gromu",
+							"id": "e0yCpJzjd1LTJBEcs",
+							"description": "Runa Pirokinezy",
 							"legality_class": "4",
 							"tags": [
-								"Adanos",
-								"Fourth Circle",
-								"Rune"
+								"Rune",
+								"Sleeper",
+								"Third Circle"
 							],
 							"base_value": "700",
 							"prereqs": {
@@ -13741,9 +14116,9 @@
 										"has": true,
 										"qualifier": {
 											"compare": "at_least",
-											"qualifier": 5
+											"qualifier": 10
 										},
-										"which": "st"
+										"which": "fp"
 									},
 									{
 										"type": "trait_prereq",
@@ -13754,12 +14129,12 @@
 										},
 										"level": {
 											"compare": "at_least",
-											"qualifier": 4
+											"qualifier": 3
 										}
 									}
 								]
 							},
-							"vtt_notes": "Po krótkiej inkantacji czaru z ręki maga strzela błyskawica, unieruchamiając wroga i zadając 25 punktów obrażeń na sekundę. Po chwili zaklęcie przeskoczy na następny cel, nadal zadając obrażenia wszystkim poprzednio trafionym postaciom. Błyskawica będzie z czasem atakować coraz więcej celów, aż nie będzie w stanie znaleźć następnych i zacznie zadawać obrażenia rzucającemu zaklęcie.",
+							"vtt_notes": "Polega na podwyższeniu temperatury celu zaklęcia, podpaleniu od środka i sparaliżowaniu, zadając 20 punktów obrażeń na każde pół sekundy trwania czaru. Zaklęcie zużywa 4 punkty many na każdą sekundę działania.",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -13770,15 +14145,62 @@
 							}
 						},
 						{
-							"id": "eVsWpofH-_pgeuZlN",
-							"description": "Runa Uderzenia Burzy",
+							"id": "eHDScqDhW-PBvKcmE",
+							"description": "Runa Telekinezy",
 							"legality_class": "4",
 							"tags": [
-								"Fourth Circle",
 								"Rune",
-								"Sleeper"
+								"Sleeper",
+								"Third Circle"
 							],
-							"base_value": "900",
+							"base_value": "700",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 3
+										},
+										"which": "fp"
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 3
+										}
+									}
+								]
+							},
+							"vtt_notes": "Podczas inkantacji (zużywającej 1 punkt many na ok. 4-5 sekund) mag przyciąga w swoim kierunku wybrany przedmiot.",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 700,
+								"extended_value": 700,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eRaiPlMtnXjwwzDpF",
+							"description": "Runa Uroku",
+							"legality_class": "4",
+							"tags": [
+								"Rune",
+								"Sleeper",
+								"Third Circle"
+							],
+							"base_value": "700",
 							"prereqs": {
 								"type": "prereq_list",
 								"all": true,
@@ -13801,17 +14223,64 @@
 										},
 										"level": {
 											"compare": "at_least",
-											"qualifier": 4
+											"qualifier": 3
 										}
 									}
 								]
 							},
-							"vtt_notes": "Odrzuca na dużą odległość i zadaje średnie obrażenia. Ulepszone Uderzenie Wiatru. 15-60 Obrażeń. Siła Knockbacka zależna od zainwestowanej many.",
+							"vtt_notes": "Po rzuceniu tego zaklęcia cel przestaje walczyć i traktuje maga przyjaźnie. Jego działanie jednak jest niepewne i nie zawsze działa sprawnie. Mag musi poświęcić 5 punktów many, aby rzucić ten czar.",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
-								"value": 900,
-								"extended_value": 900,
+								"value": 700,
+								"extended_value": 700,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eagPoRftnyjV1dOqQ",
+							"description": "Runa Uzdrowienia",
+							"legality_class": "4",
+							"tags": [
+								"Adanos",
+								"Rune",
+								"Second Circle"
+							],
+							"base_value": "700",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 1
+										},
+										"which": "fp"
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 2
+										}
+									}
+								]
+							},
+							"vtt_notes": "Uleczenie samego siebie 10 punktów życia / 1 punkt many. Leczenie kogoś innego 5 punktów / 1 punkt many.",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 700,
+								"extended_value": 700,
 								"weight": "0 lb",
 								"extended_weight": "0 lb"
 							}
@@ -13901,6 +14370,53 @@
 								]
 							},
 							"vtt_notes": "W cel uderza piorun, który na chwilę paraliżuje go i zadaje obrażenia, tym większe, im więcej mag poświęci many do jego użycia. Maksymalnie można zadać 80 punktów obrażeń przy 5 punktach zainwestowanej energii magicznej, a minimalnie 20.",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 900,
+								"extended_value": 900,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eVsWpofH-_pgeuZlN",
+							"description": "Runa Uderzenia Burzy",
+							"legality_class": "4",
+							"tags": [
+								"Fourth Circle",
+								"Rune",
+								"Sleeper"
+							],
+							"base_value": "900",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 2
+										},
+										"which": "fp"
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 4
+										}
+									}
+								]
+							},
+							"vtt_notes": "Odrzuca na dużą odległość i zadaje średnie obrażenia. Ulepszone Uderzenie Wiatru. 15-60 Obrażeń. Siła Knockbacka zależna od zainwestowanej many.",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -14116,8 +14632,8 @@
 					"equipped": true,
 					"children": [
 						{
-							"id": "eKUAzkJkiJyN5-v_m",
-							"description": "Zwój Teleportacji do Obozu na Bagnie",
+							"id": "ePf-GHZtUFMDZzDM8",
+							"description": "Zwój Orkowego Zaklęcia Teleportacji",
 							"legality_class": "4",
 							"tags": [
 								"Scroll"
@@ -14138,73 +14654,7 @@
 									}
 								]
 							},
-							"vtt_notes": "Teleportuje na plac świątynny w Obozie na Bagnie",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 0,
-								"extended_value": 0,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "eD60Sikb21f47UP05",
-							"description": "Zwój Teleportacji do Nekromanty",
-							"legality_class": "4",
-							"tags": [
-								"Scroll"
-							],
-							"base_value": "0",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 1
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"vtt_notes": "Teleportuje do Wieży Nekromanty",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 0,
-								"extended_value": 0,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "eOGW3ddcemc867TlM",
-							"description": "Zwój Teleportacji do Magów Wody",
-							"legality_class": "4",
-							"tags": [
-								"Scroll"
-							],
-							"base_value": "0",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 1
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"vtt_notes": "Teleportuje do Magów Wody w Nowym Obozie",
+							"vtt_notes": "Teleportacja do sekretnej części cmentarzyska orków i świątyni Śniącego w Dolinie Górniczej.",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -14248,8 +14698,8 @@
 							}
 						},
 						{
-							"id": "ePf-GHZtUFMDZzDM8",
-							"description": "Zwój Orkowego Zaklęcia Teleportacji",
+							"id": "eOGW3ddcemc867TlM",
+							"description": "Zwój Teleportacji do Magów Wody",
 							"legality_class": "4",
 							"tags": [
 								"Scroll"
@@ -14270,7 +14720,73 @@
 									}
 								]
 							},
-							"vtt_notes": "Teleportacja do sekretnej części cmentarzyska orków i świątyni Śniącego w Dolinie Górniczej.",
+							"vtt_notes": "Teleportuje do Magów Wody w Nowym Obozie",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 0,
+								"extended_value": 0,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eD60Sikb21f47UP05",
+							"description": "Zwój Teleportacji do Nekromanty",
+							"legality_class": "4",
+							"tags": [
+								"Scroll"
+							],
+							"base_value": "0",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 1
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"vtt_notes": "Teleportuje do Wieży Nekromanty",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 0,
+								"extended_value": 0,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eKUAzkJkiJyN5-v_m",
+							"description": "Zwój Teleportacji do Obozu na Bagnie",
+							"legality_class": "4",
+							"tags": [
+								"Scroll"
+							],
+							"base_value": "0",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 1
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"vtt_notes": "Teleportuje na plac świątynny w Obozie na Bagnie",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -14386,13 +14902,13 @@
 							}
 						},
 						{
-							"id": "e_7avE5IylltylM6p",
-							"description": "Zwój Uzdrowienia",
+							"id": "eDPVCBWSTY03eBsjp",
+							"description": "Zwój Sopla Lodu",
 							"legality_class": "4",
 							"tags": [
 								"Adanos",
-								"Scroll",
-								"Second Circle"
+								"First Circle",
+								"Scroll"
 							],
 							"base_value": "50",
 							"prereqs": {
@@ -14410,7 +14926,7 @@
 									}
 								]
 							},
-							"vtt_notes": "Uleczenie samego siebie 10 punktów życia / 1 punkt many. Leczenie kogoś innego 5 punktów / 1 punkt many.",
+							"vtt_notes": "Zadaje niewielkie obrażenia od magii (20)",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -14456,13 +14972,13 @@
 							}
 						},
 						{
-							"id": "eDPVCBWSTY03eBsjp",
-							"description": "Zwój Sopla Lodu",
+							"id": "e_7avE5IylltylM6p",
+							"description": "Zwój Uzdrowienia",
 							"legality_class": "4",
 							"tags": [
 								"Adanos",
-								"First Circle",
-								"Scroll"
+								"Scroll",
+								"Second Circle"
 							],
 							"base_value": "50",
 							"prereqs": {
@@ -14480,46 +14996,12 @@
 									}
 								]
 							},
-							"vtt_notes": "Zadaje niewielkie obrażenia od magii (20)",
+							"vtt_notes": "Uleczenie samego siebie 10 punktów życia / 1 punkt many. Leczenie kogoś innego 5 punktów / 1 punkt many.",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
 								"value": 50,
 								"extended_value": 50,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "e_WyKDRg8pP6GDT09",
-							"description": "Zwój Telekinezy",
-							"legality_class": "4",
-							"tags": [
-								"Scroll",
-								"Sleeper",
-								"Third Circle"
-							],
-							"base_value": "70",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 3
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 70,
-								"extended_value": 70,
 								"weight": "0 lb",
 								"extended_weight": "0 lb"
 							}
@@ -14550,41 +15032,6 @@
 								]
 							},
 							"vtt_notes": "50 pkt obrażeń, unieruchamia cel w bryle lodu na 10 sekund. Non-lethal.",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 70,
-								"extended_value": 70,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "eyk9ffRX-K_aCh1J4",
-							"description": "Zwój Uroku",
-							"legality_class": "4",
-							"tags": [
-								"Scroll",
-								"Sleeper",
-								"Third Circle"
-							],
-							"base_value": "70",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 2
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"vtt_notes": "Po rzuceniu tego zaklęcia cel przestaje walczyć i traktuje maga przyjaźnie. Jego działanie jednak jest niepewne i nie zawsze działa sprawnie. Mag musi poświęcić 5 punktów many, aby rzucić ten czar.",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -14712,6 +15159,110 @@
 							}
 						},
 						{
+							"id": "e_WyKDRg8pP6GDT09",
+							"description": "Zwój Telekinezy",
+							"legality_class": "4",
+							"tags": [
+								"Scroll",
+								"Sleeper",
+								"Third Circle"
+							],
+							"base_value": "70",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 3
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 70,
+								"extended_value": 70,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eyk9ffRX-K_aCh1J4",
+							"description": "Zwój Uroku",
+							"legality_class": "4",
+							"tags": [
+								"Scroll",
+								"Sleeper",
+								"Third Circle"
+							],
+							"base_value": "70",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 2
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"vtt_notes": "Po rzuceniu tego zaklęcia cel przestaje walczyć i traktuje maga przyjaźnie. Jego działanie jednak jest niepewne i nie zawsze działa sprawnie. Mag musi poświęcić 5 punktów many, aby rzucić ten czar.",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 70,
+								"extended_value": 70,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "erPhERFFjYbJvbEpF",
+							"description": "Zwój Kontroli",
+							"legality_class": "4",
+							"tags": [
+								"Fourth Circle",
+								"Scroll",
+								"Sleeper"
+							],
+							"base_value": "90",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 4
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"vtt_notes": "Pozwala przejąć kontrolę nad celem. Jeśli zaklęcie się nie powiedzie, cel będzie wrogo nastawiony do rzucającego. Czar nie jest ograniczony czasowo, ale nie można oddalić się kontrolowanym przeciwnikiem zbyt daleko od rzucającego zaklęcie.",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 90,
+								"extended_value": 90,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
 							"id": "eNhHSNhUnahuZNZ-6",
 							"description": "Zwój Pioruna Kulistego",
 							"legality_class": "4",
@@ -14777,173 +15328,6 @@
 							"calc": {
 								"value": 90,
 								"extended_value": 90,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "erPhERFFjYbJvbEpF",
-							"description": "Zwój Kontroli",
-							"legality_class": "4",
-							"tags": [
-								"Fourth Circle",
-								"Scroll",
-								"Sleeper"
-							],
-							"base_value": "90",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 4
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"vtt_notes": "Pozwala przejąć kontrolę nad celem. Jeśli zaklęcie się nie powiedzie, cel będzie wrogo nastawiony do rzucającego. Czar nie jest ograniczony czasowo, ale nie można oddalić się kontrolowanym przeciwnikiem zbyt daleko od rzucającego zaklęcie.",
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 90,
-								"extended_value": 90,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "eoYyWZ0mVQ-MhXUg3",
-							"description": "Zwój Przemiany w Pełzacza",
-							"legality_class": "4",
-							"tags": [
-								"Adanos",
-								"Scroll"
-							],
-							"base_value": "100",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 10
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 100,
-								"extended_value": 100,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "eXnLyb2L8rb2Vf9ay",
-							"description": "Zwój Przemiany w Topielca",
-							"legality_class": "4",
-							"tags": [
-								"Adanos",
-								"Scroll"
-							],
-							"base_value": "100",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 6
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 100,
-								"extended_value": 100,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "eZd-RPDf07Pug90Sz",
-							"description": "Zwój Przemiany w Krwiopijcę",
-							"legality_class": "4",
-							"tags": [
-								"Adanos",
-								"Scroll"
-							],
-							"base_value": "100",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 3
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 100,
-								"extended_value": 100,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
-							"id": "enXNM3lSkexkXv7XI",
-							"description": "Zwój Przemiany w Ścierwojada",
-							"legality_class": "4",
-							"tags": [
-								"Adanos",
-								"Scroll"
-							],
-							"base_value": "100",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 2
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 100,
-								"extended_value": 100,
 								"weight": "0 lb",
 								"extended_weight": "0 lb"
 							}
@@ -15015,39 +15399,6 @@
 							}
 						},
 						{
-							"id": "e9ka-1hFCFkXnrJBE",
-							"description": "Zwój Przemiany w Wilka",
-							"legality_class": "4",
-							"tags": [
-								"Adanos",
-								"Scroll"
-							],
-							"base_value": "100",
-							"prereqs": {
-								"type": "prereq_list",
-								"all": true,
-								"prereqs": [
-									{
-										"type": "attribute_prereq",
-										"has": true,
-										"qualifier": {
-											"compare": "at_least",
-											"qualifier": 3
-										},
-										"which": "fp"
-									}
-								]
-							},
-							"quantity": 1,
-							"equipped": true,
-							"calc": {
-								"value": 100,
-								"extended_value": 100,
-								"weight": "0 lb",
-								"extended_weight": "0 lb"
-							}
-						},
-						{
 							"id": "eTa-iWpeJEjcpMwpU",
 							"description": "Zwój Przemiany w Kretoszczura",
 							"legality_class": "4",
@@ -15081,15 +15432,80 @@
 							}
 						},
 						{
-							"id": "eYUPbItBxVQbh0vNZ",
-							"description": "Zwój Ognistej Burzy",
+							"id": "eZd-RPDf07Pug90Sz",
+							"description": "Zwój Przemiany w Krwiopijcę",
 							"legality_class": "4",
 							"tags": [
-								"Fourth Circle",
-								"Innos",
+								"Adanos",
 								"Scroll"
 							],
-							"base_value": "110",
+							"base_value": "100",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 3
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 100,
+								"extended_value": 100,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eoYyWZ0mVQ-MhXUg3",
+							"description": "Zwój Przemiany w Pełzacza",
+							"legality_class": "4",
+							"tags": [
+								"Adanos",
+								"Scroll"
+							],
+							"base_value": "100",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 10
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 100,
+								"extended_value": 100,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eXnLyb2L8rb2Vf9ay",
+							"description": "Zwój Przemiany w Topielca",
+							"legality_class": "4",
+							"tags": [
+								"Adanos",
+								"Scroll"
+							],
+							"base_value": "100",
 							"prereqs": {
 								"type": "prereq_list",
 								"all": true,
@@ -15105,12 +15521,77 @@
 									}
 								]
 							},
-							"vtt_notes": "Zasada jego działania jest podobna do kuli ognia, lecz zadaje większe obrażenia i atakuje nie tylko sam cel, ale również inne pobliskie postaci lub potwory. W zależności od naładowania zaklęcia magiczną energią zadaje ono głównemu celowi od 50 do 200 punktów obrażeń, natomiast efekt rozprysku zawsze zadaje 50 punktów obrażeń istotom znajdującym się w pobliżu.",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
-								"value": 110,
-								"extended_value": 110,
+								"value": 100,
+								"extended_value": 100,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e9ka-1hFCFkXnrJBE",
+							"description": "Zwój Przemiany w Wilka",
+							"legality_class": "4",
+							"tags": [
+								"Adanos",
+								"Scroll"
+							],
+							"base_value": "100",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 3
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 100,
+								"extended_value": 100,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "enXNM3lSkexkXv7XI",
+							"description": "Zwój Przemiany w Ścierwojada",
+							"legality_class": "4",
+							"tags": [
+								"Adanos",
+								"Scroll"
+							],
+							"base_value": "100",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 2
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 100,
+								"extended_value": 100,
 								"weight": "0 lb",
 								"extended_weight": "0 lb"
 							}
@@ -15141,6 +15622,41 @@
 								]
 							},
 							"vtt_notes": "Jest to obszarowa wersja bryły lodu.",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 110,
+								"extended_value": 110,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eYUPbItBxVQbh0vNZ",
+							"description": "Zwój Ognistej Burzy",
+							"legality_class": "4",
+							"tags": [
+								"Fourth Circle",
+								"Innos",
+								"Scroll"
+							],
+							"base_value": "110",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 6
+										},
+										"which": "fp"
+									}
+								]
+							},
+							"vtt_notes": "Zasada jego działania jest podobna do kuli ognia, lecz zadaje większe obrażenia i atakuje nie tylko sam cel, ale również inne pobliskie postaci lub potwory. W zależności od naładowania zaklęcia magiczną energią zadaje ono głównemu celowi od 50 do 200 punktów obrażeń, natomiast efekt rozprysku zawsze zadaje 50 punktów obrażeń istotom znajdującym się w pobliżu.",
 							"quantity": 1,
 							"equipped": true,
 							"calc": {
@@ -15322,8 +15838,8 @@
 							}
 						},
 						{
-							"id": "eHmBkIOsVwQ5kXQ1z",
-							"description": "Zwój Przemiany w Orkowego Psa",
+							"id": "edVNxHOBON-Vhu_Sk",
+							"description": "Zwój Przemiany w Cieniostwora",
 							"legality_class": "4",
 							"tags": [
 								"Adanos",
@@ -15355,8 +15871,8 @@
 							}
 						},
 						{
-							"id": "edVNxHOBON-Vhu_Sk",
-							"description": "Zwój Przemiany w Cieniostwora",
+							"id": "eHmBkIOsVwQ5kXQ1z",
+							"description": "Zwój Przemiany w Orkowego Psa",
 							"legality_class": "4",
 							"tags": [
 								"Adanos",
@@ -15579,11 +16095,211 @@
 			"legality_class": "4",
 			"quantity": 1,
 			"equipped": true,
+			"children": [
+				{
+					"id": "EecbAsJYfP-srM35i",
+					"description": "Drinks",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eO2ddgKGacTH2mVuQ",
+							"description": "Piwo",
+							"local_notes": "Beer",
+							"legality_class": "4",
+							"base_weight": "1",
+							"max_uses": 1,
+							"quantity": 1,
+							"uses": 1,
+							"equipped": true,
+							"calc": {
+								"value": 0,
+								"extended_value": 0,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "eczXKJbMkWRnFvcMO",
+							"description": "Woda",
+							"local_notes": "Water",
+							"legality_class": "4",
+							"base_weight": "1",
+							"max_uses": 1,
+							"ignore_weight_for_skills": true,
+							"quantity": 1,
+							"uses": 1,
+							"equipped": true,
+							"calc": {
+								"value": 0,
+								"extended_value": 0,
+								"weight": "1 lb",
+								"extended_weight": "1 lb",
+								"extended_weight_for_skills": "0 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0 lb",
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "E1sMrPkZS2qhGY6wb",
+					"description": "Food",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "ehkHm3EACzBilGLHB",
+							"description": "Suszona Kiełbasa",
+							"local_notes": "Dried Sausages",
+							"legality_class": "4",
+							"base_weight": "2",
+							"max_uses": 2,
+							"quantity": 1,
+							"uses": 2,
+							"equipped": true,
+							"calc": {
+								"value": 0,
+								"extended_value": 0,
+								"weight": "2 lb",
+								"extended_weight": "2 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "0 lb",
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "EuHPiFl2twOYzu57n",
+					"description": "Smoking",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eQLcm61-BEGOukMkT",
+							"description": "Czarny Rhobar",
+							"local_notes": "Black Rhobar",
+							"legality_class": "4",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 0,
+								"extended_value": 0,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "ey6Nivd0SKWEhBIxy",
+							"description": "Wyjątkowy Czarny Rhobar",
+							"local_notes": "Black Rhobar Special",
+							"legality_class": "4",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 0,
+								"extended_value": 0,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "elZXJAuj2bq2bhUoy",
+							"description": "Zielony Nowicjusz",
+							"local_notes": "Green Novice",
+							"legality_class": "4",
+							"base_value": "8",
+							"base_weight": "0.01",
+							"max_uses": 1,
+							"quantity": 1,
+							"uses": 1,
+							"equipped": true,
+							"calc": {
+								"value": 8,
+								"extended_value": 8,
+								"weight": "0.01 lb",
+								"extended_weight": "0.01 lb"
+							}
+						},
+						{
+							"id": "eC2X7oxTbYZjmZvmI",
+							"description": "Mrok Północy",
+							"local_notes": "Northern Dark",
+							"legality_class": "4",
+							"base_value": "15",
+							"base_weight": "0.01",
+							"max_uses": 1,
+							"quantity": 1,
+							"uses": 1,
+							"equipped": true,
+							"calc": {
+								"value": 15,
+								"extended_value": 15,
+								"weight": "0.01 lb",
+								"extended_weight": "0.01 lb"
+							}
+						},
+						{
+							"id": "e8jKrGMK7pcgvJE6Y",
+							"description": "Zew Nocy",
+							"local_notes": "Dreamcall",
+							"legality_class": "4",
+							"base_value": "20",
+							"base_weight": "0.01",
+							"max_uses": 1,
+							"quantity": 1,
+							"uses": 1,
+							"equipped": true,
+							"calc": {
+								"value": 20,
+								"extended_value": 20,
+								"weight": "0.01 lb",
+								"extended_weight": "0.01 lb"
+							}
+						},
+						{
+							"id": "eaHdt8K66XQLuZt6o",
+							"description": "Przygotowany Zew Nocy",
+							"local_notes": "Prepared Dreamcall",
+							"legality_class": "4",
+							"base_value": "200",
+							"base_weight": "0.01",
+							"max_uses": 1,
+							"quantity": 1,
+							"uses": 1,
+							"equipped": true,
+							"calc": {
+								"value": 200,
+								"extended_value": 200,
+								"weight": "0.01 lb",
+								"extended_weight": "0.01 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 243,
+						"weight": "0 lb",
+						"extended_weight": "0.04 lb"
+					}
+				}
+			],
 			"calc": {
 				"value": 0,
-				"extended_value": 0,
+				"extended_value": 243,
 				"weight": "0 lb",
-				"extended_weight": "0 lb"
+				"extended_weight": "4.04 lb"
 			}
 		}
 	]

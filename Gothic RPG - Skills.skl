@@ -979,35 +979,6 @@
 					"points": 1
 				},
 				{
-					"id": "sV0bjfDztJSewabTY",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sB651vLUsyZcvdcaR"
-					},
-					"name": "Forgery",
-					"reference": "B196",
-					"tags": [
-						"Criminal",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": "Counterfeiting",
-							"modifier": -2
-						}
-					],
-					"tech_level": "",
-					"points": 1
-				},
-				{
 					"id": "sKel8B9aHZUfErZcJ",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",

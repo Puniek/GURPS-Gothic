@@ -2,6 +2,706 @@
 	"version": 5,
 	"rows": [
 		{
+			"id": "tSgXwCsLJRIugdt8I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t2lEvLuiVboewGE6k"
+			},
+			"name": "Pacifism: Total Nonviolence",
+			"reference": "B148",
+			"local_notes": "You will not lift a hand against another intelligent creature, for any reason. You must do your nonviolent best to discourage violent behavior in others, too. You are free to defend yourself against attacks by animals, mosquitoes, etc.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mlfqV2TBA4RE08Nqg",
+					"name": "Species-Specific",
+					"reference": "UT32",
+					"cost": -80,
+					"disabled": true
+				}
+			],
+			"base_points": -30,
+			"calc": {
+				"points": -30
+			}
+		},
+		{
+			"id": "tdI2ps5oLSaU8o3PO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "txnM_WQ3Sz7eeA344"
+			},
+			"name": "Bad Sight (Nearsighted)",
+			"reference": "B123",
+			"local_notes": "Double actual distance to the target when calculating the range modifier for ranged attacks",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mKQY3HExp0kyOBbfa",
+					"name": "Mitigator",
+					"local_notes": "Glasses",
+					"cost": -60,
+					"disabled": true
+				}
+			],
+			"base_points": -25,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Vision rolls to spot items more than 1 yd away",
+					"amount": -6
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "to all melee attacks",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"points": -25
+			}
+		},
+		{
+			"id": "t0LGucgoTMigheks_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tunEojd-PNzEzVNaU"
+			},
+			"name": "Bad Sight (Farsighted)",
+			"reference": "B123",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mfP2HDpGCLn7V9RLe",
+					"name": "Mitigator",
+					"local_notes": "Glasses",
+					"cost": -60,
+					"disabled": true
+				}
+			],
+			"base_points": -25,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Vision rolls to spot items within 1 yd",
+					"amount": -6
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "to DX for any close manual task, including close combat",
+					"amount": -3
+				}
+			],
+			"calc": {
+				"points": -25
+			}
+		},
+		{
+			"id": "t_rHzdbd8-8gte4nt",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "thSMVzJ590v7gAD8d"
+			},
+			"name": "Pacifism: Self-Defense Only",
+			"reference": "B148",
+			"local_notes": "You only fight to defend yourself or those in your care, using only as much force as necessary (no pre-emptive strikes allowed!). You must do your best to discourage others from starting fights.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mb9t9kh2MjHx6c-vK",
+					"name": "Species-Specific",
+					"reference": "UT32",
+					"cost": -80,
+					"disabled": true
+				}
+			],
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "t4v618DFZ3O3UMhh2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tHya0RG2_BqeqLArf"
+			},
+			"name": "Code of Honor (Chivalry)",
+			"reference": "B127",
+			"local_notes": "Protect any lady, and anyone weaker than yourself. Never break your word. Never ignore an insult to yourself, a lady, your liege-lord, or your faith; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (even in open war if the foe is also noble and chivalrous). Accept any challenge to arms from anyone of greater or equal rank.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "tatbZsjBcQehDcmba",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tOIbA7bxjknhRjYSU"
+			},
+			"name": "Bad Back",
+			"reference": "B123",
+			"local_notes": "Throw out your back whenever you make a ST roll, and whenever you roll 17 or 18 on an attack or defense roll in melee combat, or on a roll for an “athletic” skill such as Acrobatics, make a HT roll as well",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mLNcV1x_r20h7CQL_",
+					"name": "Severe",
+					"reference": "B123",
+					"local_notes": "The HT roll is at -2",
+					"cost": -10,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "tdFOMA8o1JO850tkh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tG1q2hcai2DaeRlhm"
+			},
+			"name": "Kleptomania",
+			"reference": "B141",
+			"local_notes": "Make a self-control roll whenever you are presented with a chance to steal, at up to -3 if the item is especially interesting to you (not necessarily valuable, unless you are poor or have Greed). If you fail, you must try to steal it. You may keep or sell stolen items, but you may not return or discard them.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "tdVeCk3ahuqGte20P",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tUl2tCfZVgRF9QWYx"
+			},
+			"name": "Pacifism: Cannot Kill",
+			"reference": "B148",
+			"local_notes": "You may fight – you may even start fights – but you may never do anything that seems likely to kill another. This includes abandoning a wounded foe to die “on his own”! You must do your best to keep your companions from killing, too. If you do kill someone (or feel responsible for a death), you immediately suffer a nervous breakdown. Roll 3d and be totally morose and useless for that many days. During this time, you must make a Will roll to offer any sort of violence toward anyone, for any reason.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "m9Cdo8y-xBG0FxylI",
+					"name": "Species-Specific",
+					"reference": "UT32",
+					"cost": -80,
+					"disabled": true
+				}
+			],
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "ttwiS_NCVIwtEUs7_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t5g6bNO5HiThCJ7_D"
+			},
+			"name": "Very Unfit",
+			"reference": "B160",
+			"local_notes": "You lose FP at twice the normal rate and recover FP at only half the normal rate",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "contains",
+							"qualifier": "resistant"
+						}
+					}
+				]
+			},
+			"base_points": -15,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "-2 to all HT rolls to remain conscious, avoid death, resist disease or poison, etc.",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "tMd-A1qr0JTufqI8O",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tCkS7354KTh2G6WfI"
+			},
+			"name": "Alcoholism",
+			"reference": "B122",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "ma1muoTnohuN3XCiP",
+					"name": "Illegal",
+					"reference": "B122",
+					"cost": -5,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "t2tuldTqZmNmFD3lB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tvF5dIQf3Jrwb_KXv"
+			},
+			"name": "Greed",
+			"reference": "B137",
+			"local_notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
+		},
+		{
+			"id": "tHeOanb-hOY76kPrc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tmRX0o0iO20zWIVyo"
+			},
+			"name": "Bloodlust",
+			"reference": "B125",
+			"local_notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "t3bkflhlzckbH0vWa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tEPlPRVY1z8clGFZ1"
+			},
+			"name": "Code of Honor (Gentleman's)",
+			"reference": "B127",
+			"local_notes": "Never break your word. Never ignore an insult to yourself, a lady, or your flag; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (except in open war). This only applies between gentlemen.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "t7fvxNAM9YUG2HApv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "txSrmgLB0M36uR802"
+			},
+			"name": "Code of Honor (Soldier's)",
+			"reference": "B127",
+			"local_notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his kit. Every soldier should be willing to fight and die for the honor of his unit, service, and country; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a bullet); and wear the uniform with pride.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tpvSazdfFBnqtQX1A",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "th9TK1Jmqg8uKe6SC"
+			},
+			"name": "Pacifism: Cannot Harm Innocents",
+			"reference": "B148",
+			"local_notes": "You may fight – you may even start fights – but you may only use deadly force on a foe that is attempting to do you serious harm. Capture is not “serious harm” unless you are already under penalty of death or have a Code of Honor that would require suicide if captured. You never intentionally do anything that causes, or even threatens to cause, injury to the uninvolved – particularly if they are “ordinary folks.”",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mqSarBn4IiIqH74R3",
+					"name": "Species-Specific",
+					"reference": "UT32",
+					"cost": -80,
+					"disabled": true
+				}
+			],
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tbpYfRb2iAMB6sNjY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t7pCgXTVkswkTjOZO"
+			},
+			"name": "Honesty",
+			"reference": "B138",
+			"local_notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "t7BEpVaZZVYTVmiX1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tV_f_75HmwzWOPhuu"
+			},
+			"name": "Pacifism: Reluctant Killer",
+			"reference": "B148",
+			"local_notes": "You are psychologically unprepared to kill people. Whenever you make a deadly attack (e.g., with a knife or a gun) against an obvious person whose face is visible to you, you are at -4 to hit and may not Aim. If you cannot see the foe’s face (due to a mask, darkness, or distance, or because you attacked from behind), the penalty is only -2, save in close combat. You have no penalty to attack a vehicle (even an occupied one), an opponent you do not believe is a person (including things with Horrific or Monstrous appearance), or a target you can’t actually see (e.g., a set of map coordinates or a blip on a radar screen). If you kill a recognizable person, the effect on you is the same as for Pacifism: Cannot Kill. You have no problem with your allies killing; you may even supply ammo, loaded weapons, and encouragement! You just can’t do the killing yourself.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "m9-3xxs9ZvqshFt1J",
+					"name": "Species-Specific",
+					"reference": "UT32",
+					"cost": -80,
+					"disabled": true
+				}
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tptkOwMcC9BdBlAme",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tqq24I9NJrLajsURv"
+			},
+			"name": "Code of Honor (Pirate's)",
+			"reference": "B127",
+			"local_notes": "Always avenge an insult, regardless of the danger; your buddy’s foe is your own; never attack a fellow crewman or buddy except in a fair, open duel.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tVzYSyVNzrfrZZ9VP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tW3e4OJTtFNNveAgo"
+			},
+			"name": "Code of Honor (Professional)",
+			"reference": "B127",
+			"local_notes": "Adhere to the ethics of your profession; always do your job to the best of your ability; support your guild, union, or professional association.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tLsvaIv6EpP5xAScv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tiE78wcDJSFASATPK"
+			},
+			"name": "Code of Honor (Theatrical)",
+			"reference": "B127, BS186",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "t-FwyCdWu_bS4XKDb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tItKCGaV9UN_W1pVs"
+			},
+			"name": "Unfit",
+			"reference": "B160",
+			"local_notes": "You lose FP at twice the normal rate",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"base_points": -5,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to all HT rolls to remain conscious, avoid death, resist disease or poison, etc",
+					"amount": -1
+				}
+			],
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tIHglJnq8k7w5HLwo",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tRJveiSBWJIO33TKw"
+			},
+			"name": "Bad Grip",
+			"reference": "B123",
+			"tags": [
+				"Disadvantage",
+				"Physical"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "no fine manipulators"
+						}
+					}
+				]
+			},
+			"points_per_level": -5,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to tasks that require a firm grip (max 3 levels)",
+					"amount": -2,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tjQBR2moIL4Lp9fNV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tBfCffXDV68yHqJ5h"
+			},
+			"name": "Minor Addiction",
+			"reference": "B164",
+			"local_notes": "@Substance@",
+			"tags": [
+				"Mental",
+				"Quirk"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "trj5P6ibQfcHy68Sk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tEt35oNyt6mqHi_k9"
+			},
+			"name": "Alcohol Intolerance",
+			"reference": "B165",
+			"tags": [
+				"Physical",
+				"Quirk"
+			],
+			"base_points": -1,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "on all HT rolls related to drinking",
+					"amount": -2
+				}
+			],
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "tlVnNd09hyxjp_tKq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tYKd1V2ZzpN6-3H8E"
+			},
+			"name": "Code of Honor",
+			"reference": "B163,MA53",
+			"local_notes": "@Subject@",
+			"tags": [
+				"Mental",
+				"Quirk"
+			],
+			"base_points": -1,
+			"calc": {
+				"points": -1
+			}
+		},
+		{
+			"id": "tMNGq9XEG-6Qyi-BE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tRBGNZTHk6KJgxsCi"
+			},
+			"name": "Weapon Master (@Specialty@)",
+			"reference": "B99,MA48",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"modifiers": [
+				{
+					"id": "mxk1gTpl77RGWVBQ9",
+					"name": "One weapon",
+					"reference": "B99",
+					"cost": 20,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mc9W-kq5OuE3ffcIX",
+					"name": "Two weapons",
+					"reference": "B99",
+					"cost": 25,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m42V-O1tnmOs2aJm8",
+					"name": "Small class",
+					"reference": "B99",
+					"cost": 30,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "m2bmyMnhtsbL6jOVQ",
+					"name": "Medium class",
+					"reference": "B99",
+					"cost": 35,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mFFZanPpdvA6ZCBie",
+					"name": "Large class",
+					"reference": "B99",
+					"cost": 40,
+					"cost_type": "points",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
 			"id": "t9W2MUld12uWDxtCe",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -108,511 +808,6 @@
 			],
 			"calc": {
 				"points": 0
-			}
-		},
-		{
-			"id": "trj5P6ibQfcHy68Sk",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tEt35oNyt6mqHi_k9"
-			},
-			"name": "Alcohol Intolerance",
-			"reference": "B165",
-			"tags": [
-				"Physical",
-				"Quirk"
-			],
-			"base_points": -1,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "on all HT rolls related to drinking",
-					"amount": -2
-				}
-			],
-			"calc": {
-				"points": -1
-			}
-		},
-		{
-			"id": "t8TlNG1BluYZpsMrP",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t59wSfU9kpC1rus5P"
-			},
-			"name": "Alcohol Tolerance",
-			"reference": "B100",
-			"tags": [
-				"Perk",
-				"Physical"
-			],
-			"base_points": 1,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "on all HT rolls related to drinking",
-					"amount": 2
-				}
-			],
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tMd-A1qr0JTufqI8O",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tCkS7354KTh2G6WfI"
-			},
-			"name": "Alcoholism",
-			"reference": "B122",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "ma1muoTnohuN3XCiP",
-					"name": "Illegal",
-					"reference": "B122",
-					"cost": -5,
-					"cost_type": "points",
-					"disabled": true
-				}
-			],
-			"base_points": -15,
-			"calc": {
-				"points": -15
-			}
-		},
-		{
-			"id": "tdb4_Tkv1W6HsBv61",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tE_Ykx9nKvsgBGb6L"
-			},
-			"name": "Ambidexterity",
-			"reference": "B39",
-			"tags": [
-				"Advantage",
-				"Physical"
-			],
-			"base_points": 5,
-			"calc": {
-				"points": 5
-			}
-		},
-		{
-			"id": "tatbZsjBcQehDcmba",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tOIbA7bxjknhRjYSU"
-			},
-			"name": "Bad Back",
-			"reference": "B123",
-			"local_notes": "Throw out your back whenever you make a ST roll, and whenever you roll 17 or 18 on an attack or defense roll in melee combat, or on a roll for an “athletic” skill such as Acrobatics, make a HT roll as well",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "mLNcV1x_r20h7CQL_",
-					"name": "Severe",
-					"reference": "B123",
-					"local_notes": "The HT roll is at -2",
-					"cost": -10,
-					"cost_type": "points",
-					"disabled": true
-				}
-			],
-			"base_points": -15,
-			"calc": {
-				"points": -15
-			}
-		},
-		{
-			"id": "tIHglJnq8k7w5HLwo",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tRJveiSBWJIO33TKw"
-			},
-			"name": "Bad Grip",
-			"reference": "B123",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": false,
-						"name": {
-							"compare": "is",
-							"qualifier": "no fine manipulators"
-						}
-					}
-				]
-			},
-			"points_per_level": -5,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to tasks that require a firm grip (max 3 levels)",
-					"amount": -2,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": -5
-			}
-		},
-		{
-			"id": "t0LGucgoTMigheks_",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tunEojd-PNzEzVNaU"
-			},
-			"name": "Bad Sight (Farsighted)",
-			"reference": "B123",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "mfP2HDpGCLn7V9RLe",
-					"name": "Mitigator",
-					"local_notes": "Glasses",
-					"cost": -60,
-					"disabled": true
-				}
-			],
-			"base_points": -25,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to Vision rolls to spot items within 1 yd",
-					"amount": -6
-				},
-				{
-					"type": "conditional_modifier",
-					"situation": "to DX for any close manual task, including close combat",
-					"amount": -3
-				}
-			],
-			"calc": {
-				"points": -25
-			}
-		},
-		{
-			"id": "tdI2ps5oLSaU8o3PO",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "txnM_WQ3Sz7eeA344"
-			},
-			"name": "Bad Sight (Nearsighted)",
-			"reference": "B123",
-			"local_notes": "Double actual distance to the target when calculating the range modifier for ranged attacks",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "mKQY3HExp0kyOBbfa",
-					"name": "Mitigator",
-					"local_notes": "Glasses",
-					"cost": -60,
-					"disabled": true
-				}
-			],
-			"base_points": -25,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to Vision rolls to spot items more than 1 yd away",
-					"amount": -6
-				},
-				{
-					"type": "conditional_modifier",
-					"situation": "to all melee attacks",
-					"amount": -2
-				}
-			],
-			"calc": {
-				"points": -25
-			}
-		},
-		{
-			"id": "tHeOanb-hOY76kPrc",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tmRX0o0iO20zWIVyo"
-			},
-			"name": "Bloodlust",
-			"reference": "B125",
-			"local_notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"cr": 12,
-			"base_points": -10,
-			"calc": {
-				"points": -10
-			}
-		},
-		{
-			"id": "t5hiUOP2NBJXUpcjZ",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "toR2WVDUE1bxCVOps"
-			},
-			"name": "Chronic Pain",
-			"reference": "B126",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "mRgSGxdarfSRKTZuk",
-					"name": "1 hour interval",
-					"reference": "B126",
-					"cost": 0.5,
-					"cost_type": "multiplier",
-					"disabled": true
-				},
-				{
-					"id": "mLnG7jyJGcrXphkNV",
-					"name": "2 hour interval",
-					"reference": "B126",
-					"cost": 1,
-					"cost_type": "multiplier",
-					"disabled": true
-				},
-				{
-					"id": "mak8XIkW7PegZsMLh",
-					"name": "4 hour interval",
-					"reference": "B126",
-					"cost": 1.5,
-					"cost_type": "multiplier",
-					"disabled": true
-				},
-				{
-					"id": "mnHeoOdNlzQsXDVz9",
-					"name": "8 hour interval",
-					"reference": "B126",
-					"cost": 2,
-					"cost_type": "multiplier",
-					"disabled": true
-				},
-				{
-					"id": "m3ktQRJk_FSBIoovh",
-					"name": "FR: 6",
-					"cost": 0.5,
-					"cost_type": "multiplier",
-					"disabled": true
-				},
-				{
-					"id": "m_JHKNC6FJHF54k4F",
-					"name": "FR: 9",
-					"cost": 1,
-					"cost_type": "multiplier",
-					"disabled": true
-				},
-				{
-					"id": "mDItzxAdkJ-CpQpoG",
-					"name": "FR: 12",
-					"cost": 2,
-					"cost_type": "multiplier",
-					"disabled": true
-				},
-				{
-					"id": "mntgqhVt-55ByHsDG",
-					"name": "FR: 15",
-					"cost": 3,
-					"cost_type": "multiplier",
-					"disabled": true
-				},
-				{
-					"id": "mS4j_HkVrpsPT5XmF",
-					"name": "Mild",
-					"reference": "B126",
-					"local_notes": "-2 to DX, IQ, and self-control rolls",
-					"cost": -5,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mTmAm3ed7U5EKNMcR",
-					"name": "Severe",
-					"reference": "B126",
-					"local_notes": "-4 to DX, IQ, and self-control rolls",
-					"cost": -10,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mXY4l2PeF8UHvHVr1",
-					"name": "Agonizing",
-					"reference": "B126",
-					"local_notes": "-6 to DX, IQ, and self-control rolls",
-					"cost": -15,
-					"cost_type": "points",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tlVnNd09hyxjp_tKq",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tYKd1V2ZzpN6-3H8E"
-			},
-			"name": "Code of Honor",
-			"reference": "B163,MA53",
-			"local_notes": "@Subject@",
-			"tags": [
-				"Mental",
-				"Quirk"
-			],
-			"base_points": -1,
-			"calc": {
-				"points": -1
-			}
-		},
-		{
-			"id": "t4v618DFZ3O3UMhh2",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tHya0RG2_BqeqLArf"
-			},
-			"name": "Code of Honor (Chivalry)",
-			"reference": "B127",
-			"local_notes": "Protect any lady, and anyone weaker than yourself. Never break your word. Never ignore an insult to yourself, a lady, your liege-lord, or your faith; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (even in open war if the foe is also noble and chivalrous). Accept any challenge to arms from anyone of greater or equal rank.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"base_points": -15,
-			"calc": {
-				"points": -15
-			}
-		},
-		{
-			"id": "t3bkflhlzckbH0vWa",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tEPlPRVY1z8clGFZ1"
-			},
-			"name": "Code of Honor (Gentleman's)",
-			"reference": "B127",
-			"local_notes": "Never break your word. Never ignore an insult to yourself, a lady, or your flag; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (except in open war). This only applies between gentlemen.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"base_points": -10,
-			"calc": {
-				"points": -10
-			}
-		},
-		{
-			"id": "tptkOwMcC9BdBlAme",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqq24I9NJrLajsURv"
-			},
-			"name": "Code of Honor (Pirate's)",
-			"reference": "B127",
-			"local_notes": "Always avenge an insult, regardless of the danger; your buddy’s foe is your own; never attack a fellow crewman or buddy except in a fair, open duel.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"base_points": -5,
-			"calc": {
-				"points": -5
-			}
-		},
-		{
-			"id": "tVzYSyVNzrfrZZ9VP",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tW3e4OJTtFNNveAgo"
-			},
-			"name": "Code of Honor (Professional)",
-			"reference": "B127",
-			"local_notes": "Adhere to the ethics of your profession; always do your job to the best of your ability; support your guild, union, or professional association.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"base_points": -5,
-			"calc": {
-				"points": -5
-			}
-		},
-		{
-			"id": "t7fvxNAM9YUG2HApv",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "txSrmgLB0M36uR802"
-			},
-			"name": "Code of Honor (Soldier's)",
-			"reference": "B127",
-			"local_notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his kit. Every soldier should be willing to fight and die for the honor of his unit, service, and country; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a bullet); and wear the uniform with pride.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"base_points": -10,
-			"calc": {
-				"points": -10
-			}
-		},
-		{
-			"id": "tLsvaIv6EpP5xAScv",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tiE78wcDJSFASATPK"
-			},
-			"name": "Code of Honor (Theatrical)",
-			"reference": "B127, BS186",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"base_points": -5,
-			"calc": {
-				"points": -5
 			}
 		},
 		{
@@ -747,40 +942,162 @@
 			}
 		},
 		{
-			"id": "tdd4MYoee26GvAKoP",
+			"id": "t5hiUOP2NBJXUpcjZ",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tnoTxbCUvvok5k1Ep"
+				"id": "toR2WVDUE1bxCVOps"
 			},
-			"name": "Extra Attack",
-			"reference": "B53,P49,MA44",
+			"name": "Chronic Pain",
+			"reference": "B126",
 			"tags": [
-				"Advantage",
+				"Disadvantage",
 				"Physical"
 			],
 			"modifiers": [
 				{
-					"id": "m071qHnCyg91CRHl9",
-					"name": "Multi-Strike",
-					"reference": "P49",
-					"cost": 20,
+					"id": "mRgSGxdarfSRKTZuk",
+					"name": "1 hour interval",
+					"reference": "B126",
+					"cost": 0.5,
+					"cost_type": "multiplier",
 					"disabled": true
 				},
 				{
-					"id": "mR8CgOjhsPGsZ4pwW",
-					"name": "Single Skill",
-					"reference": "P49",
-					"local_notes": "@Skill@",
-					"cost": -20,
+					"id": "mLnG7jyJGcrXphkNV",
+					"name": "2 hour interval",
+					"reference": "B126",
+					"cost": 1,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mak8XIkW7PegZsMLh",
+					"name": "4 hour interval",
+					"reference": "B126",
+					"cost": 1.5,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mnHeoOdNlzQsXDVz9",
+					"name": "8 hour interval",
+					"reference": "B126",
+					"cost": 2,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "m3ktQRJk_FSBIoovh",
+					"name": "FR: 6",
+					"cost": 0.5,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "m_JHKNC6FJHF54k4F",
+					"name": "FR: 9",
+					"cost": 1,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mDItzxAdkJ-CpQpoG",
+					"name": "FR: 12",
+					"cost": 2,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mntgqhVt-55ByHsDG",
+					"name": "FR: 15",
+					"cost": 3,
+					"cost_type": "multiplier",
+					"disabled": true
+				},
+				{
+					"id": "mS4j_HkVrpsPT5XmF",
+					"name": "Mild",
+					"reference": "B126",
+					"local_notes": "-2 to DX, IQ, and self-control rolls",
+					"cost": -5,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mTmAm3ed7U5EKNMcR",
+					"name": "Severe",
+					"reference": "B126",
+					"local_notes": "-4 to DX, IQ, and self-control rolls",
+					"cost": -10,
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "mXY4l2PeF8UHvHVr1",
+					"name": "Agonizing",
+					"reference": "B126",
+					"local_notes": "-6 to DX, IQ, and self-control rolls",
+					"cost": -15,
+					"cost_type": "points",
 					"disabled": true
 				}
 			],
-			"points_per_level": 25,
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "t8TlNG1BluYZpsMrP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t59wSfU9kpC1rus5P"
+			},
+			"name": "Alcohol Tolerance",
+			"reference": "B100",
+			"tags": [
+				"Perk",
+				"Physical"
+			],
+			"base_points": 1,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "on all HT rolls related to drinking",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tHty4Wl6I9tgV1sLv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t5K9V7-_MYD_0BOQ8"
+			},
+			"name": "Hard to Subdue",
+			"reference": "B59",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"points_per_level": 2,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to any HT roll to avoid unconsciousness",
+					"amount": 1,
+					"per_level": true
+				}
+			],
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 25
+				"points": 2
 			}
 		},
 		{
@@ -826,6 +1143,192 @@
 			}
 		},
 		{
+			"id": "tFk3ydvxI0StJADr-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t7E-Evy7VZAbL_iQt"
+			},
+			"name": "Talent (Animal Friend)",
+			"reference": "B90,PU3:6",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Talent"
+			],
+			"modifiers": [
+				{
+					"id": "mL76U0UlOG0A9KU34",
+					"name": "Alternative Cost",
+					"cost": 1,
+					"cost_type": "points",
+					"affects": "levels_only",
+					"disabled": true
+				}
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "animal handling"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "falconry"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "packing"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "riding"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "teamster"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "veterinary"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "from ordinary animals",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "tbDzmLe5ZN5uqCYsS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tsZftZKEQ7_MvsHVb"
+			},
+			"name": "Talent (Green Thumb)",
+			"reference": "B90,PU3:11",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Talent"
+			],
+			"modifiers": [
+				{
+					"id": "mE0BjM5ihEZecO_lo",
+					"name": "Alternate Benefit",
+					"local_notes": "Bonus to rolls to survive made by plants in your care.",
+					"disabled": true
+				}
+			],
+			"points_per_level": 5,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Biology"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Farming"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Gardening"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Herb Lore"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Naturalist"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "from gardeners and sentient plants",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
 			"id": "trMvqN7ZDCTsnrGhs",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -852,578 +1355,31 @@
 			}
 		},
 		{
-			"id": "t2tuldTqZmNmFD3lB",
+			"id": "tqwf39LpHcgIliyop",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tvF5dIQf3Jrwb_KXv"
+				"id": "tNxhI7CrefYdy90UI"
 			},
-			"name": "Greed",
-			"reference": "B137",
-			"local_notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"cr": 12,
-			"base_points": -15,
-			"calc": {
-				"points": -15
-			}
-		},
-		{
-			"id": "tHty4Wl6I9tgV1sLv",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t5K9V7-_MYD_0BOQ8"
-			},
-			"name": "Hard to Subdue",
-			"reference": "B59",
-			"tags": [
-				"Advantage",
-				"Physical"
-			],
-			"points_per_level": 2,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to any HT roll to avoid unconsciousness",
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 2
-			}
-		},
-		{
-			"id": "tbpYfRb2iAMB6sNjY",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t7pCgXTVkswkTjOZO"
-			},
-			"name": "Honesty",
-			"reference": "B138",
-			"local_notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"cr": 12,
-			"base_points": -10,
-			"calc": {
-				"points": -10
-			}
-		},
-		{
-			"id": "tdFOMA8o1JO850tkh",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tG1q2hcai2DaeRlhm"
-			},
-			"name": "Kleptomania",
-			"reference": "B141",
-			"local_notes": "Make a self-control roll whenever you are presented with a chance to steal, at up to -3 if the item is especially interesting to you (not necessarily valuable, unless you are poor or have Greed). If you fail, you must try to steal it. You may keep or sell stolen items, but you may not return or discard them.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"cr": 12,
-			"base_points": -15,
-			"calc": {
-				"points": -15
-			}
-		},
-		{
-			"id": "tkij5lWoz8QJtGFX7",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tpnv8EEpAS6Er2pwK"
-			},
-			"name": "Magery",
-			"reference": "B66",
-			"tags": [
-				"Advantage",
-				"Mental",
-				"Supernatural"
-			],
-			"modifiers": [
-				{
-					"id": "mpEVe3jcVFs5NSnlg",
-					"name": "Dance",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "mHqlODi7W-JV6LnFF",
-					"name": "Dark-Aspected",
-					"cost": -50,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "m68L6qarAPH6JlSgb",
-					"name": "Day-Aspected",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "myIFmDv9laJtIAyt-",
-					"name": "Musical",
-					"cost": -50,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "mupMthPXVMEtQw_hq",
-					"name": "Night-Aspected",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "mKUEWgpsIGzSQZ6Td",
-					"name": "One College",
-					"local_notes": "@College@",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "mCJBhRWkzn5YRDvlw",
-					"name": "Solitary",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "mujxHEEgBwlqBVK5d",
-					"name": "Song",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				}
-			],
-			"base_points": 5,
-			"points_per_level": 10,
-			"features": [
-				{
-					"type": "spell_bonus",
-					"match": "all_colleges",
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "thaumatology"
-					},
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 15
-			}
-		},
-		{
-			"id": "tjQBR2moIL4Lp9fNV",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tBfCffXDV68yHqJ5h"
-			},
-			"name": "Minor Addiction",
-			"reference": "B164",
-			"local_notes": "@Substance@",
-			"tags": [
-				"Mental",
-				"Quirk"
-			],
-			"base_points": -1,
-			"calc": {
-				"points": -1
-			}
-		},
-		{
-			"id": "tpvSazdfFBnqtQX1A",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "th9TK1Jmqg8uKe6SC"
-			},
-			"name": "Pacifism: Cannot Harm Innocents",
-			"reference": "B148",
-			"local_notes": "You may fight – you may even start fights – but you may only use deadly force on a foe that is attempting to do you serious harm. Capture is not “serious harm” unless you are already under penalty of death or have a Code of Honor that would require suicide if captured. You never intentionally do anything that causes, or even threatens to cause, injury to the uninvolved – particularly if they are “ordinary folks.”",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mqSarBn4IiIqH74R3",
-					"name": "Species-Specific",
-					"reference": "UT32",
-					"cost": -80,
-					"disabled": true
-				}
-			],
-			"base_points": -10,
-			"calc": {
-				"points": -10
-			}
-		},
-		{
-			"id": "tdVeCk3ahuqGte20P",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tUl2tCfZVgRF9QWYx"
-			},
-			"name": "Pacifism: Cannot Kill",
-			"reference": "B148",
-			"local_notes": "You may fight – you may even start fights – but you may never do anything that seems likely to kill another. This includes abandoning a wounded foe to die “on his own”! You must do your best to keep your companions from killing, too. If you do kill someone (or feel responsible for a death), you immediately suffer a nervous breakdown. Roll 3d and be totally morose and useless for that many days. During this time, you must make a Will roll to offer any sort of violence toward anyone, for any reason.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "m9Cdo8y-xBG0FxylI",
-					"name": "Species-Specific",
-					"reference": "UT32",
-					"cost": -80,
-					"disabled": true
-				}
-			],
-			"base_points": -15,
-			"calc": {
-				"points": -15
-			}
-		},
-		{
-			"id": "t7BEpVaZZVYTVmiX1",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tV_f_75HmwzWOPhuu"
-			},
-			"name": "Pacifism: Reluctant Killer",
-			"reference": "B148",
-			"local_notes": "You are psychologically unprepared to kill people. Whenever you make a deadly attack (e.g., with a knife or a gun) against an obvious person whose face is visible to you, you are at -4 to hit and may not Aim. If you cannot see the foe’s face (due to a mask, darkness, or distance, or because you attacked from behind), the penalty is only -2, save in close combat. You have no penalty to attack a vehicle (even an occupied one), an opponent you do not believe is a person (including things with Horrific or Monstrous appearance), or a target you can’t actually see (e.g., a set of map coordinates or a blip on a radar screen). If you kill a recognizable person, the effect on you is the same as for Pacifism: Cannot Kill. You have no problem with your allies killing; you may even supply ammo, loaded weapons, and encouragement! You just can’t do the killing yourself.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "m9-3xxs9ZvqshFt1J",
-					"name": "Species-Specific",
-					"reference": "UT32",
-					"cost": -80,
-					"disabled": true
-				}
-			],
-			"base_points": -5,
-			"calc": {
-				"points": -5
-			}
-		},
-		{
-			"id": "t_rHzdbd8-8gte4nt",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "thSMVzJ590v7gAD8d"
-			},
-			"name": "Pacifism: Self-Defense Only",
-			"reference": "B148",
-			"local_notes": "You only fight to defend yourself or those in your care, using only as much force as necessary (no pre-emptive strikes allowed!). You must do your best to discourage others from starting fights.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mb9t9kh2MjHx6c-vK",
-					"name": "Species-Specific",
-					"reference": "UT32",
-					"cost": -80,
-					"disabled": true
-				}
-			],
-			"base_points": -15,
-			"calc": {
-				"points": -15
-			}
-		},
-		{
-			"id": "tSgXwCsLJRIugdt8I",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t2lEvLuiVboewGE6k"
-			},
-			"name": "Pacifism: Total Nonviolence",
-			"reference": "B148",
-			"local_notes": "You will not lift a hand against another intelligent creature, for any reason. You must do your nonviolent best to discourage violent behavior in others, too. You are free to defend yourself against attacks by animals, mosquitoes, etc.",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mlfqV2TBA4RE08Nqg",
-					"name": "Species-Specific",
-					"reference": "UT32",
-					"cost": -80,
-					"disabled": true
-				}
-			],
-			"base_points": -30,
-			"calc": {
-				"points": -30
-			}
-		},
-		{
-			"id": "tRUFfjLE0fI9laCnB",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t2uxXuNNQjGUAFAd0"
-			},
-			"name": "Perfect Balance",
-			"reference": "B74",
-			"tags": [
-				"Advantage",
-				"Physical"
-			],
-			"base_points": 15,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "on DX and DX-based skill rolls to keep your feet or avoid being knocked down in combat",
-					"amount": 4
-				},
-				{
-					"type": "conditional_modifier",
-					"situation": "on all rolls to keep your feet if the surface is wet, slippery or unstable",
-					"amount": 6
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "starts_with",
-						"qualifier": "piloting"
-					},
-					"amount": 1
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "acrobatics"
-					},
-					"amount": 1
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "aerobatics"
-					},
-					"amount": 1
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "aquabatics"
-					},
-					"amount": 1
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "climbing"
-					},
-					"amount": 1
-				}
-			],
-			"calc": {
-				"points": 15
-			}
-		},
-		{
-			"id": "tngAGP3JgGMZrRFX2",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t2aNupoayCBTTx_I3"
-			},
-			"name": "Ritual Magery",
-			"reference": "B66",
-			"tags": [
-				"Advantage",
-				"Mental",
-				"Supernatural"
-			],
-			"modifiers": [
-				{
-					"id": "mulwEksWjcISShYyv",
-					"name": "Dance",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "m5C5RxkjKsLEnRHp8",
-					"name": "Dark-Aspected",
-					"cost": -50,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "m4AdUynmIc9S0I395",
-					"name": "Day-Aspected",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "m_FJcW36bvxtBllbP",
-					"name": "Musical",
-					"cost": -50,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "m88YZBBzVLxMY8rvR",
-					"name": "Night-Aspected",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "mqDMcHhKB16N_5UPZ",
-					"name": "One College",
-					"local_notes": "@College@",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "m6UoSuwfh4gLSjIJ7",
-					"name": "Solitary",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				},
-				{
-					"id": "mtMWL7N2KrCmlnR29",
-					"name": "Song",
-					"cost": -40,
-					"affects": "levels_only",
-					"disabled": true
-				}
-			],
-			"base_points": 5,
-			"points_per_level": 10,
-			"features": [
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "thaumatology"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "ritual magic"
-					},
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 15
-			}
-		},
-		{
-			"id": "tNVeaa1W3Zfa-w4dQ",
-			"name": "Sakta Nomen",
-			"tags": [
-				"Dark Magic",
-				"Magical"
-			],
-			"base_points": 35,
-			"calc": {
-				"points": 35
-			}
-		},
-		{
-			"id": "tmT87iMiN9AqLew1W",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tX9xOWAhCw2TPxJy-"
-			},
-			"name": "Talent (@Large@)",
-			"reference": "B89",
+			"name": "Talent (Musical Ability)",
+			"reference": "B90,PU3:13",
 			"tags": [
 				"Advantage",
 				"Mental",
 				"Talent"
 			],
-			"modifiers": [
-				{
-					"id": "mS1ktRXEFYuIDooZX",
-					"name": "Alternate Benefit",
-					"local_notes": "@Alternate Benefit@",
-					"disabled": true
-				},
-				{
-					"id": "mgj3QUY3ThFg97-a9",
-					"name": "Alternative Cost",
-					"cost_type": "points",
-					"affects": "levels_only",
-					"disabled": true
-				}
-			],
-			"points_per_level": 15,
+			"points_per_level": 5,
 			"features": [
 				{
 					"type": "skill_bonus",
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill01@"
+						"qualifier": "Group Performance"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Conducting"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1433,7 +1389,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill02@"
+						"qualifier": "Musical Composition"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1443,7 +1399,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill03@"
+						"qualifier": "Musical Influence"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1453,7 +1409,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill04@"
+						"qualifier": "Musical Instrument"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1463,134 +1419,14 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill05@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill06@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill07@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill08@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill09@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill10@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill11@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill12@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill13@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill14@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill15@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill16@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill17@"
+						"qualifier": "Singing"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "@reaction bonus situation@",
+					"situation": "from audiences and critics",
 					"amount": 1,
 					"per_level": true
 				}
@@ -1598,46 +1434,31 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 15
+				"points": 5
 			}
 		},
 		{
-			"id": "tdu_jPjxdDHog5VQs",
+			"id": "tj2sO8QM8b9OqABvU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tPf9tVG58PuRUnLJ4"
+				"id": "ti8Rx9Ap_ztEX-p69"
 			},
-			"name": "Talent (@Medium@)",
-			"reference": "B89",
+			"name": "Talent (Gifted Artist)",
+			"reference": "B90,PU3:10",
 			"tags": [
 				"Advantage",
 				"Mental",
 				"Talent"
 			],
-			"modifiers": [
-				{
-					"id": "m6IC8KeC17zdxWi8d",
-					"name": "Alternate Benefit",
-					"local_notes": "@Alternate Benefit@",
-					"disabled": true
-				},
-				{
-					"id": "m3rz-RTYtAI6AbkBC",
-					"name": "Alternative Cost",
-					"cost_type": "points",
-					"affects": "levels_only",
-					"disabled": true
-				}
-			],
-			"points_per_level": 10,
+			"points_per_level": 5,
 			"features": [
 				{
 					"type": "skill_bonus",
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill01@"
+						"qualifier": "Artist"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1647,7 +1468,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill02@"
+						"qualifier": "Jeweler"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1657,7 +1478,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill03@"
+						"qualifier": "Leatherworking"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1667,7 +1488,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill04@"
+						"qualifier": "Photography"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1677,84 +1498,14 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "@skill05@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill06@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill07@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill08@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill09@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill10@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill11@"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "@skill12@"
+						"qualifier": "Sewing"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "@reaction bonus situation@",
+					"situation": "from buyers and critics",
 					"amount": 1,
 					"per_level": true
 				}
@@ -1762,7 +1513,25 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 10
+				"points": 5
+			}
+		},
+		{
+			"id": "tdb4_Tkv1W6HsBv61",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tE_Ykx9nKvsgBGb6L"
+			},
+			"name": "Ambidexterity",
+			"reference": "B39",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"base_points": 5,
+			"calc": {
+				"points": 5
 			}
 		},
 		{
@@ -1870,14 +1639,14 @@
 			}
 		},
 		{
-			"id": "tFk3ydvxI0StJADr-",
+			"id": "tVLfrZ7W9T7NvOHdE",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t7E-Evy7VZAbL_iQt"
+				"id": "tfEs4la8BMHdZwvxF"
 			},
-			"name": "Talent (Animal Friend)",
-			"reference": "B90,PU3:6",
+			"name": "Talent (Mathematical Ability)",
+			"reference": "B90,PU3:12",
 			"tags": [
 				"Advantage",
 				"Mental",
@@ -1885,22 +1654,28 @@
 			],
 			"modifiers": [
 				{
-					"id": "mL76U0UlOG0A9KU34",
+					"id": "mV7snHP87T4jWycHs",
+					"name": "Alternate Benefit",
+					"local_notes": "Bonus to resist deception involving numbers",
+					"disabled": true
+				},
+				{
+					"id": "m77nu7YfV7z7CaHjz",
 					"name": "Alternative Cost",
-					"cost": 1,
+					"cost": -2,
 					"cost_type": "points",
 					"affects": "levels_only",
 					"disabled": true
 				}
 			],
-			"points_per_level": 5,
+			"points_per_level": 10,
 			"features": [
 				{
 					"type": "skill_bonus",
 					"selection_type": "skills_with_name",
 					"name": {
-						"compare": "contains",
-						"qualifier": "animal handling"
+						"compare": "is",
+						"qualifier": "Accounting"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1910,7 +1685,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "falconry"
+						"qualifier": "Astronomy"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1919,8 +1694,8 @@
 					"type": "skill_bonus",
 					"selection_type": "skills_with_name",
 					"name": {
-						"compare": "contains",
-						"qualifier": "packing"
+						"compare": "is",
+						"qualifier": "Cryptography"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1929,8 +1704,8 @@
 					"type": "skill_bonus",
 					"selection_type": "skills_with_name",
 					"name": {
-						"compare": "contains",
-						"qualifier": "riding"
+						"compare": "is",
+						"qualifier": "Engineer"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1939,8 +1714,8 @@
 					"type": "skill_bonus",
 					"selection_type": "skills_with_name",
 					"name": {
-						"compare": "contains",
-						"qualifier": "teamster"
+						"compare": "is",
+						"qualifier": "Finance"
 					},
 					"amount": 1,
 					"per_level": true
@@ -1949,15 +1724,35 @@
 					"type": "skill_bonus",
 					"selection_type": "skills_with_name",
 					"name": {
-						"compare": "contains",
-						"qualifier": "veterinary"
+						"compare": "is",
+						"qualifier": "Market Analysis"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Mathematics"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Physics"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from ordinary animals",
+					"situation": "from engineers and scientists",
 					"amount": 1,
 					"per_level": true
 				}
@@ -1965,7 +1760,7 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 10
 			}
 		},
 		{
@@ -2197,93 +1992,14 @@
 			}
 		},
 		{
-			"id": "tj2sO8QM8b9OqABvU",
+			"id": "tyHpfs7g_ucIWxCs6",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "ti8Rx9Ap_ztEX-p69"
+				"id": "tVSvpNDA9zcfsWNA0"
 			},
-			"name": "Talent (Gifted Artist)",
-			"reference": "B90,PU3:10",
-			"tags": [
-				"Advantage",
-				"Mental",
-				"Talent"
-			],
-			"points_per_level": 5,
-			"features": [
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Artist"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Jeweler"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Leatherworking"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Photography"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Sewing"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "reaction_bonus",
-					"situation": "from buyers and critics",
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 5
-			}
-		},
-		{
-			"id": "tbDzmLe5ZN5uqCYsS",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tsZftZKEQ7_MvsHVb"
-			},
-			"name": "Talent (Green Thumb)",
-			"reference": "B90,PU3:11",
+			"name": "Talent (Outdoorsman)",
+			"reference": "B90,PU3:14",
 			"tags": [
 				"Advantage",
 				"Mental",
@@ -2291,20 +2007,28 @@
 			],
 			"modifiers": [
 				{
-					"id": "mE0BjM5ihEZecO_lo",
+					"id": "mG1POZIqPxOtDXqE1",
 					"name": "Alternate Benefit",
-					"local_notes": "Bonus to rolls to survive made by plants in your care.",
+					"local_notes": "Bonus to HT rolls to avoid harm from failure of covered skills",
+					"disabled": true
+				},
+				{
+					"id": "m1VS5vT1Q-j2lrVIR",
+					"name": "Alternative Cost",
+					"cost": -3,
+					"cost_type": "points",
+					"affects": "levels_only",
 					"disabled": true
 				}
 			],
-			"points_per_level": 5,
+			"points_per_level": 10,
 			"features": [
 				{
 					"type": "skill_bonus",
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Biology"
+						"qualifier": "Camouflage"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2314,7 +2038,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Farming"
+						"qualifier": "Fishing"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2324,17 +2048,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Gardening"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Herb Lore"
+						"qualifier": "Mimicry"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2350,8 +2064,38 @@
 					"per_level": true
 				},
 				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Survival"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Tracking"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
 					"type": "reaction_bonus",
-					"situation": "from gardeners and sentient plants",
+					"situation": "from explorers and nature lovers",
 					"amount": 1,
 					"per_level": true
 				}
@@ -2359,7 +2103,171 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 5
+				"points": 10
+			}
+		},
+		{
+			"id": "tdu_jPjxdDHog5VQs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tPf9tVG58PuRUnLJ4"
+			},
+			"name": "Talent (@Medium@)",
+			"reference": "B89",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Talent"
+			],
+			"modifiers": [
+				{
+					"id": "m6IC8KeC17zdxWi8d",
+					"name": "Alternate Benefit",
+					"local_notes": "@Alternate Benefit@",
+					"disabled": true
+				},
+				{
+					"id": "m3rz-RTYtAI6AbkBC",
+					"name": "Alternative Cost",
+					"cost_type": "points",
+					"affects": "levels_only",
+					"disabled": true
+				}
+			],
+			"points_per_level": 10,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill01@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill02@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill03@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill04@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill05@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill06@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill07@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill08@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill09@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill10@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill11@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill12@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "@reaction bonus situation@",
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 10
 			}
 		},
 		{
@@ -2547,14 +2455,89 @@
 			}
 		},
 		{
-			"id": "tVLfrZ7W9T7NvOHdE",
+			"id": "tRUFfjLE0fI9laCnB",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tfEs4la8BMHdZwvxF"
+				"id": "t2uxXuNNQjGUAFAd0"
 			},
-			"name": "Talent (Mathematical Ability)",
-			"reference": "B90,PU3:12",
+			"name": "Perfect Balance",
+			"reference": "B74",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"base_points": 15,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "on DX and DX-based skill rolls to keep your feet or avoid being knocked down in combat",
+					"amount": 4
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "on all rolls to keep your feet if the surface is wet, slippery or unstable",
+					"amount": 6
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "piloting"
+					},
+					"amount": 1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "acrobatics"
+					},
+					"amount": 1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "aerobatics"
+					},
+					"amount": 1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "aquabatics"
+					},
+					"amount": 1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "climbing"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tmT87iMiN9AqLew1W",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tX9xOWAhCw2TPxJy-"
+			},
+			"name": "Talent (@Large@)",
+			"reference": "B89",
 			"tags": [
 				"Advantage",
 				"Mental",
@@ -2562,28 +2545,27 @@
 			],
 			"modifiers": [
 				{
-					"id": "mV7snHP87T4jWycHs",
+					"id": "mS1ktRXEFYuIDooZX",
 					"name": "Alternate Benefit",
-					"local_notes": "Bonus to resist deception involving numbers",
+					"local_notes": "@Alternate Benefit@",
 					"disabled": true
 				},
 				{
-					"id": "m77nu7YfV7z7CaHjz",
+					"id": "mgj3QUY3ThFg97-a9",
 					"name": "Alternative Cost",
-					"cost": -2,
 					"cost_type": "points",
 					"affects": "levels_only",
 					"disabled": true
 				}
 			],
-			"points_per_level": 10,
+			"points_per_level": 15,
 			"features": [
 				{
 					"type": "skill_bonus",
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Accounting"
+						"qualifier": "@skill01@"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2593,7 +2575,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Astronomy"
+						"qualifier": "@skill02@"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2603,7 +2585,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Cryptography"
+						"qualifier": "@skill03@"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2613,7 +2595,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Engineer"
+						"qualifier": "@skill04@"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2623,7 +2605,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Finance"
+						"qualifier": "@skill05@"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2633,7 +2615,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Market Analysis"
+						"qualifier": "@skill06@"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2643,7 +2625,7 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Mathematics"
+						"qualifier": "@skill07@"
 					},
 					"amount": 1,
 					"per_level": true
@@ -2653,14 +2635,104 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Physics"
+						"qualifier": "@skill08@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill09@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill10@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill11@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill12@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill13@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill14@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill15@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill16@"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "@skill17@"
 					},
 					"amount": 1,
 					"per_level": true
 				},
 				{
 					"type": "reaction_bonus",
-					"situation": "from engineers and scientists",
+					"situation": "@reaction bonus situation@",
 					"amount": 1,
 					"per_level": true
 				}
@@ -2668,205 +2740,7 @@
 			"can_level": true,
 			"levels": 1,
 			"calc": {
-				"points": 10
-			}
-		},
-		{
-			"id": "tqwf39LpHcgIliyop",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tNxhI7CrefYdy90UI"
-			},
-			"name": "Talent (Musical Ability)",
-			"reference": "B90,PU3:13",
-			"tags": [
-				"Advantage",
-				"Mental",
-				"Talent"
-			],
-			"points_per_level": 5,
-			"features": [
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Group Performance"
-					},
-					"specialization": {
-						"compare": "is",
-						"qualifier": "Conducting"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Musical Composition"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Musical Influence"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Musical Instrument"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Singing"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "reaction_bonus",
-					"situation": "from audiences and critics",
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 5
-			}
-		},
-		{
-			"id": "tyHpfs7g_ucIWxCs6",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tVSvpNDA9zcfsWNA0"
-			},
-			"name": "Talent (Outdoorsman)",
-			"reference": "B90,PU3:14",
-			"tags": [
-				"Advantage",
-				"Mental",
-				"Talent"
-			],
-			"modifiers": [
-				{
-					"id": "mG1POZIqPxOtDXqE1",
-					"name": "Alternate Benefit",
-					"local_notes": "Bonus to HT rolls to avoid harm from failure of covered skills",
-					"disabled": true
-				},
-				{
-					"id": "m1VS5vT1Q-j2lrVIR",
-					"name": "Alternative Cost",
-					"cost": -3,
-					"cost_type": "points",
-					"affects": "levels_only",
-					"disabled": true
-				}
-			],
-			"points_per_level": 10,
-			"features": [
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Camouflage"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Fishing"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Mimicry"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Naturalist"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Navigation"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Survival"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Tracking"
-					},
-					"amount": 1,
-					"per_level": true
-				},
-				{
-					"type": "reaction_bonus",
-					"situation": "from explorers and nature lovers",
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 10
+				"points": 15
 			}
 		},
 		{
@@ -3081,58 +2955,6 @@
 			}
 		},
 		{
-			"id": "trxM3ECPh_c0Cvddg",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t-v5hp5IUsrcGNXrr"
-			},
-			"name": "Trained by a Master",
-			"reference": "B93,MA48",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
-				{
-					"id": "mXEVmWtYHh8Gh1vEU",
-					"name": "Unarmed only",
-					"cost": -40,
-					"disabled": true
-				}
-			],
-			"base_points": 30,
-			"calc": {
-				"points": 30
-			}
-		},
-		{
-			"id": "t-FwyCdWu_bS4XKDb",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tItKCGaV9UN_W1pVs"
-			},
-			"name": "Unfit",
-			"reference": "B160",
-			"local_notes": "You lose FP at twice the normal rate",
-			"tags": [
-				"Disadvantage",
-				"Physical"
-			],
-			"base_points": -5,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to all HT rolls to remain conscious, avoid death, resist disease or poison, etc",
-					"amount": -1
-				}
-			],
-			"calc": {
-				"points": -5
-			}
-		},
-		{
 			"id": "tX-3wYnEzUZIslA2_",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3159,102 +2981,280 @@
 			}
 		},
 		{
-			"id": "ttwiS_NCVIwtEUs7_",
+			"id": "tkij5lWoz8QJtGFX7",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t5g6bNO5HiThCJ7_D"
+				"id": "tpnv8EEpAS6Er2pwK"
 			},
-			"name": "Very Unfit",
-			"reference": "B160",
-			"local_notes": "You lose FP at twice the normal rate and recover FP at only half the normal rate",
+			"name": "Magery",
+			"reference": "B66",
 			"tags": [
-				"Disadvantage",
-				"Physical"
+				"Advantage",
+				"Mental",
+				"Supernatural"
 			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": false,
-						"name": {
-							"compare": "contains",
-							"qualifier": "resistant"
-						}
-					}
-				]
-			},
-			"base_points": -15,
-			"features": [
+			"modifiers": [
 				{
-					"type": "conditional_modifier",
-					"situation": "-2 to all HT rolls to remain conscious, avoid death, resist disease or poison, etc.",
-					"amount": -2
+					"id": "mpEVe3jcVFs5NSnlg",
+					"name": "Dance",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "mHqlODi7W-JV6LnFF",
+					"name": "Dark-Aspected",
+					"cost": -50,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "m68L6qarAPH6JlSgb",
+					"name": "Day-Aspected",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "myIFmDv9laJtIAyt-",
+					"name": "Musical",
+					"cost": -50,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "mupMthPXVMEtQw_hq",
+					"name": "Night-Aspected",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "mKUEWgpsIGzSQZ6Td",
+					"name": "One College",
+					"local_notes": "@College@",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "mCJBhRWkzn5YRDvlw",
+					"name": "Solitary",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "mujxHEEgBwlqBVK5d",
+					"name": "Song",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
 				}
 			],
+			"base_points": 5,
+			"points_per_level": 10,
+			"features": [
+				{
+					"type": "spell_bonus",
+					"match": "all_colleges",
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "thaumatology"
+					},
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
 			"calc": {
-				"points": -15
+				"points": 15
 			}
 		},
 		{
-			"id": "tMNGq9XEG-6Qyi-BE",
+			"id": "tngAGP3JgGMZrRFX2",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tRBGNZTHk6KJgxsCi"
+				"id": "t2aNupoayCBTTx_I3"
 			},
-			"name": "Weapon Master (@Specialty@)",
-			"reference": "B99,MA48",
+			"name": "Ritual Magery",
+			"reference": "B66",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"modifiers": [
+				{
+					"id": "mulwEksWjcISShYyv",
+					"name": "Dance",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "m5C5RxkjKsLEnRHp8",
+					"name": "Dark-Aspected",
+					"cost": -50,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "m4AdUynmIc9S0I395",
+					"name": "Day-Aspected",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "m_FJcW36bvxtBllbP",
+					"name": "Musical",
+					"cost": -50,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "m88YZBBzVLxMY8rvR",
+					"name": "Night-Aspected",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "mqDMcHhKB16N_5UPZ",
+					"name": "One College",
+					"local_notes": "@College@",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "m6UoSuwfh4gLSjIJ7",
+					"name": "Solitary",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				},
+				{
+					"id": "mtMWL7N2KrCmlnR29",
+					"name": "Song",
+					"cost": -40,
+					"affects": "levels_only",
+					"disabled": true
+				}
+			],
+			"base_points": 5,
+			"points_per_level": 10,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "thaumatology"
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "ritual magic"
+					},
+					"amount": 1,
+					"per_level": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "tdd4MYoee26GvAKoP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tnoTxbCUvvok5k1Ep"
+			},
+			"name": "Extra Attack",
+			"reference": "B53,P49,MA44",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "m071qHnCyg91CRHl9",
+					"name": "Multi-Strike",
+					"reference": "P49",
+					"cost": 20,
+					"disabled": true
+				},
+				{
+					"id": "mR8CgOjhsPGsZ4pwW",
+					"name": "Single Skill",
+					"reference": "P49",
+					"local_notes": "@Skill@",
+					"cost": -20,
+					"disabled": true
+				}
+			],
+			"points_per_level": 25,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 25
+			}
+		},
+		{
+			"id": "trxM3ECPh_c0Cvddg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t-v5hp5IUsrcGNXrr"
+			},
+			"name": "Trained by a Master",
+			"reference": "B93,MA48",
 			"tags": [
 				"Advantage",
 				"Mental"
 			],
 			"modifiers": [
 				{
-					"id": "mxk1gTpl77RGWVBQ9",
-					"name": "One weapon",
-					"reference": "B99",
-					"cost": 20,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mc9W-kq5OuE3ffcIX",
-					"name": "Two weapons",
-					"reference": "B99",
-					"cost": 25,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "m42V-O1tnmOs2aJm8",
-					"name": "Small class",
-					"reference": "B99",
-					"cost": 30,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "m2bmyMnhtsbL6jOVQ",
-					"name": "Medium class",
-					"reference": "B99",
-					"cost": 35,
-					"cost_type": "points",
-					"disabled": true
-				},
-				{
-					"id": "mFFZanPpdvA6ZCBie",
-					"name": "Large class",
-					"reference": "B99",
-					"cost": 40,
-					"cost_type": "points",
+					"id": "mXEVmWtYHh8Gh1vEU",
+					"name": "Unarmed only",
+					"cost": -40,
 					"disabled": true
 				}
 			],
+			"base_points": 30,
 			"calc": {
-				"points": 0
+				"points": 30
+			}
+		},
+		{
+			"id": "tNVeaa1W3Zfa-w4dQ",
+			"name": "Sakta Nomen",
+			"tags": [
+				"Dark Magic",
+				"Magical"
+			],
+			"base_points": 35,
+			"calc": {
+				"points": 35
 			}
 		},
 		{

@@ -10,7 +10,7 @@
 		}
 	],
 	"profile": {
-		"name": "Kmicic",
+		"name": "Asbad",
 		"age": "35",
 		"birthday": "June 29",
 		"eyes": "Brown",
@@ -18,8 +18,8 @@
 		"skin": "Brown",
 		"handedness": "Right",
 		"gender": "Male",
-		"height": "5'7.32\"",
-		"weight": "200 lb",
+		"height": "6'3\"",
+		"weight": "220 lb",
 		"player_name": "Kmicic",
 		"tech_level": "3"
 	},
@@ -282,7 +282,8 @@
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -297,7 +298,8 @@
 					"calc": {
 						"roll_range": "3-4",
 						"dr": {
-							"all": 2
+							"all": 2,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -311,7 +313,8 @@
 					"calc": {
 						"roll_range": "5",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -325,7 +328,8 @@
 					"calc": {
 						"roll_range": "6-7",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -339,7 +343,8 @@
 					"calc": {
 						"roll_range": "8",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -351,7 +356,8 @@
 					"calc": {
 						"roll_range": "9-10",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -365,7 +371,8 @@
 					"calc": {
 						"roll_range": "11",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -379,7 +386,8 @@
 					"calc": {
 						"roll_range": "12",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -393,7 +401,8 @@
 					"calc": {
 						"roll_range": "13-14",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -407,7 +416,8 @@
 					"calc": {
 						"roll_range": "15",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -421,7 +431,8 @@
 					"calc": {
 						"roll_range": "16",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -435,7 +446,8 @@
 					"calc": {
 						"roll_range": "17-18",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				},
@@ -448,15 +460,16 @@
 					"calc": {
 						"roll_range": "-",
 						"dr": {
-							"all": 0
+							"all": 0,
+							"crushing, cutting": 1
 						}
 					}
 				}
 			]
 		},
 		"damage_progression": "basic_set",
-		"default_length_units": "cm",
-		"default_weight_units": "kg",
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
 		"user_description_display": "tooltip",
 		"modifiers_display": "inline",
 		"notes_display": "inline",
@@ -498,17 +511,17 @@
 		},
 		{
 			"attr_id": "will",
-			"adj": 0,
+			"adj": 1,
 			"calc": {
-				"value": 9,
-				"points": 0
+				"value": 10,
+				"points": 5
 			}
 		},
 		{
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -579,11 +592,11 @@
 		},
 		{
 			"attr_id": "hp",
-			"adj": 0,
+			"adj": 4,
 			"calc": {
-				"value": 13,
-				"current": 13,
-				"points": 0
+				"value": 17,
+				"current": 17,
+				"points": 8
 			}
 		}
 	],
@@ -595,6 +608,7 @@
 			"weapons": [
 				{
 					"id": "wmFg5P7N4KLmKdbyT",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -618,6 +632,7 @@
 				},
 				{
 					"id": "wHnuXrd2tq5Zh4p_u",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -651,6 +666,7 @@
 				},
 				{
 					"id": "wpuS9Orr4SRGm_SPx",
+					"sv": 1,
 					"damage": {
 						"type": "cr",
 						"st": "thr"
@@ -723,44 +739,49 @@
 			"calc": {
 				"points": 25
 			}
+		},
+		{
+			"id": "tBb_MGXqCUi0_H1c9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tmRX0o0iO20zWIVyo"
+			},
+			"name": "Bloodlust",
+			"reference": "B125",
+			"local_notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "tAsITbfEWryPzVBTv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tvF5dIQf3Jrwb_KXv"
+			},
+			"name": "Greed",
+			"reference": "B137",
+			"local_notes": "Make a self-control roll any time riches are offered – as payment for fair work, gains from adventure, spoils of crime, or just bait. If you fail, you do whatever it takes to get the payoff.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr": 12,
+			"base_points": -15,
+			"calc": {
+				"points": -15
+			}
 		}
 	],
 	"skills": [
-		{
-			"id": "stsek21u7jvXdjXDm",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set\\Basic Set Skills.skl",
-				"id": "sHxw81LQLjwvQNyP9"
-			},
-			"name": "Shield",
-			"reference": "B220",
-			"tags": [
-				"Combat",
-				"Melee Combat",
-				"Weapon"
-			],
-			"specialization": "Shield",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				}
-			],
-			"points": 7,
-			"defaulted_from": {
-				"type": "dx",
-				"modifier": -4,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
-			},
-			"calc": {
-				"level": 13,
-				"rsl": "DX+2"
-			}
-		},
 		{
 			"id": "saB98PekzV7i-8ht2",
 			"source": {
@@ -799,11 +820,46 @@
 			}
 		},
 		{
-			"id": "sk9KqsB2RamsUlT0c",
+			"id": "stsek21u7jvXdjXDm",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set\\Basic Set Skills.skl",
+				"id": "sHxw81LQLjwvQNyP9"
+			},
+			"name": "Shield",
+			"reference": "B220",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"specialization": "Shield",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 8,
+			"defaulted_from": {
+				"type": "dx",
+				"modifier": -4,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "DX+3"
+			}
+		},
+		{
+			"id": "sLqsmbTvso4t26it5",
 			"source": {
 				"library": "/gcs_user_library",
-				"path": "Gothic RPG\\Gothic RPG - Skills.skl",
-				"id": "sLgrMRu26DFS3GNH9"
+				"path": "Gothic RPG/Gothic RPG - Skills.skl",
+				"id": "sZeZx6L8oPR_wXrBC"
 			},
 			"name": "One-Handed",
 			"tags": [
@@ -811,29 +867,33 @@
 				"Melee Combat",
 				"Weapon"
 			],
-			"difficulty": "dx/a",
+			"specialization": "Axes",
+			"difficulty": "dx/e",
 			"defaults": [
 				{
 					"type": "skill",
-					"name": "One-Handed Sword",
+					"name": "One-Handed",
+					"specialization": "Daggers",
 					"modifier": -4
 				},
 				{
 					"type": "skill",
-					"name": "One-Handed Mace",
+					"name": "One-Handed",
+					"specialization": "Swords",
 					"modifier": -4
 				},
 				{
 					"type": "skill",
-					"name": "One-Handed Axe",
-					"modifier": -4
+					"name": "One-Handed",
+					"specialization": "Maces",
+					"modifier": -2
 				},
 				{
 					"type": "dx",
 					"modifier": -5
 				}
 			],
-			"points": 7,
+			"points": 2,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -5,
@@ -847,11 +907,119 @@
 			}
 		},
 		{
-			"id": "sCYVKHkWfKJDfKV5p",
+			"id": "s2ly-3-ABR42oop3U",
 			"source": {
 				"library": "/gcs_user_library",
-				"path": "Gothic RPG\\Gothic RPG - Skills.skl",
-				"id": "sswq0HEjSpzLmTz-I"
+				"path": "Gothic RPG/Gothic RPG - Skills.skl",
+				"id": "swHf7NtUHsrP2S8ju"
+			},
+			"name": "One-Handed",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"specialization": "Maces",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "One-Handed",
+					"specialization": "Daggers",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "One-Handed",
+					"specialization": "Swords",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "One-Handed",
+					"specialization": "Axes",
+					"modifier": -2
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "One-Handed",
+				"specialization": "Axes",
+				"modifier": -2,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "DX+1"
+			}
+		},
+		{
+			"id": "swFu2ksREDqYwXm6U",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Gothic RPG/Gothic RPG - Skills.skl",
+				"id": "sZKicot0VLyGw55kp"
+			},
+			"name": "One-Handed",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"specialization": "Swords",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "One-Handed",
+					"specialization": "Daggers",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "One-Handed",
+					"specialization": "Maces",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "One-Handed",
+					"specialization": "Axes",
+					"modifier": -4
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 8,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "One-Handed",
+				"specialization": "Maces",
+				"modifier": -4,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "DX+3"
+			}
+		},
+		{
+			"id": "sW8GGjURHOASBS_Hz",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Gothic RPG/Gothic RPG - Skills.skl",
+				"id": "s2rsdIUIseV9U7fR7"
 			},
 			"name": "Two-Handed",
 			"tags": [
@@ -859,26 +1027,25 @@
 				"Melee Combat",
 				"Weapon"
 			],
-			"difficulty": "dx/a",
+			"specialization": "Axes",
+			"difficulty": "dx/e",
 			"defaults": [
 				{
 					"type": "skill",
-					"name": "Two-Handed Axe",
+					"name": "Two-Handed",
+					"specialization": "Maces",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed",
+					"specialization": "Staves",
 					"modifier": -4
 				},
 				{
 					"type": "skill",
-					"name": "Two-Handed Mace",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Two-Handed Staff",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Two-Handed Sword",
+					"name": "Two-Handed",
+					"specialization": "Swords",
 					"modifier": -4
 				},
 				{
@@ -887,7 +1054,7 @@
 					"modifier": -5
 				}
 			],
-			"points": 3,
+			"points": 2,
 			"defaulted_from": {
 				"type": "dx",
 				"name": "Two-Handed Axe",
@@ -897,8 +1064,118 @@
 				"points": -6
 			},
 			"calc": {
-				"level": 11,
-				"rsl": "DX+0"
+				"level": 12,
+				"rsl": "DX+1"
+			}
+		},
+		{
+			"id": "s3VWnlkboFk_HfKZa",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Gothic RPG/Gothic RPG - Skills.skl",
+				"id": "sz_1EFLpEbH4WHkua"
+			},
+			"name": "Two-Handed",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"specialization": "Maces",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Two-Handed",
+					"specialization": "Axes",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed",
+					"specialization": "Staves",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed",
+					"specialization": "Swords",
+					"modifier": -4
+				},
+				{
+					"type": "dx",
+					"name": "Two-Handed Axe",
+					"modifier": -5
+				}
+			],
+			"points": 2,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Two-Handed",
+				"specialization": "Axes",
+				"modifier": -2,
+				"level": 10,
+				"adjusted_level": 10,
+				"points": -10
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "DX+1"
+			}
+		},
+		{
+			"id": "slI72b5ShtrRO2YJj",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Gothic RPG/Gothic RPG - Skills.skl",
+				"id": "sGEvbB-aHaB_6R92g"
+			},
+			"name": "Two-Handed",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"specialization": "Swords",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Two-Handed",
+					"specialization": "Axes",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed",
+					"specialization": "Maces",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed",
+					"specialization": "Staves",
+					"modifier": -4
+				},
+				{
+					"type": "dx",
+					"name": "Two-Handed Axe",
+					"modifier": -5
+				}
+			],
+			"points": 4,
+			"defaulted_from": {
+				"type": "skill",
+				"name": "Two-Handed",
+				"specialization": "Axes",
+				"modifier": -4,
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
+			},
+			"calc": {
+				"level": 13,
+				"rsl": "DX+2"
 			}
 		}
 	],
@@ -918,9 +1195,11 @@
 				"Sword"
 			],
 			"base_value": "44",
+			"base_weight": "3",
 			"weapons": [
 				{
-					"id": "w8d23WKQs09sOqkxg",
+					"id": "wggoPlygJt9x0aJtr",
+					"sv": 1,
 					"damage": {
 						"type": "cut",
 						"st": "sw",
@@ -947,13 +1226,14 @@
 						}
 					],
 					"calc": {
-						"level": 8,
+						"level": 14,
 						"damage": "2d-2 cut",
-						"parry": "7"
+						"parry": "10"
 					}
 				},
 				{
-					"id": "wYMYYH8C6f31b_uk6",
+					"id": "wXVHz4nnpdepqMmsn",
+					"sv": 1,
 					"damage": {
 						"type": "imp",
 						"st": "thr",
@@ -979,7 +1259,7 @@
 						}
 					],
 					"calc": {
-						"level": 8,
+						"level": 14,
 						"damage": "1d-1 imp"
 					}
 				}
@@ -989,13 +1269,332 @@
 			"calc": {
 				"value": 44,
 				"extended_value": 44,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eWovkJMsnWUkQ_Ns1",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Gothic RPG/Gothic RPG - Equipment.eqp",
+				"id": "eAsoO_8DaEg-3LLjM"
+			},
+			"description": "Pałka",
+			"local_notes": "Club",
+			"legality_class": "4",
+			"tags": [
+				"Mace",
+				"One-Handed"
+			],
+			"base_value": "2",
+			"base_weight": "3",
+			"weapons": [
+				{
+					"id": "wkWvY6ftp5gi4pt9M",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "-2"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed",
+							"specialization": "Axes",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "One-Handed",
+							"specialization": "Maces"
+						}
+					],
+					"calc": {
+						"level": 12,
+						"damage": "2d-3 cr",
+						"parry": "9"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 2,
+				"extended_value": 2,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eEF8BG4E-V5xIH-n4",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "Gothic RPG/Gothic RPG - Equipment.eqp",
+				"id": "e6ml4r6BeL_oWZvaW"
+			},
+			"description": "Amulet Neka",
+			"local_notes": "Amulet of the Dead Guard",
+			"legality_class": "4",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"eye",
+						"face",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"skull",
+						"torso",
+						"vitals"
+					],
+					"specialization": "crushing, cutting",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 0,
+				"extended_value": 0,
 				"weight": "0 lb",
 				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "E2JlyjbdQZSHznlaB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ESjtIfyzScVP49ity"
+			},
+			"description": "Backpack, Small",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"base_value": "60",
+			"base_weight": "3 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "enlpkZSsAXsnIab53",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Gothic RPG/Gothic RPG - Equipment.eqp",
+						"id": "efmEhevlqGMMfeX-W"
+					},
+					"description": "Zwój Snu",
+					"legality_class": "4",
+					"tags": [
+						"Scroll",
+						"Second Circle",
+						"Sleeper"
+					],
+					"base_value": "50",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"which": "fp"
+							}
+						]
+					},
+					"vtt_notes": "Usypia cel zaklęcia na 30 sekund.",
+					"quantity": 1,
+					"calc": {
+						"value": 50,
+						"extended_value": 50,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eBmczMtN8yBn-d6P-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "ez-4XMjmMn3z_-AFi"
+					},
+					"description": "Lockpicks",
+					"reference": "B289",
+					"local_notes": "Basic equipment for Lockpicking skill",
+					"tech_level": "3",
+					"tags": [
+						"Law-Enforcement",
+						"Spy Gear",
+						"Thief"
+					],
+					"base_value": "50",
+					"quantity": 3,
+					"calc": {
+						"value": 50,
+						"extended_value": 150,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eHq-ZK2GWf_XYvIDw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "ezs_tGacOl7kuHwQk"
+					},
+					"description": "Torch",
+					"reference": "B288",
+					"local_notes": "Burns for 1 hour",
+					"tech_level": "0",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"base_value": "3",
+					"base_weight": "1 lb",
+					"quantity": 1,
+					"calc": {
+						"value": 3,
+						"extended_value": 3,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eJoyddkPLkbA5TYnB",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Gothic RPG/Gothic RPG - Equipment.eqp",
+						"id": "eC2X7oxTbYZjmZvmI"
+					},
+					"description": "Mrok Północy",
+					"local_notes": "Northern Dark",
+					"legality_class": "4",
+					"base_value": "15",
+					"base_weight": "0.01",
+					"max_uses": 1,
+					"quantity": 5,
+					"uses": 1,
+					"calc": {
+						"value": 15,
+						"extended_value": 75,
+						"weight": "0.01 lb",
+						"extended_weight": "0.05 lb"
+					}
+				},
+				{
+					"id": "eM3vNHJ8cg66p0ue1",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Gothic RPG/Gothic RPG - Equipment.eqp",
+						"id": "ehkHm3EACzBilGLHB"
+					},
+					"description": "Suszona Kiełbasa",
+					"local_notes": "Dried Sausages",
+					"legality_class": "4",
+					"base_weight": "2",
+					"max_uses": 2,
+					"quantity": 1,
+					"uses": 2,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "2 lb",
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "eU2uG9TfwJXKqIPAx",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Gothic RPG/Gothic RPG - Equipment.eqp",
+						"id": "eO2ddgKGacTH2mVuQ"
+					},
+					"description": "Piwo",
+					"local_notes": "Beer",
+					"legality_class": "4",
+					"base_weight": "1",
+					"max_uses": 1,
+					"quantity": 2,
+					"uses": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "1 lb",
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "ecia-Rj-dF59XOiDH",
+					"source": {
+						"library": "/gcs_user_library",
+						"path": "Gothic RPG/Gothic RPG - Equipment.eqp",
+						"id": "eczXKJbMkWRnFvcMO"
+					},
+					"description": "Woda",
+					"local_notes": "Water",
+					"legality_class": "4",
+					"base_weight": "1",
+					"max_uses": 1,
+					"ignore_weight_for_skills": true,
+					"quantity": 1,
+					"uses": 1,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "1 lb",
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 60,
+				"extended_value": 338,
+				"weight": "3 lb",
+				"extended_weight": "9.05 lb"
 			}
 		}
 	],
 	"created_date": "2025-08-14T21:09:00+02:00",
-	"modified_date": "2025-08-16T22:53:27+02:00",
+	"modified_date": "2025-08-22T18:37:25+02:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",
